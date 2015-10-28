@@ -1,0 +1,159 @@
+%
+% A Computational Account of the Role of Dopamine in
+% Autism Spectrum Disorders
+%
+% Book Chapter
+% Submission Version
+% 
+% Trenton Kriete & David C. Noelle
+% 
+
+\documentclass[man]{apa}
+% \helvetica
+% The APA Manual requests a serif font!
+\usepackage{times}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fix2col}
+\usepackage{apacite}
+% \usepackage{amssymb}
+
+\title{Autism Chapter}
+
+\twoauthors{Trenton Kriete}{David~C.~Noelle}
+\twoaffiliations{Department of Psychology \& Neuroscience \\
+                 University of Colorado, Boulder}{
+                 Cognitive \& Information Sciences \\
+                 University of California, Merced}
+
+% John Vokey uses something like this
+\ifapamodeman{%
+\note{\begin{flushleft}
+      Please  address correspondence to: \\[6mm]
+      \hspace{2cm}\begin{minipage}{10cm}
+      David~C.~Noelle, Ph.D. \\[-4mm]
+%      Department of Psychology \& Neuroscience \\[-4mm]
+%      University of Colorado Boulder \\[-4mm]
+%      Muenzing D244 \\[-4mm]
+%      345 UCB345 UCB345 UCB \\[-4mm]
+%      Boulder, CO \ \ 80309-0345 \\[-4mm]
+%      (303) 492-8662 \\[-4mm]
+      \texttt{dnoelle@ucmerced.edu}
+      \end{minipage}
+      \end{flushleft}}}
+{% else, i.e., in jou and doc mode 
+\note{Draft: \today \\Please do not cite or quote without permission.}}
+
+\abstract{
+Do we need abstract for book chapter?
+}
+
+\acknowledgements{Place acknowledgements here.}
+
+\rightheader{DOPAMINE AND AUTISM }
+\shorttitle{dopamine and autism} 
+\leftheader{Kriete \& Noelle}   
+
+\begin{document}
+\maketitle 
+
+%
+% Here is the outline that was sent to the editor, Ahmed Moustafa, 
+% on May 19, 2015. There is no reason why it could not be altered, at
+% least in minor ways.
+% 
+% * a very brief review of some leading theories of ASD
+% * our DA/PFC hypothesis concerning ASD
+% - reasons to suspect issues with DA
+%     [perhaps including a new analysis of ASD anatomical data]
+% * using models of healthy brain function to explore our idea
+% * demonstrating the breadth of ASD phenomena explained by our idea
+% - executive dysfunction
+% - stimulus overselectivity
+%     [perhaps including an updated PBWM-based model]
+% - implicit learning
+% - word sense disambiguation
+% - prototype extraction
+% * potential future directions
+% * the importance of computational modeling in understanding ASD
+% 
+
+
+\section{Introduction}
+\label{section:introduction}
+
+\input{introduction.tex}
+
+
+\section{Background}
+\label{section:background}
+
+\input{background.tex}
+
+
+\section{Dopamine \& Autism Spectrum Disorders}
+\label{section:hypothesis}
+
+\input{hypothesis.tex}
+
+
+\section{General Modeling Approach}
+\label{section:approach}
+
+\input{approach.tex}
+
+
+\section{Executive Dysfunction}
+\label{section:executive}
+
+\input{ed.tex}
+
+
+\section{Stimulus Overselectivity}
+\label{section:overselectivity}
+
+\input{overselectivity.tex}
+
+
+\section{Implicit Learning}
+\label{section:implicit}
+
+\input{implicit.tex}
+
+
+\section{Lexical Disambiguation}
+\label{section:lexical}
+
+\input{lexical.tex}
+
+
+\section{Prototype Formation}
+\label{section:prototype}
+
+\input{prototype.tex}
+
+
+\section{Future Directions}
+\label{section:future}
+
+\input{future.tex}
+
+
+\section{The Utility of Computational Models for Understanding Autism}
+\label{section:modeling}
+
+\input{modeling.tex}
+
+
+\section{Conclusion}
+\label{section:conclusion}
+
+\input{conclusion.tex}
+
+
+\bibliography{ed,thesis_ref}
+
+\end{document}
+

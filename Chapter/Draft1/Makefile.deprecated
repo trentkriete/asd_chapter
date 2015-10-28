@@ -1,0 +1,70 @@
+#
+# Makefile for journal article
+#
+# DAVID NOELLE
+# Tue Feb 22 18:47:16 PST 2011
+#
+
+
+PAPERS	= submit revise final
+
+
+PASSES	= 3
+BIB	= yes
+
+LATEX	= latex
+BIBTEX	= bibtex
+DVIPS	= dvips
+PS2PDF	= ps2pdf
+
+
+.SUFFIXES:
+.SUFFIXES: .pdf .ps .dvi .tex
+
+
+.ps.pdf:
+	${PS2PDF} $*.ps
+
+.dvi.ps:
+	${DVIPS} -o $*.ps $*.dvi
+
+.dvi.pdf:
+	${DVIPS} -o $*.ps $*.dvi
+	${PS2PDF} $*.ps
+
+.tex.dvi:
+	${LATEX} $*
+	if [ \( ${PASSES} -gt 1 \) -a \( ${BIB} = yes \) ] ; then ${BIBTEX} $* ; fi
+	if [ ${PASSES} -gt 1 ] ; then ${LATEX} $* ; fi
+	if [ ${PASSES} -gt 2 ] ; then ${LATEX} $* ; fi
+
+.tex.ps:
+	${LATEX} $*
+	if [ \( ${PASSES} -gt 1 \) -a \( ${BIB} = yes \) ] ; then ${BIBTEX} $* ; fi
+	if [ ${PASSES} -gt 1 ] ; then ${LATEX} $* ; fi
+	if [ ${PASSES} -gt 2 ] ; then ${LATEX} $* ; fi
+	${DVIPS} -o $*.ps $*.dvi
+
+.tex.pdf:
+	${LATEX} $*
+	if [ \( ${PASSES} -gt 1 \) -a \( ${BIB} = yes \) ] ; then ${BIBTEX} $* ; fi
+	if [ ${PASSES} -gt 1 ] ; then ${LATEX} $* ; fi
+	if [ ${PASSES} -gt 2 ] ; then ${LATEX} $* ; fi
+	${DVIPS} -o $*.ps $*.dvi
+	${PS2PDF} $*.ps
+
+${PAPERS}: %: %.pdf
+
+cover: cover.tex
+	${LATEX} cover
+	${LATEX} cover
+	${DVIPS} -o cover.ps cover.dvi
+
+clean:
+	rm -f core *.log *.dvi *.aux *.ent *.fff *.ttt *.bbl *.blg *.lof *.lot
+	for p in ${PAPERS} ; do \
+		rm -f $$p.ps $$p.pdf ; \
+	done
+
+all:  ${PAPERS}
+

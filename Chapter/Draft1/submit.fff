@@ -1,0 +1,310 @@
+\apaappfig
+\setcounter{appendix}{0}
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+ \includegraphics[width=15cm]{figures/schultz}
+ \caption{Firing rates of midbrain dopamine neurons of the basal ganglia during classical conditioning (Adapted from Schultz et al., 1997)}
+ \label{schultz}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+\begin{center}
+\includegraphics[width=125mm]{figures/xt_arch_2.ps}
+\end{center}
+\caption{XT Model Architecture.  The upper left corner shows a
+         caricature of the input to the XT network, with rows
+         portraying stimulus dimension (color, shape, size, etc.) and
+         columns indexing feature values across dimensions (small,
+         medium, large, etc.).  Each small box in this network diagram represents a Leabra processing unit, and arrows between layers represent complete unit-to-unit connectivity between layers.  The AG unit implements ``adaptive gating'' by modeling the effects of the dopamine system on PFC.}
+\label{xt-layout-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+  \begin{center}
+  \resizebox{8cm}{!}{\includegraphics{figures/xt_wcst_stim}}
+  \end{center}
+  \caption{XT WCST example stimulus input}
+  \label{xt_wcst_stim}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+\begin{center}
+\includegraphics[width=110mm]{graphs/wcst.ps}
+
+\textcolor{white}{\\--------------------------------\\}
+
+\includegraphics[width=110mm]{graphs/stroop.ps}
+\end{center}
+\caption{Top: Comparing model performance on WCST perseveratitive errors for normally functioning and individuals with autism to a previous study (Minshew et al., 2002). Model results capture performance of people with autism, committing significantly more perseverative errors. Error bars are standard errors of the mean.  Bottom: Stroop reaction time plot comparing the simulated autistic and normally functioning network's performance to human data. Healthy human data from~Dunbar et al. (1984).  Autistic subjects perform no differently than controls~(Ozonoff et al., 1999).  Error bars are standard errors of the mean.}
+\label{wcst-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.05.eps}
+\hspace{18 mm}
+\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.05.eps}
+\end{center}
+\caption{PFC Representations early in development
+         (epoch 5): left - control model, right -
+         autism model.  Each large box corresponds to the connection strength from that PFC unit, and each small box corresponds to the connection strength from that PFC unit to a Response layer unit, with strength growing with brightness.  Note the lack of any strong dimensional representations in both versions.}
+\label{rep1-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[th]
+\begin{center}
+\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.100.eps}
+\hspace{18 mm}
+\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.100.eps}
+\end{center}
+\caption{PFC Representations late in development
+         (epoch 100): left - control model, right -
+         autism model.  Each large box corresponds to the connection strength from that PFC unit, and each small box corresponds to the connection strength from that PFC unit to a Response layer unit, with strength growing with brightness.  Strong dimensional representations have formed
+         in both models, as exhibited by strong weights from individual PFC units to all of the Response layer features for a given dimension.}
+\label{rep2-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+\includegraphics[width=145mm]{graphs/stroop_devel.eps}
+\end{center}
+\caption{Stroop interference score for the model over the course of development.}
+\label{stroop-devel-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+\includegraphics[width=145mm]{graphs/wcst_devel_persev.eps}
+\end{center}
+\caption{WCST perseverative error count for the model over the course of developmental training.}
+\label{wcst-devel-figure}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+\begin{center}
+\includegraphics[width=125mm]{figures/overselectivity_network.ps}
+\end{center}
+\caption{Network diagram of stimulus overselectivity model.}
+\label{network-diagram-2}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+\begin{center}
+% \includegraphics[width=125mm]{graphs/OS_initial_results.eps}
+\includegraphics[width=125mm]{graphs/overselectivity_results_new.eps}
+\end{center}
+\caption{Simulation results modeling overselectivity task (see Figure~\ref{OS-Task}) by manipulating the flexible updating of a PFC-like mechanism. Only the simulation where the PFC is allowed to flexibly adjust the activation of its representations (``normal condition'') resulted in all three components of the compound stimulus gaining equal control over behavior.  Both the inflexible updating (autism condition) and the addition of irrelevant information in PFC manipulations (working memory load condition) result in a restricted subset of components gaining control over behavior, demonstrating overselective behavior.}
+\label{OS-Model-Results-2}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+
+\begin{center}
+\includegraphics[width=70mm]{figures/so_model_no_persev_new_2.eps}
+
+-----------------------------------------------------------
+
+\includegraphics[width=70mm]{figures/so_model_d1_persev_new_2.eps}
+\end{center}
+\caption{Top panel represents a cartoon model of the stimulus overselectivity task where the PFC is able to flexibly adjust its representations (normal condition).  The resulting ``weights'' driving the response are all similar, resulting in each dimension or feature having equal influence over the response.  The bottom panel represents inflexible updating of the PFC (autism condition).  The red arrow indicates that the PFC is ``stuck'' on the first dimension or feature.  The weights are biased in favor of the feature perseverated on by the PFC, resulting in behavior being dominated by a restricted subset of those available, demonstrating overselectivity when simulating autistic performance.}
+\label{OS-Model-Cartoon}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+\includegraphics[width=85mm]{figures/srn.eps}
+\end{center}
+\caption{General structure of a Simple Recurrent Network (SRN) model.  Image adapted from Cleeremans and McClelland (1991).}
+\label{SRN-Model}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+\includegraphics[width=85mm]{figures/srtt_network.eps}
+\end{center}
+\caption{Network Diagram of SRTT Model}
+\label{network-diagram-srtt}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[t]
+\begin{center}
+%% \includegraphics[width=125mm]{graphs/OS_initial_results.eps}
+\includegraphics[width=115mm]{graphs/srtt_chart.ps}
+\end{center}
+\caption{Scaled Model Results \& Human Behavioral Data from Mostofsky
+         et al. (2000)}
+\label{Model-Results}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[ht]
+\begin{center}
+\includegraphics[width=100mm]{figures/prototype_categories.eps}
+\end{center}
+\caption{Examples of different members of a category used in the prototype learning experiment.  Image adapted from (Klinger and Dawson, 2001).}
+\label{prototype-categories}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[ht]
+\begin{center}
+\includegraphics[width=100mm]{figures/mip_familiarization.eps}
+\end{center}
+\caption{Examples of different categories used in the prototype learning experiment.  Image adapted from (Klinger and Dawson, 2001).}
+\label{mip-familiarization}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[ht]
+\begin{center}
+\includegraphics[width=110mm]{figures/klinger_results.eps}
+\end{center}
+\caption{Results adapted from (Klinger and Dawson, 2001).  The measure on the y-axis is the percentage of times that the prototypical animal was chosen over either a novel or familiar example. Their results indicate that the normally developing group chose the prototype at greater than chance levels, clearly demonstrating a prototype effect.  However, the ASD group did not show a prototype effect, this is argued to support the authors conjecture that people with ASD do not form or utilize prototype representations in categorization tasks. (Please note: Only the ``Prototype'' condition is relevant to the discussion.  The results for ``Familiar'' refer to a comparison in the original study investigating if there was a preference for previously experienced or novel animals.)}
+\label{klinger_results}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[ht]
+\begin{center}
+\includegraphics[width=100mm]{figures/alcove.eps}
+\end{center}
+\caption{Structure of ALCOVE (Attention Learning CoVEring map).  Image adapted from (Kruschke, 1992).}
+\label{alcove}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[ht]
+\begin{center}
+\includegraphics[width=100mm]{graphs/alcove_results.eps}
+\end{center}
+\caption{ALCOVE Model Results.  The measure on the y-axis is the percentage of times that the prototypical animal was chosen by the model over the non-prototype choices.  In the control network, the prototype was chosen 70.52\% of the time on average, demonstrating a strong prototype effect and matching the human subject experiment results.  However, the model of autistic performance chose the prototype on average only 52.91\% of the time over the non-prototype stimuli.  Statistical analysis reveal that the control network chose the prototype at a rate significantly greater than chance ($p < .0001$) while the ASD network was not statistically distinguishable from chance ($p > .30$).}
+\label{alcove-results}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=115mm]{figures/asd_lexamb_study_results.eps}
+\end{center}
+\caption{Results from study on lexical disambiguation in people with ASD.  Common Before/After refers to a common interpretation of the homograph, and it occurring Before/After the contextual information respectively.  Similarly, Rare Before/After refers to a rare interpretation of the homograph, and it occurring Before/After the contextual information respectively. Participants were presented with five sentences in each condition.  Table from Jolliffe and Cohen (1999).}
+\label{asd-lexamb-study}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=100mm]{figures/schiz_lexamb_study_results.eps}
+\end{center}
+\caption{Results from study on lexical disambiguation in people with Schizophrenia.  Y-axis shows percentage of errors using the most common interpretation of the homograph, when the rare interpretation was correct.  Figure adapted from Cohen and Servan-Schreiber (1992).}
+\label{schiz-lexamb-study}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=100mm]{figures/Cohen_ServanSchreiber_Model.eps}
+\end{center}
+\caption{The original lexical ambiguity model. Image adapted from Cohen and Servan-Schreiber (1992).}
+\label{cohen-servan-schreiber-model}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=115mm]{figures/lexAmb_network_cartoon.eps}
+\end{center}
+\caption{Cartoon of the lexical ambiguity model and task (the number of inputs and outputs to the network is significantly larger than what is displayed).  The task of the model is to correctly respond to any input word presented within the ``INPUT'' layer of the network.  This is accomplished by activating the unit representing the appropriate meaning at the ``OUTPUT'' layer of the network.  There are two types of input word units, ambiguous homograph units and context units. The context units are used to disambiguate the meaning of a specific homograph unit.  Words are presented to the network one at a time and it is the networks job to learn, through experience, to respond with the correct meaning via the ``OUTPUT'' layer of the network.  For instance, in this figure the ambiguous homograph input unit represents the word ``Bank'' and the frequent and infrequent context input units represent ``Money'' and ``River'' respectively.  When the infrequent context unit ``River'' is presented first to the network followed by the homograph unit for ``Bank'', the network was expected to learn to use the context unit's meaning to correctly respond ``Land by River''.  This response occurs during the final trial when the network is probed for the correct meaning of the ambiguous homograph unit after the initial mini-clause has been presented.}
+\label{lexamb-model-task}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=100mm]{figures/gain_manipulation.eps}
+\end{center}
+\caption{Modeled effects of tonic DA on a standard activation function. An increase in the amount of DA heightens the effects of the net input, effectively increasing the signal-to-noise ratio in the network, while lower DA decreases the effects, reducing the signal-to-noise ratio. Image adapted from Cohen and Servan-Schreiber (1992).}
+\label{gain-manipulation}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=140mm]{graphs/schiz_lexamb_results.eps}
+\end{center}
+\caption{Schizophrenia Model Results. As the modeled PFC is destabilized, the model performs selectively worse on condition (2).  In this condition the contextual information is presented first and the model must use this information to override the more common interpretation of the homograph. }
+\label{Schiz-Amb-Results}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[tp]
+\begin{center}
+\includegraphics[width=140mm]{graphs/asd_lexamb_results.eps}
+\end{center}
+\caption{ASD Model Results. Systematically reducing the ability of the modeled PFC to update its contents resulted in worse performance on conditions (2) and (4).  These are the conditions that require the use of contextual information in order to override the more common interpretation of the homograph. }
+\label{ASD-Amb-Results}
+\end{figure*}
+\efloatseparator
+ 
