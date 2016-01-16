@@ -2,19 +2,10 @@
 % Executive Dysfunction
 %
 
-\section{Executive Dysfunction}
-%\subsection{Patterns of Function and Dysfunction}
-People with autism are impaired across a broad range of cognitive tasks, including
-planning~\cite{BennettoL:1996:AutismPlanningWCST}, flexibly adapting
-behavior~\cite{BennettoL:1996:AutismPlanningWCST,Ozonoff:1999:AutismStroopWCST},
-and tasks requiring spontaneous generation of novel behaviors and
-ideas~\cite{TurnerW:1999:AutismGenerativity}.  These particular tasks have
-been associated with executive control processes, so the observed
-impairments have led some researchers to view executive dysfunction as
-a central feature of autism.  Indeed, the Executive Dysfunction (ED)
-theory of autism seeks to explain many of the behavioral patterns
-exhibited by these individuals in terms of a failure of executive
-control over behavior~\cite{HughesC:1994:AutismExecutiveDysfunction}.
+\subsection{Executive Task Performance}
+
+People with autism are impaired at a variety of tasks involving planning~\cite{BennettoL:1996:AutismPlanningWCST}, flexibly adaptation of behavior~\cite{BennettoL:1996:AutismPlanningWCST,Ozonoff:1999:AutismStroopWCST}, and spontaneous generation of novel behaviors~\cite{TurnerW:1999:AutismGenerativity}. Tasks of this kind have been associated with executive control processes. This has led some researchers to view executive dysfunction as a central feature of autism~\cite{HughesC:1994:AutismExecutiveDysfunction}.
+% Indeed, the Executive Dysfunction (ED) theory of autism seeks to explain many of the behavioral patterns exhibited by these individuals in terms of a failure of executive control over behavior
 
 %There is extensive evidence that the prefrontal cortex plays an
 %important role in executive control.  Along with the central claim of
@@ -26,44 +17,16 @@ control over behavior~\cite{HughesC:1994:AutismExecutiveDysfunction}.
 %suggests that the irregular development of prefrontal cortex may
 %underly the patterns of cognitive performance seen in autism.
 
-A more detailed examination of autistic behavior reveals that not all
-forms of executive processing are impaired, however.  A 
-perplexing aspect of the executive profile demonstrated by people with
-autism is that cognitive flexibility is impaired
-while fundamental cognitive control remains relatively
-unaffected.  Cognitive control describes the ability to enact a
-behavior in the presence of a distracting or more automatic competing
-response.  In contrast, cognitive flexibility is the
-ability to fluently adjust cognitive control as contingencies change.
-A classic measure of cognitive control is the Stroop
-task~\cite{StroopJR:1935:Interference}, and a common measure of
-cognitive flexibility is performance on the Wisconsin Card Sort Test
-(WCST)~\cite{BergEA:1948:WCST}.  Persons with autism have been shown
-to exhibit poor WCST performance, but they exhibit no more
-interference on the Stroop task than healthy
-controls~\cite{Ozonoff:1999:AutismStroopWCST}.  This dichotomy
-challenges the notion that autistic behavior is the result of a global
-impairment of executive processes.%, perhaps mediated by frontal abnormalities.
+A more detailed examination of autistic behavior reveals that not all forms of executive processing are impaired, however. A perplexing aspect of the ASD executive profile is that cognitive flexibility is impaired while fundamental cognitive control remains relatively unaffected. Cognitive control describes the ability to enact a behavior in the presence of a distracting or more automatic competing response. In contrast, cognitive flexibility is the ability to fluently adjust cognitive control as contingencies change. A classic measure of cognitive control is the Stroop task~\cite{StroopJR:1935:Interference}, and a common measure of cognitive flexibility is performance on the Wisconsin Card Sort Test (WCST)~\cite{BergEA:1948:WCST}. Persons with autism have been shown to exhibit poor WCST performance, but they exhibit no more interference on the Stroop task than healthy controls~\cite{Ozonoff:1999:AutismStroopWCST}. This dichotomy challenges the notion that autistic behavior is the result of a global impairment of executive processes.
+%, perhaps mediated by frontal abnormalities.
 
-A second challenge appears in the developmental trajectory of
-executive deficits in autism.  In young children with autism,
-executive abilities are intact when compared with controls matched for
-age and verbal ability~\cite{GriffithEM:1999:AutismYoungED}.
+A second challenge appears in the developmental trajectory of executive deficits in autism. In young children with autism, executive abilities are intact when compared with controls matched for age and verbal ability~\cite{GriffithEM:1999:AutismYoungED}. Differences in cognitive flexibility arise over the course of development.
 %, calling into question the role of ED in the etiology of autism.  
 %Any theory intending to explain executive dysfunction in autism must account for
 %the relative ``strengths'' and ``weaknesses'' that have been observed,
 %as well as for this lack of observable deficits early in development.
 
-One clear approach to explaining the executive profile seen in ASD
-involves positing separate mechanisms for cognitive control and for
-the flexible adaptation of control.  In autism, the mechanism for
-control might be intact, but the flexibility mechanism 
-might be compromised.  Interestingly, this segregation of function is captured by the 
-\emph{Cross-Task Generalization model (XT)}.  Driven by broad
-neurocomputational considerations, XT casts the prefrontal cortex
-(PFC) as central to cognitive control, while interactions between the
-PFC and the mesolimbic dopamine (DA) system mediate the flexible
-adaptation of control.  
+These behavioral findings can be explained by positing separate mechanisms for cognitive control and for the flexible adaptation of control. In autism, the mechanism for control may be intact, but the flexibility mechanism may be compromised. Interestingly, this segregation of function is captured by the \emph{Cross-Task Generalization Model (XT)}~\cite{RougierNP:2005:XT}. Driven by broad neurocomputational considerations, XT casts PFC as central to cognitive control, while PFC/DA interactions mediate cognitive flexibility.
 %XT has been used to capture the performance of both frontally damaged individuals and healthy controls on both the Stroop task and WCST~\cite{RougierNP:2005:XT}.
 
 %In this section, we demonstrate that XT also offers a possible explanation for
@@ -101,57 +64,27 @@ adaptation of control.
 %\label{stimuluslayer-figure}
 %\end{figure} 
 
-The architecture of the XT model is shown in Figure~\ref{xt-layout-figure}.  This computational model makes use of the Leabra framework~\cite{OReillyRC:2000:Computational}.  The input of XT consists of two layers of neural units used for the presentation of up to two stimulus objects.  It is natural to think of the rows of each input layer as representing different dimensions (e.g., color, shape, texture) and the columns indexing features across each dimension (e.g., red, orange, green, blue).  The Response layer has essentially the same structure as an input layer, but includes one additional unit, which codes for ``no response''.  
+The architecture of the XT model is shown in Figure~\ref{xt-layout-figure}. This model makes use of the Leabra framework~\cite{OReillyRC:2000:Computational}. The input of XT consists of two layers of neural units used for the presentation of up to two stimulus objects. It is natural to think of the rows of each input layer as representing different dimensions (e.g., color, shape, texture) and the columns indexing features across each dimension (e.g., red, orange, green, blue). The Response layer has essentially the same structure as an input layer, but includes one additional unit, which codes for ``no response''.  
 
 \begin{figure}
 \begin{center}
 	\includegraphics[width=125mm]{figures/xt_arch_2.ps}
 \end{center}
-\caption{XT Model Architecture.  The upper left corner shows a
+\caption{XT Model Architecture. The upper left corner shows a
          caricature of the input to the XT network, with rows
          portraying stimulus dimension (color, shape, size, etc.) and
          columns indexing feature values across dimensions (small,
-         medium, large, etc.).  The AG unit implements ``adaptive gating'' 
-	 by modeling the effects of the dopamine system on PFC.}
+         medium, large, etc.). The AG unit implements ``adaptive gating'' 
+	 by modeling the effects of DA on PFC.}
 \label{xt-layout-figure}
 \end{figure} 
 
-A collection of Hidden layers map from stimuli to responses.  
-Activity in these layers can be
-adjusted through top-down biasing signals from an actively
-maintained representation in the PFC layer.  Unlike previous models,
-the actively maintained representations in PFC are learned through
-a development process that involves training
-on the performance of a variety of tasks.  These tasks
-share a need to selectively attend to individual dimensions of the
-stimuli.  On each trial, corrective feedback is provided to drive
-Leabra's synaptic learning processes, and correct responses from the
-network.  Over time, the developmental training of
-the network allows it to identify the separate dimensions of stimuli,
-and it causes the network to hone its skill at focusing attention on a
-single dimension at a time~\cite{RougierNP:2005:XT}.
+A collection of Hidden layers map from stimuli to responses. Activity in these layers can be modulated through top-down biasing signals from an actively maintained representation in the PFC layer. Unlike previous models, the actively maintained representations in PFC are learned through a developmental process that involves training the model to perform a variety of simple tasks. These tasks share a need to selectively attend to individual dimensions of the stimuli. The standard synaptic plasticity mechanisms of the Leabra framework, applied over the course of developmental training, gives rise PFC representations that support focusing attention on a single stimulus dimension at any one time~\cite{RougierNP:2005:XT}.
 
-The Task input to the network indicates which task is to be performed,
-with one input unit coding for each task.  The Dimension Cue layer is
-used to inform the network of the currently relevant stimulus
-dimension.   Each
-unit in the Dimension Cue layer corresponds to a stimulus dimension,
-and all of these inputs are turned off for tasks in which the network
-must discover the relevant stimulus dimension on its own, as in WCST.
+The Task input indicates which task is to be performed, with one input unit coding for each task. The Dimension Cue layer is used to indicate the currently relevant stimulus dimension, with each unit in the layer corresponding to a specific stimulus dimension. All of the input units are turned off for tasks in which the model must discover the relevant stimulus dimension on its own.
 
-The flexible adjustment of cognitive control is implemented using a
-DA-based adaptive gating (AG) mechanism as described in~\cite{RougierNP:2005:XT}, where the AG calculates an estimate of the TD Error.  
-%The synaptic weights feeding
-%the special AG unit calculate an estimate of $V(t)$, and these weights
-%are adjusted based on $\delta(t)$ using a neural implementation of the
-%TD learning algorithm. 
-Importantly, the TD error, which encodes a DA
-signal, is also used to manipulate the ``gate'' on the PFC layer.
-When the model performs better than expected the
-current PFC representation is strengthened.
-When the model performs worse than expected the
-current PFC representation is destabilized, allowing a new, possibly
-more appropriate PFC representation to be entertained.  
+The flexible adjustment of cognitive control is implemented using a DA-based adaptive gating (AG) mechanism. The model receives a positive scalar reward signal whenever it produces a correct response, and the AG calculates the change in expected future reward: the TD Error. Importantly, the AG, modeling phasic DA responses, not only modulates the learning of reward expectation but also manipulates the ``gate'' on PFC. When the model performs better than expected the current PFC representation is strengthened. When the model performs worse than expected the current PFC representation is destabilized, allowing a new, possibly more appropriate PFC representation to be entertained~\cite{RougierNP:2005:XT}.
+
 %In the model, the \begin{math}\delta(t)\end{math} value directly modulates excitatory ionic maintenance currents (\begin{math}g_m\end{math} below).  Large maintenance currents drive the membrane potential of simulated neurons in the PFC up, pushing them towards their maximal firing rate.  These currents are not allowed to become negative, being clipped at zero instead.  The maintenance currents, $g_m$, of simulated neurons in PFC are computed by:
 
 %\begin{equation}g_m(t-1) = 0 ~if~ |\delta(t)| > \theta\end{equation}
@@ -168,8 +101,12 @@ more appropriate PFC representation to be entertained.
 
 %\subsection{Modeling Autism Using XT}
 
-\subsubsection{General Approach}
-Based on the XT framework, our theory suggests that a deficit in DA functioning can account for the impaired cognitive flexibility seen in people with autism while leaving cognitive control robust and relatively unaffected.  We have tested this theory by reducing the effect of the DA signal in the XT model by scaling the TD error by a constant factor, $\kappa$, where $\kappa = 1$ for healthy individuals and $\kappa < 1$ for people with autism.  The scaling of the TD error by $\kappa$ is the only modification from the original XT model that we made.  A $\kappa$ value of $0.54$ was found to produce the best fit to human performance.  This reduction of the DA signal decreases the efficacy of the PFC gating system, resulting in the less efficient destabilization of PFC when errors are made. %The scaling was only used to modulate the simulated maintenance currents within the PFC layer, and not used to modify the learning of the weights into the Adaptive Gating unit.  An important point of future work is to also test the effects of this manipulation on these weights, weakening the overall influence that dopamine has on learning within circuits involved in the computation of future expected reward, as well.  
+\subsection{Modeling Autism Using XT}
+
+% \subsubsection{General Approach}
+
+Our theory suggests that a deficit in DA functioning can account for the impaired cognitive flexibility seen in people with autism, while leaving cognitive control robust and relatively unaffected. We have tested this theory by reducing the effect of the DA signal in the XT model by scaling the TD Error (AG) by a constant factor, $\kappa$. The model of typically developing individuals uses $\kappa = 1$, and autism is modeled using $\kappa < 1$. This scaling of the TD Error by $\kappa$ is the only modification from the original XT model that we made. A $\kappa$ value of $0.54$ was found to produce the best fit to human performance. This reduction of the DA signal decreases the efficacy of the PFC gating system, resulting in less efficient destabilization of PFC when errors are made.
+%The scaling was only used to modulate the simulated maintenance currents within the PFC layer, and not used to modify the learning of the weights into the Adaptive Gating unit.  An important point of future work is to also test the effects of this manipulation on these weights, weakening the overall influence that dopamine has on learning within circuits involved in the computation of future expected reward, as well.  
 
 %It is worth noting that the modeled DA signal remains agnostic as to the precise quantitative nature of actual DA levels.  It is possible, for instance, that a optimal firing rate of the midbrain DA neurons exists for efficient PFC gating.  This implies \emph{either} too much or too little DA could have deleterious results on the effectiveness (a lower $\kappa$ value) of the DA based PFC gating system.
 
@@ -185,8 +122,7 @@ Based on the XT framework, our theory suggests that a deficit in DA functioning 
   \label{xt_wcst_stim}
 \end{figure}
 
-In order to model the WCST the network activated individual units in the input or ``stimulus array'' layer, one for a feature across each of three dimensions.~(See Figure~\ref{xt_wcst_stim}.)  This input represented the current card to be sorted.  The network task was to name relevant feature (e.g., the feature ``red'' if color is the correct sorting rule).  No information is provided concerning what is the current sorting rule, leaving the network to use a more-or-less random search strategy until the correct rule is discovered.  The network receives sparse feedback --- ``reward'' or ``no reward'' based on performance.  Left to only the random search strategy, the network's performance would tend towards chance.  However, XT can leverage the DA based AG mechanism coupled with the top-down influencing properties of the PFC layer in order to successfully perform the task.  The AG mechanism strengthens the PFC's maintenance currents when the network is performing well, allowing PFC to actively maintain currently relevant information.  The actively maintained PFC representations form a ``memory'' of the rule.  When the rule switches, the actively maintained representation becomes invalid.  If the network allows the invalid representation to influence subsequent processing, a large amount of perseverative errors will result.  The AG prevents this by providing a gating signal to PFC when reward is expected but not delivered, allowing a new representation to be acquired by PFC.
-
+As in the original XT work, each trial of the WCST was modeled by presenting a single stimulus object ``card'' at the model's inputs, with one unit activated for each feature of the stimulus across three stimulus dimensions. (See Figure~\ref{xt_wcst_stim}.) The model ``sorted'' the ``card'' by outputing the feature of the current stimulus relevant for sorting. For example, when cards were to be sorted by color, the model was expected to output the color of the stimulus (e.g., ``red''). Importantly, the model was not instructed concerning the sorting rule (i.e., the Dimension Cue inputs were all off). Thus, the model needed to search for the relevant stimulus dimension. The model received a positive scalar ``reward'' signal when its output was correct. The use of TD learning to produce AG activity, along with the top-down modulation from PFC, allowed XT to successful learn to focus on the relevant stimulus dimension. The AG mechanism strengthened the maintenance currents of modeled PFC pyramidal cells during good performance, causing the active maintenance of the sorting rule in PFC. When the sorting rule was switched, the actively maintained PFC representation became invalid. Continued active maintenance of PFC firing rates would result in perseverative errors. In the standard XT model, the AG alleviated this problem by providing a gating signal to PFC when reward was expected but not delivered, allowing PFC contents to change~\cite{RougierNP:2005:XT}.
 
 %Four main measures were used in evaluating the performance on the WCST task:
 
@@ -206,30 +142,16 @@ In order to model the WCST the network activated individual units in the input o
 
 %Cohen and Servan-Schreiber~(1990)\nocite{CohenJD:1990:Stroop} provided a computational account of the Stroop task. This model incorporated multiple associative pathways from stimulus features to possible responses.  They used a stronger, more automatic word reading pathway through posterior cortex and a relatively weak color naming pathway.  In their model, a task representation, maintained in PFC, provided top-down biasing, injecting extra activity into the color naming pathway when doing so was necessary to overcome the prepotent word reading pathway (i.e., when asked to name the font color).  The resulting competition between the two strong pathways resulted in an increase in response time in the color naming incongruent condition.  Response time was not increased in the word reading incongruent condition, however, as the weaker color naming pathway, when unsupported by PFC, offered little competition.
 
-The XT model addresses the Stroop task in much the same way as Cohen and Servan-Schreibers seminal model~\cite{CohenJD:1990:Stroop}, leveraging competition between pathways with different levels of strength (the stronger word reading pathway and the weaker color naming pathway).  In order to simulate this competetion, we manipulated the frequency in which one dimension (font color) was experienced during training. The font color dimension was relevant only 25\% as often as the other dimension (word reading).  
+The XT model performed the Stroop task in much the same way as Cohen's and Servan-Schreiber's seminal model~\cite{CohenJD:1990:Stroop}, leveraging competition between pathways of varying strength: the strong word reading pathway and the weak color naming pathway. In order to simulate this competetion, the frequency of trials in which one dimension (font color) was experienced during development was manipulated. The font color dimension was relevant only 25\% as often as the other dimension, word reading. The time needed for output activity to stabilize was taken as a response time measure~\cite{RougierNP:2005:XT}.
 %The settling time, in ``cycles'', of the network was linearly scaled to ``milliseconds'' using a single free parameter, allowing a direct comparison between model results and human data.
 
-\subsection{Model Simulation Results}
+\subsection{Simulation Results}
 
 \subsubsection{Simulations} 
-A total of $100$ networks were prepared using the XT 
-training procedure, stopping when the network achieved a
-performance criterion, or after a maximum of $100$ epochs.  Each
-network was tested under both conditions of DA modulation ($\kappa = 1$ for healthy networks and $\kappa = .54$ for modeled autistic performance), on
-each of the WCST and the Stroop tasks.  The $100$ networks were each
-treated as individual subjects for the purposes of data analysis.
+Due to stochasticity in model initial conditions and in the sequence of developmental trials, $100$ distinct network models were prepared using the XT training procedure, stopping when a performance criterion was reached, up to a maximum of $100$ training epochs.  Each network was tested under both conditions of DA modulation ($\kappa = 1$ for healthy networks and $\kappa = .54$ for networks modeling ASD), on both WCST and Stroop. Each of the $100$ networks was treated as an individual subject for the purposes of data analysis.
 
 \subsubsection{WCST Results} 
-WCST simulations results of both healthy individuals and persons with autism 
-matched those reported in the literature.  The differences between the 
-simulated performance of normally functioning individuals and the
-simulated autistic performance were statistically reliable
-($p < 0.001$), and consistent with previous
-studies~\cite{PriorMR:1990:AutismWCST,Ozonoff:1999:AutismStroopWCST,MinshewNJ:2002:AutismWCST}.
-In particular, the perseverative error measure was significantly
-higher in the DA modulated version of our model as compared to the
-model of normal function.  (See Figure~\ref{wcst-figure}.)
-
+WCST results matched data reported in the literature. The differences between simulated performance of normally functioning individuals and simulated autistic performance were statistically reliable ($p < 0.001$) and consistent with previous studies~\cite{PriorMR:1990:AutismWCST,Ozonoff:1999:AutismStroopWCST,MinshewNJ:2002:AutismWCST}. Specifically, perseverative errors, marking a failure to flexibly discard the initial sorting rule when it was no longer rewarded, were significantly more numerous in the reduced DA modulation version of XT. (See Figure~\ref{ed-results-figure}.)
 
 \begin{figure}
 \begin{center}
@@ -239,118 +161,59 @@ model of normal function.  (See Figure~\ref{wcst-figure}.)
 
 	\includegraphics[width=110mm]{graphs/stroop.ps}
 \end{center}
-\caption{Top: Comparing performance on WCST perseveratitive errors for normally functioning and individuals with autism to Minshew et al., 2002. Results capture performance of people with autism, committing significantly more perseverative errors. Error bars are standard errors of the mean.  Bottom: Stroop reaction time plot comparing the simulated autistic and normally functioning network's performance to human data. Healthy human data from~Dunbar et al. (1984).  Autistic subjects perform no differently than controls~(Ozonoff et al., 1999).} 
-\label{wcst-figure}
+\caption{Top: Comparing performance on WCST perseveratitive errors for normally functioning and individuals with autism to data from Minshew et al., 2002. People with autism committing significantly more perseverative errors. Error bars are standard errors of the mean. Bottom: Stroop reaction time plot comparing the simulated autistic and normally functioning network's performance to human data. Healthy human data from~Dunbar et al.~(1984). Autistic subjects perform no differently than controls~(Ozonoff et al., 1999).} 
+\label{ed-results-figure}
 \end{figure} 
 
 \subsubsection{Stroop Results} 
-
-Model performance on the Stroop task provided a good quantitative fit to human performance.  (See Figure~\ref{wcst-figure}.) The model with intact DA function displayed the classic Stroop reaction time results.  The prepotent word reading dimension showed uniform reaction times across both congruent and conflict conditions, while the weaker color naming dimension exhibited a slowing in reaction times when the stimuli were incongruent.  The performance of the autistic model was virtually identical, with no significant increase in the overall Stroop effect ($F(1,198) = 0.62$; $p > 0.43$), which is consistent with past findings~\cite{Ozonoff:1999:AutismStroopWCST}.
-
+Model performance on the Stroop task provided a good quantitative fit to human performance. (See Figure~\ref{ed-results-figure}.) The model with intact DA function displayed the classic Stroop reaction time results --- slowing for conflict stimuli when color naming. The performance of the ASD model showed no significant increase in Stroop interference in comparison to the healthy model~($F(1,198) = 0.62$; $p > 0.43$), which is consistent with past findings~\cite{Ozonoff:1999:AutismStroopWCST}.
 
 \subsubsection{Developmental Results}
+These simulations involved the introduction of a DA deficit only after the model was fully developed. Thus, these simulations ignored the possibility that an early manifestation of a DA deficit might hinder the proper learning of PFC representations, introducing an impairment in cognitive control in the model that is not observed in autistic subjects. To address this issue, the DA deficit in the ASD model was introduced prior to developmental training. PFC development and model performance were analyzed over the entire developmental period of the model ($100$ epochs). Two groups of $10$ networks were used: an autistic group with $\kappa = 0.54$ and a control group with $\kappa = 1.00$. At the end of developmental training, the networks exhibited the same pattern of results as seen in the initial simulations. Furthermore, we found that the DA deficit did not hinder the learning of useful PFC representations, allowing for focused attention on a single stimulus dimension.
 
-The initial simulations involved the introduction of a DA deficit only
-after the model was fully developed.  Thus, these simulations ignored
-the possibility that an early manifestation of a DA deficit might
-hinder the proper learning of PFC representations, introducing an
-impairment in cognitive control in the model that is not observed in
-autistic subjects.  The following set of simulations were conducted to
-address this issue.   PFC
-development and model performance were analyzed over the entire
-developmental period of the model ($100$ epochs).  Two groups of $10$
-networks (individuals) were used: an autistic group with $\kappa = 0.54$
-and a control group with $\kappa = 1.00$.  At the end of developmental
-training, the networks exhibited the same pattern of results as seen
-in the initial simulations.  Furthermore, careful examination of the development of the PFC representations provided some insight into why executive deficits might
-appear late in autism, as described in the
-literature~\cite{GriffithEM:1999:AutismYoungED}.  
+% Furthermore, careful examination of the development of the PFC representations provided some insight into why executive deficits might appear late in autism, as described in the literature~\cite{GriffithEM:1999:AutismYoungED}.  
 
-\subsubsection{PFC Representations} 
+% \subsubsection{PFC Representations} 
 
-Figures~\ref{rep1-figure} and \ref{rep2-figure} plot the synaptic
-strengths from the PFC layer to the Response layer.  Each large box
-corresponds to a PFC unit, and each encapsulated small box corresponds
-to a Response unit, with the strength of the connection from the given
-PFC unit to the given Response unit being reflected in the brightness
-of the box (lighter means stronger).  Note that each row designates
-connections to Response layer units representing features in the same
-stimulus dimension.  (See the upper left corner of
-Figure~\ref{xt-layout-figure}.)  Thus, these plots can be used to
-examine the degree to which the PFC layer developed a representational scheme that allowed for the selective modulation of individual stimulus dimensions.  For a given PFC unit (large box), a bright row of connections (small boxes) indicates that that unit selectively supports attention to the stimulus dimension corresponding to that row.  In
-Figure~\ref{rep1-figure}, which was generated early in developmental
-training, both the autistic network and the control network lack
-strong dimensional weights.  However, in Figure~\ref{rep2-figure},
-both networks have developed strong dimensional representations in
-PFC, as evidenced by the extremely salient horizontal bands of
-``strong'' weights.  Thus, appropriate PFC representations were
-acquired only slowly over the course of developmental training, and
-the DA manipulation did not hinder the formation of these
-representations.
+% Figures~\ref{rep1-figure} and \ref{rep2-figure} plot the synaptic strengths from the PFC layer to the Response layer.  Each large box corresponds to a PFC unit, and each encapsulated small box corresponds to a Response unit, with the strength of the connection from the given PFC unit to the given Response unit being reflected in the brightness of the box (lighter means stronger).  Note that each row designates connections to Response layer units representing features in the same stimulus dimension.  (See the upper left corner of Figure~\ref{xt-layout-figure}.)  Thus, these plots can be used to examine the degree to which the PFC layer developed a representational scheme that allowed for the selective modulation of individual stimulus dimensions.  For a given PFC unit (large box), a bright row of connections (small boxes) indicates that that unit selectively supports attention to the stimulus dimension corresponding to that row.  In Figure~\ref{rep1-figure}, which was generated early in developmental training, both the autistic network and the control network lack strong dimensional weights.  However, in Figure~\ref{rep2-figure}, both networks have developed strong dimensional representations in PFC, as evidenced by the extremely salient horizontal bands of ``strong'' weights.  Thus, appropriate PFC representations were acquired only slowly over the course of developmental training, and the DA manipulation did not hinder the formation of these representations.
 
-\begin{figure}[t]
-\begin{center}
-	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.05.eps}
-	\hspace{18 mm}
-	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.05.eps}
-\end{center}
-\caption{PFC Representations early in development
-         (epoch 5): left - control model, right -
-         autism model.}
-\label{rep1-figure}
-\end{figure} 
+% \begin{figure}[t]
+% \begin{center}
+% 	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.05.eps}
+% 	\hspace{18 mm}
+% 	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.05.eps}
+% \end{center}
+% \caption{PFC Representations early in development
+%          (epoch 5): left - control model, right -
+%          autism model.}
+% \label{rep1-figure}
+% \end{figure} 
 
-\begin{figure}[th]
-\begin{center}
-	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.100.eps}
-	\hspace{18 mm}
-	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.100.eps}
-\end{center}
-\caption{PFC Representations late in development
-         (epoch 100): left - control model, right -
-         autism model.}  
-\label{rep2-figure}
-\end{figure} 
+% \begin{figure}[th]
+% \begin{center}
+% 	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts1.100.eps}
+% 	\hspace{18 mm}
+% 	\includegraphics[width=35mm,height=55mm]{graphs/PFCwts54.100.eps}
+% \end{center}
+% \caption{PFC Representations late in development
+%          (epoch 100): left - control model, right -
+%          autism model.}  
+% \label{rep2-figure}
+% \end{figure} 
 
+% \subsubsection{Executive Dysfunction Development} 
 
-\subsubsection{Executive Dysfunction Development} 
-
-Introducing a deficit in the DA-based gating mechanism from the
-beginning of development still allows the network to capture autistic
-performance.  In Figures~\ref{stroop-devel-figure} \& \ref{wcst-devel-figure}, the
-Stroop interference effect and the number of perseverative errors in
-WCST are plotted as a function of training time.
-Figure~\ref{stroop-devel-figure} shows no effect of the
-DA-manipulation across development.  Stroop interference was
-significantly greater for the autistic networks during only $1$ training epoch
-out of the $100$ ($p<.003$), demonstrating robust cognitive control
-throughout development.
-Figure~\ref{wcst-devel-figure}, however, shows a significant
-increase in perseverative errors only after significant training.  During the first $53$
-epochs there was a significant difference ($p < 0.05$) during only
-$26.4\%$ of the epochs.  However, later in the development of the
-model (epochs $54-100$) a significant difference was reached $93.6\%$
-of the time.  Importantly, neither ``healthy'' models nor
-DA-deficient models showed a distinct advantage or disadvantage during
-the earliest stages of development.  We believe that the lack of
-executive deficits early in the development of these models is
-largely due both models lacking strong PFC
-representations.  Without strong, dimensional PFC
-representations, the models were forced to rely more heavily on the
-Hidden layers (posterior cortex) to perform the tasks.  Since
-weakening the DA-based gating mechanism had no effect on these
-``posterior'' areas of the model, neither model showed any advantage
-over the other at this early stage.
+Interestingly, these simulations offer a potential explanation for the observation that cognitive flexibility deficits, in comparison to controls, appear late in development~\cite{GriffithEM:1999:AutismYoungED}. In Figures~\ref{stroop-devel-figure}~\&~\ref{wcst-devel-figure}, the Stroop interference effect and the number of perseverative errors in WCST are plotted over developmental training time. Figure~\ref{stroop-devel-figure} shows no effect of the DA manipulation across development. Stroop interference was significantly greater for the autistic networks during only $1$ training epoch out of the $100$ ($p < 0.003$), demonstrating robust cognitive control throughout development. Figure~\ref{wcst-devel-figure}, however, shows a significant difference in perseverative errors only after an initial period of developmental training. During the first $53$ epochs there was a significant difference ($p < 0.05$) during only $26.4\%$ of the epochs, but later in development (epochs $54-100$) a significant difference was reached $93.6\%$ of the time. Importantly, neither healthy nor autistic models showed a distinct advantage or disadvantage during the earliest stages of development. We conjecture that early poor performance by both model types was largely due to the fact that strong, dimensionally selective, PFC representations had yet to learned. Without such PFC representations, the networks were forced to rely more heavily on synaptic plasticity in the Hidden layers (posterior cortex) to perform the tasks. Later in development, both healthy and autistic networks acquired good PFC representations, but the models with reduced DA influence on PFC displayed difficulties in updating those representations when expected reward stopped being delivered (i.e., when the sorting rule was changed).
 
 \subsection{Summary}
 
-Given the XT account of the role of PFC in executive control, we have shown that a single manipulation --- reducing the efficacy of the DA signal --- is sufficient to capture the pattern of performance exhibited by people with autism on basic tests of cognitive flexibility (WCST) and cognitive control (Stroop).  Furthermore, we demonstrated that weakening the DA-based gating mechanism over the entire course of PFC development continues to reflect both the ``strengths'' and ``weaknesses'' of autistic performance, while also providing some insight into the late appearance of cognitive flexibility deficits in autism.  
+These simulations show that, given the XT account of the role of PFC in executive control, reducing the influence of DA on PFC adaptive gating is sufficient to capture the pattern of performance exhibited by people with autism on tests of cognitive flexibility (WCST) and cognitive control (Stroop). Furthermore, we demonstrated that weakening the DA signal over the course of PFC development continues to reflect autistic performance, while also providing some insight into the late appearance of cognitive flexibility deficits in autism. More information about these simulations may be found in Kriete \& Noelle~(2015).\nocite{KrieteT:2015:ED}
 
 \begin{figure}[t]
 \begin{center}
 	\includegraphics[width=145mm]{graphs/stroop_devel.eps}
 \end{center}
-\caption{Stroop interference score for the model over the course of development.} 
+\caption{Model Stroop Interference Over the Course of Development.} 
 \label{stroop-devel-figure}
 \end{figure} 
 
@@ -358,7 +221,7 @@ Given the XT account of the role of PFC in executive control, we have shown that
 \begin{center}
 	\includegraphics[width=145mm]{graphs/wcst_devel_persev.eps}
 \end{center}
-\caption{WCST perseverative error count for the model over the course of developmental training.} 
+\caption{Model WCST Perseverative Error Count Over the Course of Development.} 
 \label{wcst-devel-figure}
 \end{figure} 
 
