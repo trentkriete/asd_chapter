@@ -1,349 +1,321 @@
-%!PS-Adobe-2.0 EPSF-1.2
-%%Page: 1 1
-%%BoundingBox: -53 -35 325 234
+%!PS-Adobe-3.0
+%%Creator: GIMP PostScript file plugin V 1.17 by Peter Kirchgessner
+%%Title: stroop.ps
+%%CreationDate: Sun Jan 24 11:33:26 2016
+%%DocumentData: Clean7Bit
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox: 14 14 393 284
 %%EndComments
-1 setlinecap 1 setlinejoin
-0.700 setlinewidth
-0.00 setgray
-
-/Jrnd { exch cvi exch cvi dup 3 1 roll idiv mul } def
-/JDEdict 8 dict def
-JDEdict /mtrx matrix put
-/JDE {
-  JDEdict begin
-  /yrad exch def
-  /xrad exch def
-  /savematrix mtrx currentmatrix def
-  xrad yrad scale
-  0 0 1 0 360 arc
-  savematrix setmatrix
-  end
-} def
-/JSTR {
-  gsave 1 eq { gsave 1 setgray fill grestore } if
-    exch neg exch neg translate 
-    clip                        
-    rotate                      
-    4 dict begin
-      pathbbox  /&top exch def
-                /&right exch def
-                /&bottom exch def
-                &right sub /&width exch def
-      newpath
-      currentlinewidth mul round dup               
-      &bottom exch Jrnd exch &top             
-      4 -1 roll currentlinewidth mul setlinewidth  
-      { &right exch moveto &width 0 rlineto stroke } for    
-    end
-  grestore
-  newpath
-} bind def
- gsave /Times-Roman findfont 9.000000 scalefont setfont
-0.000000 0.000000 translate
-newpath 0.000000 0.000000 moveto 0.000000 216.000000 lineto stroke
-newpath 0.000000 0.000000 moveto 324.000000 0.000000 lineto stroke
-newpath 324.000000 0.000000 moveto 324.000000 216.000000 lineto stroke
-newpath 0.000000 216.000000 moveto 324.000000 216.000000 lineto stroke
-0.700000 setlinewidth  gsave newpath 0.000000 0.000000 moveto 324.000000 0.000000 lineto stroke
-/Times-Roman findfont 14.000000 scalefont setfont
-gsave 108.000000 -8.000000 translate 0.000000 rotate
-0 -8.400000 translate (neutral) dup stringwidth pop 2 div neg 0 moveto
-show
-grestore
-gsave 216.000000 -8.000000 translate 0.000000 rotate
-0 -8.400000 translate (conflict) dup stringwidth pop 2 div neg 0 moveto
-show
-grestore
-/Times-Bold findfont 16.000000 scalefont setfont
-gsave 162.000000 -24.400000 translate 0.000000 rotate
-0 -9.600000 translate (Condition) dup stringwidth pop 2 div neg 0 moveto
-show
-grestore
- grestore 
-0.700000 setlinewidth  gsave newpath 0.000000 0.000000 moveto 0.000000 216.000000 lineto stroke
-newpath 0.000000 0.000000 moveto -2.000000 0.000000 lineto stroke
-newpath 0.000000 3.823009 moveto -2.000000 3.823009 lineto stroke
-newpath 0.000000 7.646018 moveto -2.000000 7.646018 lineto stroke
-newpath 0.000000 11.469027 moveto -2.000000 11.469027 lineto stroke
-newpath 0.000000 15.292035 moveto -2.000000 15.292035 lineto stroke
-newpath 0.000000 19.115044 moveto -5.000000 19.115044 lineto stroke
-newpath 0.000000 22.938053 moveto -2.000000 22.938053 lineto stroke
-newpath 0.000000 26.761063 moveto -2.000000 26.761063 lineto stroke
-newpath 0.000000 30.584070 moveto -2.000000 30.584070 lineto stroke
-newpath 0.000000 34.407078 moveto -2.000000 34.407078 lineto stroke
-newpath 0.000000 38.230087 moveto -2.000000 38.230087 lineto stroke
-newpath 0.000000 42.053097 moveto -2.000000 42.053097 lineto stroke
-newpath 0.000000 45.876106 moveto -2.000000 45.876106 lineto stroke
-newpath 0.000000 49.699116 moveto -2.000000 49.699116 lineto stroke
-newpath 0.000000 53.522125 moveto -2.000000 53.522125 lineto stroke
-newpath 0.000000 57.345131 moveto -5.000000 57.345131 lineto stroke
-newpath 0.000000 61.168140 moveto -2.000000 61.168140 lineto stroke
-newpath 0.000000 64.991150 moveto -2.000000 64.991150 lineto stroke
-newpath 0.000000 68.814156 moveto -2.000000 68.814156 lineto stroke
-newpath 0.000000 72.637169 moveto -2.000000 72.637169 lineto stroke
-newpath 0.000000 76.460175 moveto -2.000000 76.460175 lineto stroke
-newpath 0.000000 80.283188 moveto -2.000000 80.283188 lineto stroke
-newpath 0.000000 84.106194 moveto -2.000000 84.106194 lineto stroke
-newpath 0.000000 87.929207 moveto -2.000000 87.929207 lineto stroke
-newpath 0.000000 91.752213 moveto -2.000000 91.752213 lineto stroke
-newpath 0.000000 95.575218 moveto -5.000000 95.575218 lineto stroke
-newpath 0.000000 99.398232 moveto -2.000000 99.398232 lineto stroke
-newpath 0.000000 103.221237 moveto -2.000000 103.221237 lineto stroke
-newpath 0.000000 107.044250 moveto -2.000000 107.044250 lineto stroke
-newpath 0.000000 110.867256 moveto -2.000000 110.867256 lineto stroke
-newpath 0.000000 114.690262 moveto -2.000000 114.690262 lineto stroke
-newpath 0.000000 118.513275 moveto -2.000000 118.513275 lineto stroke
-newpath 0.000000 122.336281 moveto -2.000000 122.336281 lineto stroke
-newpath 0.000000 126.159294 moveto -2.000000 126.159294 lineto stroke
-newpath 0.000000 129.982300 moveto -2.000000 129.982300 lineto stroke
-newpath 0.000000 133.805313 moveto -5.000000 133.805313 lineto stroke
-newpath 0.000000 137.628311 moveto -2.000000 137.628311 lineto stroke
-newpath 0.000000 141.451324 moveto -2.000000 141.451324 lineto stroke
-newpath 0.000000 145.274338 moveto -2.000000 145.274338 lineto stroke
-newpath 0.000000 149.097351 moveto -2.000000 149.097351 lineto stroke
-newpath 0.000000 152.920349 moveto -2.000000 152.920349 lineto stroke
-newpath 0.000000 156.743362 moveto -2.000000 156.743362 lineto stroke
-newpath 0.000000 160.566376 moveto -2.000000 160.566376 lineto stroke
-newpath 0.000000 164.389374 moveto -2.000000 164.389374 lineto stroke
-newpath 0.000000 168.212387 moveto -2.000000 168.212387 lineto stroke
-newpath 0.000000 172.035400 moveto -5.000000 172.035400 lineto stroke
-newpath 0.000000 175.858414 moveto -2.000000 175.858414 lineto stroke
-newpath 0.000000 179.681412 moveto -2.000000 179.681412 lineto stroke
-newpath 0.000000 183.504425 moveto -2.000000 183.504425 lineto stroke
-newpath 0.000000 187.327438 moveto -2.000000 187.327438 lineto stroke
-newpath 0.000000 191.150436 moveto -2.000000 191.150436 lineto stroke
-newpath 0.000000 194.973450 moveto -2.000000 194.973450 lineto stroke
-newpath 0.000000 198.796463 moveto -2.000000 198.796463 lineto stroke
-newpath 0.000000 202.619461 moveto -2.000000 202.619461 lineto stroke
-newpath 0.000000 206.442474 moveto -2.000000 206.442474 lineto stroke
-newpath 0.000000 210.265488 moveto -5.000000 210.265488 lineto stroke
-newpath 0.000000 214.088501 moveto -2.000000 214.088501 lineto stroke
-/Times-Roman findfont 14.000000 scalefont setfont
-gsave -8.000000 19.115044 translate 0.000000 rotate
-0 -4.200000 translate (500) dup stringwidth pop neg 0 moveto
-show
-grestore
-gsave -8.000000 57.345131 translate 0.000000 rotate
-0 -4.200000 translate (600) dup stringwidth pop neg 0 moveto
-show
-grestore
-gsave -8.000000 95.575218 translate 0.000000 rotate
-0 -4.200000 translate (700) dup stringwidth pop neg 0 moveto
-show
-grestore
-gsave -8.000000 133.805313 translate 0.000000 rotate
-0 -4.200000 translate (800) dup stringwidth pop neg 0 moveto
-show
-grestore
-gsave -8.000000 172.035400 translate 0.000000 rotate
-0 -4.200000 translate (900) dup stringwidth pop neg 0 moveto
-show
-grestore
-gsave -8.000000 210.265488 translate 0.000000 rotate
-0 -4.200000 translate (1000) dup stringwidth pop neg 0 moveto
-show
-grestore
-/Times-Bold findfont 16.000000 scalefont setfont
-gsave -42.879997 108.000000 translate 90.000000 rotate
-0 0.000000 translate (Reaction Time \(msec\)) dup stringwidth pop 2 div neg 0 moveto
-show
-grestore
- grestore 
-/Times-Roman findfont 24.000000 scalefont setfont
-gsave 162.000000 233.203537 translate 0.000000 rotate
-0 -14.400000 translate (Stroop Reaction Time) dup stringwidth pop 2 div neg 0 moveto
-show
-grestore
- gsave 
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 22.827183 moveto 108.000000 17.062090 lineto stroke
-newpath 106.000000 17.062090 moveto 110.000000 17.062090 lineto stroke
-newpath 108.000000 22.827183 moveto 108.000000 28.592276 lineto stroke
-newpath 106.000000 28.592276 moveto 110.000000 28.592276 lineto stroke
-newpath 216.000000 20.284883 moveto 216.000000 18.044607 lineto stroke
-newpath 214.000000 18.044607 moveto 218.000000 18.044607 lineto stroke
-newpath 216.000000 20.284883 moveto 216.000000 22.525173 lineto stroke
-newpath 214.000000 22.525173 moveto 218.000000 22.525173 lineto stroke
-0.700000 setlinewidth  [] 0 setdash
-108.000000 22.827183 moveto   216.000000 20.284883 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 30.415857 moveto 108.000000 23.136845 lineto stroke
-newpath 106.000000 23.136845 moveto 110.000000 23.136845 lineto stroke
-newpath 108.000000 30.415857 moveto 108.000000 37.694859 lineto stroke
-newpath 106.000000 37.694859 moveto 110.000000 37.694859 lineto stroke
-newpath 216.000000 22.047297 moveto 216.000000 19.726728 lineto stroke
-newpath 214.000000 19.726728 moveto 218.000000 19.726728 lineto stroke
-newpath 216.000000 22.047297 moveto 216.000000 24.367855 lineto stroke
-newpath 214.000000 24.367855 moveto 218.000000 24.367855 lineto stroke
-0.700000 setlinewidth  [4.00000] 0 setdash
-108.000000 30.415857 moveto   216.000000 22.047297 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 22.938053 moveto 108.000000 22.938053 lineto stroke
-newpath 106.000000 22.938053 moveto 110.000000 22.938053 lineto stroke
-newpath 108.000000 22.938053 moveto 108.000000 22.938053 lineto stroke
-newpath 106.000000 22.938053 moveto 110.000000 22.938053 lineto stroke
-newpath 216.000000 26.761063 moveto 216.000000 26.761063 lineto stroke
-newpath 214.000000 26.761063 moveto 218.000000 26.761063 lineto stroke
-newpath 216.000000 26.761063 moveto 216.000000 26.761063 lineto stroke
-newpath 214.000000 26.761063 moveto 218.000000 26.761063 lineto stroke
-0.700000 setlinewidth  [1 3.200000] 0 setdash
-108.000000 22.938053 moveto   216.000000 26.761063 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- gsave  108.000000 22.938053 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  gsave  216.000000 26.761063 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  grestore 
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 82.267326 moveto 108.000000 79.713562 lineto stroke
-newpath 106.000000 79.713562 moveto 110.000000 79.713562 lineto stroke
-newpath 108.000000 82.267326 moveto 108.000000 84.821098 lineto stroke
-newpath 106.000000 84.821098 moveto 110.000000 84.821098 lineto stroke
-newpath 216.000000 150.897995 moveto 216.000000 145.022034 lineto stroke
-newpath 214.000000 145.022034 moveto 218.000000 145.022034 lineto stroke
-newpath 216.000000 150.897995 moveto 216.000000 156.773956 lineto stroke
-newpath 214.000000 156.773956 moveto 218.000000 156.773956 lineto stroke
-0.700000 setlinewidth  [] 0 setdash
-108.000000 82.267326 moveto   216.000000 150.897995 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 85.746254 moveto 108.000000 83.307175 lineto stroke
-newpath 106.000000 83.307175 moveto 110.000000 83.307175 lineto stroke
-newpath 108.000000 85.746254 moveto 108.000000 88.185341 lineto stroke
-newpath 106.000000 88.185341 moveto 110.000000 88.185341 lineto stroke
-newpath 216.000000 149.533173 moveto 216.000000 143.706909 lineto stroke
-newpath 214.000000 143.706909 moveto 218.000000 143.706909 lineto stroke
-newpath 216.000000 149.533173 moveto 216.000000 155.359436 lineto stroke
-newpath 214.000000 155.359436 moveto 218.000000 155.359436 lineto stroke
-0.700000 setlinewidth  [4.00000] 0 setdash
-108.000000 85.746254 moveto   216.000000 149.533173 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-newpath 108.000000 76.460175 moveto 108.000000 76.460175 lineto stroke
-newpath 106.000000 76.460175 moveto 110.000000 76.460175 lineto stroke
-newpath 108.000000 76.460175 moveto 108.000000 76.460175 lineto stroke
-newpath 106.000000 76.460175 moveto 110.000000 76.460175 lineto stroke
-newpath 216.000000 152.920349 moveto 216.000000 152.920349 lineto stroke
-newpath 214.000000 152.920349 moveto 218.000000 152.920349 lineto stroke
-newpath 216.000000 152.920349 moveto 216.000000 152.920349 lineto stroke
-newpath 214.000000 152.920349 moveto 218.000000 152.920349 lineto stroke
-0.700000 setlinewidth  [1 3.200000] 0 setdash
-108.000000 76.460175 moveto   216.000000 152.920349 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- gsave  108.000000 76.460175 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  gsave  216.000000 152.920349 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  grestore 
- grestore 
- gsave 8.639999 172.035400 translate 0.000000 rotate
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-0.000000 33.000000 moveto   24.000000 33.000000 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
-/Times-Roman findfont 11.000000 scalefont setfont
-gsave 28.000000 36.299999 translate 0.000000 rotate
-0 -6.600000 translate (Control Network - Word Reading) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [4.00000] 0 setdash
-0.000000 19.799999 moveto   24.000000 19.799999 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
-gsave 28.000000 23.099998 translate 0.000000 rotate
-0 -6.600000 translate (Autism Network - Word Reading) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- gsave 1.000000 0.000000 0.000000 setrgbcolor
-0.700000 setlinewidth  [1 3.200000] 0 setdash
-0.000000 6.599998 moveto   24.000000 6.599998 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- gsave  12.000000 6.599998 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  grestore 
-gsave 28.000000 9.899998 translate 0.000000 rotate
-0 -6.600000 translate (Human Data - Word Reading) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [] 0 setdash
-0.000000 -6.600001 moveto   24.000000 -6.600001 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
-gsave 28.000000 -3.300002 translate 0.000000 rotate
-0 -6.600000 translate (Control Network - Color Naming) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [4.00000] 0 setdash
-0.000000 -19.800003 moveto   24.000000 -19.800003 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- grestore 
-gsave 28.000000 -16.500002 translate 0.000000 rotate
-0 -6.600000 translate (Autism Network - Color Naming) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- gsave 0.000000 0.000000 1.000000 setrgbcolor
-0.700000 setlinewidth  [1 3.200000] 0 setdash
-0.000000 -33.000004 moveto   24.000000 -33.000004 lineto
-stroke
-0.700000 setlinewidth  [] 0 setdash
- gsave  12.000000 -33.000004 translate 0.000000 rotate
- newpath -2.000000 -2.000000 moveto  2.000000 -2.000000 lineto
-  2.000000 2.000000 lineto
-  -2.000000 2.000000 lineto
-closepath gsave  fill grestore
-stroke
- grestore  grestore 
-gsave 28.000000 -29.700003 translate 0.000000 rotate
-0 -6.600000 translate (Human Data - Color Naming) dup stringwidth pop pop 0 0 moveto
-show
-grestore
- grestore 
--0.000000 -0.000000 translate
- grestore 
+%%BeginProlog
+% Use own dictionary to avoid conflicts
+10 dict begin
+%%EndProlog
+%%Page: 1 1
+% Translate for offset
+14.173228346456694 14.173228346456694 translate
+% Translate to begin of first scanline
+0 269.28000000000003 translate
+378 -269.28000000000003 scale
+% Image geometry
+525 374 8
+% Transformation matrix
+[ 525 0 0 374 0 0 ]
+currentfile /ASCII85Decode filter /RunLengthDecode filter
+%%BeginData:        22001 ASCII Bytes
+image
+JcFm4rrDusr;`nur;cfrquFV6rW(IJrW)osr;cfrr;cfrrW%]QJcFp5rW)fprrB,"r;c`pr;a_7
+!!(LJrrDusr;c`prrDus!!%`QJcFp5rrDlprrDlp!!'D+r;c]or;b+B!!(.@!!)orr;c`prr@WM
+s8RZMkl:V^q#:<oq>UEp[/^()qZ$Koc2RbDao;>@qu?TpqYpNqJcGcMJcFs6r;cZnrrDrrrrBG+
+r;cZnrW(7DrrBq9r;c]o!!%TMs8RZMkl:S]q#:<or;Z`r[/^()q>^Eoci<tE_Z0Q7JcGKEJcFp5
+quHEiq#LEorrE*!r;ccqq>g9iq>g?krrE*!qZ-3er;c]or;cWmqZ-Hlq>g?kqZ-Qoq#LBnrW)co
+q>gBlrrE&uquH-ar;cNjrW)iqrW)uuquH]qquHNlqZ*f!JcFp5qZ-<hrW)osqu?`squH`rrW)os
+rW)fprW)osrW)osqu?`sq#L$dr;c]or;c]orrE#trW)iqrrE#trW)lrrrDusrW)osrW)iqquHWo
+rW)osrW)osr;Zitq>fp_r;cTlquH]qqu?j!!!*&t!!N<%!<<)t!;lfr!<)rs!3cERs5s@X!;HNm
+!;lfp!<3#u!<<)u!;lfq!;ulr!;lfq!;ulq!;ulq!;-<i!;lfp!;c`q!;lfq!<)rs!;uls!;uis
+!;lfq!<)rs!;ZZo!;ulr!;lfq!;ulr!;ulr!:Kmc!;6Bk!;lfp!<)rr!;ulr!;uls!;lfq!3lKS
+s5a4W!;QTn!;c`p!;c`q!;ZZo!<)rt!;ZZo!<)rs!;c`p!;-<i!<<)r!;QTo!;lfq!<)rs!;uls
+!<)rt!;lfq!<)rs!;ZZo!;uls!;ZZo!<)rt!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfr!;uls!;lfq
+!3lKSs5X.U!;c`p!;c`q!;c`p!;ZZo!<3#t!;ZZo!<)rs!;c`p!;-<d!;?Hm!;c`p!<)rt!;lfr
+!<3#t!;-<j!;ZZo!<)rs!;ZZo!<)rt!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfr!<)rt!;c`p!3lKS
+s5F"T!;lfq!;c`q!;c`p!;ZZo!<3#t!;ZZo!<)rs!;ZZo!;6Bj!<<)t!;HNd!;?Hl!<3#u!;$6i
+!;ZZo!<)rs!;ZZo!<)rt!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#k!3lKSs5<qS!;ulr!;c`q
+!;c`p!;QTn!<<)u!;QTn!<3#t!;ZZo!;6Bj!<3#s!;QTo!:Kme!!<0#!<3#u!;$6i!;ZZo!<)rs
+!;QTn!<3#u!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#u!2fdIs5*eS!;ulr!;c`q!;c`p!;QTn
+!<<)u!;QTn!<3#t!;ZZo!;6Bj!<)rr!;ZZp!:g*g!<3#u!<3#u!;$6i!;ZZo!<)rs!;QTn!<3#u
+!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#u!2fdIs69O`!;HNl!;ulr!;c`q!;c`p!;QTn!<<)u
+!;QTn!<3#t!;ZZo!;6Bj!;ulq!;c`p!;$6j!;uls!<3#t!;-<j!;ZZo!<)rs!;QTn!<3#u!;lfq
+!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#t!2ojJs60I_!;HNm!;ulr!;c`q!;c`p!;QTo!<3#t!;QTo
+!<)rs!;ZZp!;-<i!;ulq!;c`p!;-<k!;lfr!<3#t!;-<j!;ZZo!<)rs!;QTo!<)rt!;lfq!:Kmc
+!;6Bk!;lfq!;lfq!;lfq!<3#t!2ojJs60I_!;HNm!;ulr!;c`q!;c`o!;c`p!<3#s!;c`p!<)rs
+!;ZZp!;-<i!;lfp!;lfq!;QQq!<<)u!;lfr!<3#t!;QQo!<3#t!;ZZo!<)rr!;c`p!<)rt!;lfq
+!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#t!;QQo!3uQTs60L_!;QTn!;ulr!;c`q!;ZZo!;c`p!<)rs
+!;c`p!<)rs!;c`p!;-<i!;c`o!;ulq!;c]q!<3#t!;lfr!<)rs!;c]q!<)rs!;ZZo!;ulr!;c`p
+!<)rt!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfq!<3#s!;c]q!3lKSs60L^!;c`p!;lfq!;c`q!;QTn
+!;lfr!;lfq!;lfr!;ulr!;c`q!;$6h!;ZZn!;ulq!;uls!<3#s!<)rs!<)rq!<)ot!;ulr!;ZZo
+!;lfq!;lfr!;uls!;lfq!:Kmc!;6Bk!;lfq!;lfq!;lfq!<)rr!;uls!3lKSs60L]!;lfq!;c`p
+!!N<%!<<)t!;ZZo!;uls!;c`p!;uls!;lfp!;uls!:p0g!;ZZm!;ull!;uln!!*&s!<<)p!;c`p
+!!<0#!<)rs!;lfq!;uls!;ulq!;ulr!:Kmc!;6Bk!;lfq!;lfq!;lfq!;ull!3cERs60L_!!*&p
+!;QTl!!*&p!;ZZk!;HNi!;c`p!!*&r!;$6c!;lfn!<)rp!;c`n!<3#s!<)rp!;ZZm!<3#p!;lfm
+!;uln!!*&q!;$6b!;c`l!<<)q!<<)q!<<)q!<)rp!3Q9Ps.B>j!.k0$s4RF's.B>j!.k0$s4RF'
+s.B>j!.k0$s4RF's.B>j!.k0$s4RF^s+(0$!.b-a!!*&\s8N)rs8;rps8;rps8;rirr<%Ms69R_
+!.k0$s4dPS!<;6^r;ccq!!)ut!!)ut!!)ut!!)ut!!)ut!!)]l!!%TMlMp_]JcC<$h>[KUs5j:\
+!<)rt!<)rt!<<*!!<)rt!<<*!!<)rt!;QTn!.k12rr<%Ms+14,rrE-"jo>>\rVultrVults8W*!
+rVults8W*!rVultpAY*mJcC<$JcEOc!<E/]s8N)trr<&ss8N*!rr<&ss8N*!rr<&ss8N)mrr<%M
+s+13$s1nX8!<;0\rrE#t!!)rsrrE*!!!)rsrrE*!!!)rsrrDcm!!%TMJcC<$_#FE8s5j:\!<3#u
+!;uls!!<0#!;uls!!<0#!;uls!;?Em!.k0$s+13crrE-"jo>>\rVlitr;Zcss8N'!r;Zcss8N'!
+r;ZcsrVuZnJcC<$JcEOc!<E/]s8N)trr<&ss8N*!rr<&ss8N*!rr<&ss8N)mrr<%Ms+13$s1nX8
+!<;0\rrE#trrE#trrE*!rrE#trrE*!rrE#trrDcm!!(4BqZ,ORrrDrrrrDusrrCjSrrDNf!;uTk
+!W2`^rrDols8Dlsrr)0_"TJH$rV_<IYl=_(s5j:\!<)rt!<)rt!<<*!!<)rt!<<*!!<)rt!;?Em
+!6kHC!;uis!8mhV!;c`q!<)ot!8IPR!:TpfrqHEmrpKddrqZQorr2otrdk*7rrE-"jo>>\r;Q`s
+rVlitrVlitrVlitrVlitrVlitp&>!lc2[eDr;Q`snG`Ignc/Uhqu6`urr<&urr<&nrr<&]s8N(M
+s+14$rrE-"jo>>\qu6`us8N)rrrW9$rrDrr!s&B$!;HNl!6tND!;HNl!<<'"!<<#us8W#t#6+]'
+!!*'!r;cisrrDrr#6=f(!!*'!!<)rs!<<)t!!WB&!<<'!rr2rurr;osrr39)rr<'!!!*'!!.k0$
+s4RDQ!<:jSrrDlprrDlprrDZj!!(=ErrDio!!*#urr<6&!!*'!!<2uu!<3#u!<2uu!<3#u!<<*!
+!;lcr!<3!#!<<'!rr33's8N'!s8N)us8N*!rr<&urrW9$rrE&urrE*!rrE&urr<*"!36&!rr2ot
+rdk*VrrE-"\GlO/pAa#.qu?Zrq#:<orVm'%rr<'!rrE&u!!*#u!!)ut!!)ut"9AK%!!)or!!*#u
+rr<*"!<3#r!<<'!!<)p%!<<'!!<3&urr<&trrW9$rrE#trW')#"TJH$rr.KKYl=_(s1&(/!6tND
+!;ZZp!<)p%!<3$!s8N)urr<&urr<&us8N)trr`?%rr<&rrr<&ts8E#us8N)rrr<&trsAc+!<3'!
+!<<'!!<)p"!<<'!rVuish#@HTs8LRK!<.QLXT&;$s1&(/!6tQD!;ZWp!<)p%!<3$!s8N)urr<&u
+rr<&trr<&trr`?%rr<&rrr<&ss8N*!s8N)rrr<&ts8E!#rrE'!rr2rurVls"s8N)ts8N'"rrCmT
+!ri6!rr2utg&D'OJcDhO!<E/2s8E#Brr<&srrW9$rrE#t"p"Z'!<<'!rr2rurr2rurVlitrVm!#
+s8N'!qu6Wrqu6Wrrr2rurr3'#s8N)srr<&urr<&trr<&trrW9$rrE#trr<-#!!(mU!ri6!rVlls
+gA_0PJcDhO!<E/0rr<&Bs8N*!rr<&trs\u.rrE*!!!*'!!!*'!rW!$"!!)ut!s&B$!<3#u!;lfr
+!;uis!<3#s!<3#t!<2uu!<2uu!;uj!!<<'!rr;uurr;uus8W*!h>dNSrr2utJcCE'!<E/0rr<&@
+s8N)rs8N)bs8N)Is8N(YrrE%Ls1nX8!<9S/!!%TMK)YiMJcEOc!<E/0rr<%Ms+13$s1nX8!<9S/
+!!%TMJcC<$_#FE8s1870!.k0$s+13crrE-"\GlO/JcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/
+!!%TMJcC<$_#FE8s1&(/!.k0$s+13crrE-"]Dqg0ao;>@nGiLgl2Ub`r;Zcsh#IBSJcC<$eGfOL
+s1&(/!6P6@!7h,L!<)ot!8IPR!.k0$s4%&L!<9S/!!(1ArW)Wk!!)*[!s&?$!<2uu!;HKn!9X=]
+!.k0$s4%&L!<9S/!!(4B!s&B$!;uis!<3!!!<;ut!ri6#rr;oss8Vus!<<#uqu6m$s8N'!s8N)t
+s8E#us8;p$rr<'!rrE&u!!*#ur;cis#lsu*!<3$!s8N(Ms+14%rrE-"\GlO/p&FqJqu?RPqu?RP
+o)Agms8N'!rVlitrr3'#s8N)us8N)urso,0rrE*!!!*'!!!*'!!!)rs!!*#u!s&B$!<3!'!<<'!
+!<<'!rr;uus8N'!rr3'#s8N)us8N*!s8N)us8N'"rr@WMJcF=$!<E/2s8E#Arr<&urr<&trr<&u
+rrW9$rrE&urrE&urrE#trrE*!rrE*!rrDus!!*#urr<*"!<3#r!<<'!!<)p%!<<'!!<3&urr<&t
+rrW9$rrE#trW%NLJcF:#!<E/0rr<&Cs7u`prr<&urrW9$rrE&urrE#trrE&urrE*!rrE*!rrDus
+!!)utrW)uurrDrr!!)ut$3:)+rrE'!s8N'!rVls"s8N)ts8E"Ls+14#rrE-"\GlO/bl7YCrVult
+rr2rurr3'#s8N)us8N)ss8N*!s8N*!s8N*!s8N)srr<&ss8N*!s8N)rrr<&ts8E!#rrE'!rr2ru
+rVls"s8N)ts8N'"rr@WMJcF=$!<E/0rr<&Drr<&rrr<&urr<&urrW9$rrE&urrDrr$ip>-!!*'!
+!!*'!!!)rs!!)or!!*#u!!*#u!s&B$!;uis!<2uu!<)ot!<)p"!<<'!rVult!ri6#f)GaLo)Aah
+rr2otrr2p"rr<#so`+sjJcDnQ!<E/0rr<&Drr<&rs8N*!s8)crs8E!"rr<&urso,0rrE*!!!*'!
+!!*'!!!)rsrrDus!!*#ur;cisrW)rt!!*#u!!)rs!s&B$!<3#u!<3#u!<<*!!8IMRrr2otrq??l
+rr)j%q=jphq"ORXrr3,sqY^<kq#:?no`"pjJcE@^!<E/0rr<&(s8N)Cs8N(Ms+13lrrE-"])Va0
+JcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/!!%TMJcC<$_#FE8s1&(/!.k0$s+13crrE-"\GlO/
+JcC<$JcEOc!<E/3s8;qKs+13$s1nX8!<9S/!!%TMJcC<$_#FE8s1&(/!6tQC!<3#t!8@JL!7UuJ
+rdk*#s4dPS!<9S/!!(7C!!)rs!!([O!!)utrrCRK!<.QLJcFI(!<E/us7cT5rr<&_s8"Y?rr<&s
+rr<&Orr<&ss8N)orr<&VrrE%Ls+14(rrE-"s8V`laT)5>kl:K;m/I%cr;Q`srr2rurr3$"s8Vus
+!<<#urVuisrr3!!s8E#prr<&rrr<&us8E#us8;rts8E"Ls+13arrE-"!ri6#p](3maSu5?kl:K;
+m/I%cr;Q`srr2rurr3l:s8N'!s8N'!s8N'!s8N*!rr<'!rr<'!rrDoq!!)or$3:,+!<<'!!<<'!
+rr3*$s8N'!JcC<$^]+<7rr<&js8N)@rr<&ms8P"Us8P"Us7eMOs8P"Vs8P"Ns7u`prr<&ursSo-
+rr<'!rr<'!rr<&ss8N*!s8N*!rr<&qrr<&rrr<&ss8N*!rr<&rs8N(Ms+13brrE-"nc&Rhao;>@
+kl:K;m/I%cr;Q`srr2rurr3B,s8N'!s8N'!s8N'!rr;oss8W*!s8N'!qYpNqqu6Wrrr;oss8N'!
+rVufrJcC<$^]+<7s5*eR!;lfp!;lfp!;-9k!9jIZ2XLGD!;uis!<2uu!<3!:!<<'!!<<'!!<<'!
+!<<'!s8N'!s8N'!s8N)qrr<&ss8N*!rs&Q(rr<'!rrE&u"9AK%!!%TMJcELb!<E/Ws8N)us8N)t
+rr<&trr<&trr<&trr<&lrr<&_s8+_?rr<&srr<&urr<&uru(n;rr<'!rr<'!rr<'!rrE*!!!*'!
+!!*'!!;c]q!<)rt!<3!'!<<'!!<<'!rr3*$s8N'!JcC<$^]+<7s8Dus!;uis!:9^c!;uis!<3#u
+!<)rt!<<*!!<)rt!;QTn!6tQC!<3#t!<<)r!"Al-!<<'!!<<'!!<<)r!!`H'!<<'!!;ulo!;ulo
+!!*&u!!*&r!2'8krdk*ErrE-"rVuisqu6WrmJd.dr;Zcss8W*!rVults8W*!rVultpAY*mJcDGD
+!<.QLU&P,ns8Dut!;c]q!:Bdd!;uls!<<'!!;uls!<<'!!;uls!;?Em!.k0Es8W"Js.TGn!<<&u
+!!)iprrDHdrrE#trrE*!!!)rsrrE*!!!)rsrrDcm!!%TMU&P5hqu-MFs.oYq!<<#t!!)orrW)?c
+rrE#trr<-#!!)rsrr<-#!!)rsrrDcm!!%TMJcC<$_#FE8s8Dul!:9ac!!*&t!<<'!!;uls!<<'!
+!;uls!<)rn!.k0$s+13crrE-"r;ZQml2Lhcs8N)urr<&ss8N*!rr<&ss8N)mrr<%Ms+13$s1nX8
+!<;rrqZ,dYrrE&urrE#trrE*!rrE#trrDcm!!%TMJcC<$_#FE8s4dSR!<)rt!<)rt!<<*!!<)rt
+!;?Em!.k0$s+13crrE-"r;Z]qrr2rul2Ub`qu6WrrVlitrVlitrVlitp&>!lJcE%U!WN&qrrN)t
+mJd1cJcDkP!<E/us82lrs8N)bs8N)prrW9$rrDrr!s&B$!;?Hl!.k0$s+13crrE-"rVults8N'!
+rVlitmJm1dpAb-mq>^HpoD\djU]:AnJcC<$T`5#ms8N#u!<)ot!<)ot!65$=!3Q8*rr<#rqtg-f
+rrN#nqu6fus8W)tJcC<$X8`2#s8N#u!<)ot!<3#u!65$=!3?,"r;Q^"nac_[o(Dn[!;lcq"9&9"
+rr2p"rr<#tJcC<$[Jp7-s8Dul!65$=!3?,"r;HWuli7"Qn,*+bp\t0pq>C9jrr<#srr2rt!<2rs
+#6+Z&rr2rsrr2utJcC<$aSu8@s8Dum!6+s<!3?,"rVca!nGiOYo)&Fep\k*rqYU0is8;flrrE#r
+rsJc*rr;utrr<#trm1WErW3&uJcC<$rr3!!s8;on!65'<!3?,"rr)j"q>^Kjq>:0lqu$Kor;Zfs
+rVQTprr)lrrWE3"s8N#t!<1UM!<2rs#QFc'rr)lsrp0Uaro="Yrdk*XrrE-"\GlO/VZ-ets8W)s
+qu6Zpqu6Zprr2usrr3*!s8W)rrrE&trrE&srrE&srr`9#s8Muss8E*"rr2-]!<2rs#Q=]&qtpEn
+rS.APrr<#urW<-!rr2p#rVZ]qrdk*XrrE-"\GlO/bPqSAiVroWkPkV_s8N#t!ri6!rr2utrr2ut
+r;QcrfDbsOs8W#rrrMrjrr2uti;`iVs8W,ss8N6!qZ$?crr3,sqZ$TpJcE1Y!<E0!s8;rts8;r:
+rr<%Ms3:TDrV-<lrdk*#rrE-"rVults8Vrr`r?#=JcC<$JcEOc!<E/urr<&us8E#urr<&@s8;qK
+s+13$s1nX8!<<&u!!*#ur;clt!!(%=!!%TMJcC<$_#FE8s8N#u!<3#t!<2uu!65$=!.k0$s+13c
+rrE-"rVu`prr2ru`r?#=JcC<$JcEOc!<E/us82lrs8N)=rr<%Ms+13$s1nX8!<;cm!!(%=rW%NL
+JcFF'q@\AZn,ECgs1&(/!.k0$s472M&qU)LrrE-"o`"mk`r?#=JcD&9!U]^&s8!@Zs6osg!<;us
+p]/>6!!%TMJcFF'q@\AZn,ECgs8Dul!65$=!/pjWri,qtri6"p&qU)OrrE-"rr;Zl`r?#=OoPF[
+s8W&r!rr9![f6@,r;Qous8W&rkl:\^oDejif)PRZJcG3=!<E/urr<&prr<&?s8E#krrN)tq#CBn
+W;d#"rVuorrr<#ts8N)urr3*"s8W)9s8W)prrDurrrDu\rrE&;s8!@Zs6osg!<<#t!!'_4!!&,\
+rr2rt!<2rs#6+Z&rr2rsrr2ut])Md.rr3#triH.r&qU)OrrE-"rVlitq>UEp`r?#=MuNeVrVm6(
+s8N&ts8N&urr0M/!<)lrrr0)#q@\AZn,ECgs8;ol!65$=!6kHCrr)lsrr2otrr2otrl"g:rr2ot
+rq6<krW3&uJcG-;rt9n_m/I(ds8Dul!65$=!6tNDq"t'kr;Q]rrVlfsro*kWrql]qrn%/Mrji(/
+rk8=9'*%tE')rSqs6Tad!<<#tpAi;7rW(4C!9a7Z$2=5ps82`mrVlf`s8W)nrrN&rr;Qcrf)GaL
+]`/*5s8Dr[rrE&Ors'2:rt>>Ert9n_m/I(ds8N&u!;ZWp!65$=!.k0(rrE&Os8N]7rt>A3&qU)L
+rrE-"rVlit^&J'4JcCH(!<(dS#87(:&eb3W')qn2&qU)LrrE-"rVlitq>UEp`r?#=JcCQ+!ri,o
+hZ!cms8N`3rt>80!"sk_m/I(ds8Dul!65$=!.k0$s5F"X');J,&qU)LrrE-"rVuTlaoD;>JcC<$
+ir8ukq#C7)JcG0<!<E/us7ZN5rr<%Ms+144rrEc4r=\l)!"sk_m/I(ds8Drt!;ZWp!65$=!.k0$
+s5j7^')rU=s8*F[s6osg!<;]k!!(%=!!%TMJcFp5r=X\]hZ!TVs7$$g!6Y<A!6tNFrr;uss8MqI
+s/>tr&cr"FJcFO*!<E/irr<&Bs8E#BrrE&rrrDr!rrE%Ls8)`q&qU)8rrE-"rrD]k!!(+?!!(7C
+!<)iq!;Whus8ITLr;Zd0JcF@%!<E-"s7662rr<&CrrE&rrrDrqrrDoprrVuqs8MfnpB1Hjp\=^e
+!r)Ndrr3-!s8;inJcF!p!>>G3&qU)7rrE-"rr;Zl`r?#=bl7\Br;Qcrrr2usrr3o8s8W)ss8W&r
+s8W)ss8W)us8Dors8Dors8@NKcN!hUJcF:#!<E/ts8)f\s82los8;rps8;rirr<&*rrE&prrE&t
+rrE%Ls3(HB&qU)3rrE-"hZ!QUrVlitrVlitrVlitrVlitrVlitp&>!lJcC<$o)J_&JcF-t!<E/W
+s8N)trr<&us8N)ts8N*!s8N)ts8N)os8E"Ls+14Bs8N^_s3L]G!<:sVrrE#t!!*#urrE#trrE*!
+rrE#trrDcm!!(7C!<26_!<2ut!<2ut!<2ut!<2Qh!<2He!<0M.!<2ut"9/?#rl"g:&qU)-rrE-"
+hZ*TUs8N'!rVlitr;Zcss8N'!r;ZcspAY*mc2[hB!<2ut"TJB!s8Vup%KHG+s8W&rs8W)ss8W)r
+r<E<#rVuorrVZZqrr)cqrquctrr)iqr<<6"rr)lqr;Q*`!<2rs"9/?#rq??lrr2rtrql`qrqucr
+rr2rtr=]&,r;?Tmr;Zfoqu?]nr;Zfrrlb?@&qU)-rrE-"h>dHSr;Q`sr;Zcss8N'!r;ZcspAY*m
+JcG3=s8Dip!W2`frrN&obPqSAf`1p`JcEpn!<E/Ts8E#ts8N)ss8N'#rr<&ss8N)mrr<%Ms.oYp
+rn.8N&qU))rrE-"hZ*TU!<<#urr2rur;Zcss8N'!r;ZcsrVuZnJcC<$qu6X/JcEdj!<E/ts8;rs
+rr<&cs8N)us8N)urr<&ss8N*!rr<&ss8N)mrr<%Ms+14Ks8N^_s2P'>!<<#tquH`rrrDHdrrE#t
+rrE*!rrE#trrE*!rrE#trrDcm!!%TMJcGcMrt9n_`;]i<s8Dut!<<'!!<)ot!:Bgd!<)rt!<<*!
+!<)rt!<<*!!<)rt!;?Em!.k0$rrN-4JcEUe!<E0!rr<&trr<&trr<&ds8N)trr<&trr<&trr<&t
+rr<&trr<&lrr<%Ms+:7O*YO&(_>aN9s8N#u!<)ot!<3#u!:9ac!<<'!!;lcu!<<'!qu6`us8N)m
+s8E"Ls+C@O&qU(urrE-"rVuTllMpkaq>^Hpq>^HpoD\djJcCH(rt9n_^Ae36s8Dum!6+s<!.k0)
+rr<[_s1J@4!<;usq>eJ6!!%TMM?!PfJcE@^!<E/0rr<%Ms,-jU&qU(orrE-"\GlO/JcC]/rt9n_
+\,QI/s7H<k!6G3>!.k00s8N^_s0hq.!<;usp]/>6!!%TMNrK.nrt9n_[f6@.s8Dul!65$=!.k04
+s8EX^s0M_+!<<&up&N,4!!%TMPQ1UpJcE"T!<E/urr<&prr<&=rr<%Ms-<W]&qU(grrE-"rVlit
+_#O?5JcD&9rXse^Y5\M&s8Drt!;ZWp!65$=!.k09rr<[_s/c5$!<;usp]/>6!!%TMR/d1!!WNd`
+s/l;%!<<#tpAi55!!%TMS,WX)rt>A3&qU(arrE-"rVuTl`r?#=JcD;@r=X\]W;ckus8N&u!;ZWp
+!6G3>!.k0Bs8N]4rt9n_VZ-Yss8Drt!58C4!.k0As8N]5rt5rqs/>qu!<<#t!!)ip!!(%=!!%TM
+T`>$)JcDMF!<E/us7ZN5rr<%Ms.TGm&qU(VrrE-"rVuTl`r?#=JcDSH"qpqK'*%tEJcDMF!<E/u
+s7ZN5rr<%Ms/5ns&cr"Frr2s2JcDJE!<E/urr<&prr<&?s8E"Ls/H%u&d&(G&qU(RrrE-"o`"mk
+`r?#=JcD\Krt9n_S,WKhs7H<k!65$=!.k0Lrr<]1rr<[_s.95k!<3$!rr;]m`r?#=JcDnQ";:b7
+&e]cqR/[0es8N*!s7ZN5rr<%Ms02P''*%t3&qU(KrrE-"rrE*!pAi>8r;_EKZ2Xq>s8N]Err<!2
+JcD2=!<E-"!<2uu!;ZWp!65$=!.k0UrrWo6rt9n_PQ(X`s7H<k!65$=!.k0Ts8N^_s-!B_!<9S/
+!!%TMZiC%<rVlj1JcD#8!<E0!!5&72!.k0[rr<]2rr<]0rr<[_s-3Na!<3$!]Dqj1JcE=]rt>A3
+rt9n_NW0"Zs1&(/!.k0^rr<]2rr<[_s,6mX!<;]k!!(%=!!%TM]`/*Is8N]ErVum1JcCi3!<E/l
+rr<&=rr<%Ms1841&qU(=rrE-"o)Qf1!!%TM_>aKJrVum1JcCN*!<E/k!65$=!.k0err<]2s8N`0
+rr<[_s,6mX!<;WjaT)5>JcE[grt>>2!"sk_KDtrPs7H<k!65$=!.k0hrr<]2s8N^_s+:7O!<;]k
+!!(%=!!%TM_Z'TKqu6X/JcCN*!<E/lrr<&ds7lZns8;rps8;rirr<%Ms2=s;')V\/&qU(;rrE-"
+!!(sWq>gKo!!)ut!!)ut!!)ut!!)]l!!%TMbQ%STrVlj1JcC<$rVllus8E#Yrr<&rrr<&us8N)t
+s8N*!s8N)ts8N)ps8;qKs31KC')hk1&qU(6s8;lt!<:aP!!*#urrE#trrE*!rrE#trrDcm!!%TM
+cN!nWrr<!2qu?[/JcC?%!<E/Rrr<&trr<&ss8N*!rr<&ss8N)mrr<%Ms3L]F')hh1&qU(6s7lTp
+!<:dQ!!)ut!!)rsrrE*!!!)rsrrDcm!!%TMbl@\UJcC<$p\t6os4[JQ!<3#u!;uls!!<0#!;uls
+!;?Em!.k0prr<].rr<[_s+14KrrE-"g]%6Rr;Q`sr;Zcss8N'!r;ZcsrVuZnJcF:#rt>;1rt>2.
+!"sk_JcGZJ!<E/Srr<&srr<&ss8N*!rr<&ss8N)mrr<%Ms4@;N')_b0&qU(6s760j!<:gR!!)rs
+rrE#trrE*!rrE#trrDcm!!%TMf`(par;Zd0JcC<$nc&Uis7H<k!:'Ra!;lfr!<)rt!<<*!!<)rt
+!;?Em!.k1"s8N`-rr<[_s+14FrrE-"r;ZNllMghaqYpNqrVlitrVlitrVlitp&>!lJcF:#!"sk_
+JcG-;!<E/us7ZNYrr<&prrW9$rrDrr!s&B$!;?Hl!.k1%s8N^_s+14:rrE-"rVuTli;`fWq>^Hp
+oD\djJcFX-rt>80!##,-!"sk_JcG?A!<E0!s8N)prr<&=rr<%Ms5F"X')_e0&qU(6s69Oa!<<#t
+!!'_4!!%TMir8ukqu6X/JcC<$kPkP_s8Drt!;ZWp!65$=!.k1+s8N`-rr<[_s+14=rrE-"rVuTl
+`r?#=JcG0<r"Ac(rt>,,!"sk_JcG0<!<E/us7ZN7s8E"Ls6Tac')hh1')V\/&qU(6s5O%Z!<<#t
+pAi55!!(dRrrB_3rrCgR";:b7&eb-Brt9n_JcF^/!<E/urr<&prr<&=rr<&irs8Lp8/DF;/83)q
+s8N)\s8N'!FSu1=!94%Y!8IPQ')V\/');M,&qU(6s6BUb!<;]k!!(%=!!)Wj!Tl<9!;$6j!9O7\
+!!*8UrVult])MaCqu?[/JcC<$hZ!TVs7u]p!5ea9!;-9uqD/*kR,@c5es\Yks8N)\s8Duu8,`Jf
+!58F/'*%t3&qU(6s4mVT!<;usq>eS9r;cKi".B34l1b2_q1p[1#qq24rr;uurr36!LbB&@08fW*
+s8N'$p1tKHq>^Hp!_EBrrr;uurVm&49+M=h]`%m1!"8C+%N(<-m9:,8HN*pDrrE&urr<5q@La&q
+rr2p&geA.iBCu6)nc&S%rr<!2q#:=,JcC<$jo5>]s8Dum!6+s<!;-9m63*bSrrMmYqZ$pgqZ$Qq
+!<<)o55P<a62LW]!!#ss!;ZZp!!h*Y+nu$:!!)utqu?a$bl7YB!!#mp!!0>_r;Zhlrr;uurr;uu
+!*&ms"I&lclP]X$!`B!uoDe\#JcC<$g&D'Qs8Dul!65$=!;-9m'*.7jrud*t&>&1PSIPXWs8N'!
+s8RlT&>&1PSIPXWs8N'!)n#;4s8N'(s).mhs8N'!rVm($c1p*l!*K7#rr<E\dICrO%kuE$C&g?p
+s8N)us8N'11=P`)!&X`UF9!H!o=uFJ!:g*h&qU(6s4@8O!<<&u!!)fo!!(%=!!)Zk!X&N#p\t:I
+!2'5i$_.2Ns8N'!s8O\OTDecpS,b8Crr<&%pAb-m#QO3*$K;!b!;ZWrl2Vk(s8N',a8c2%!!((>
+s5j:srr;uurr;uu$HW8IjT#\gs!IfQrr3&*!!)Qh!##&+!"sk_JcF^/!<E0!rr<&orr<&=rr<&k
+rrNi6kkG)Y#QX2hrsS)l$31#*!<<')!:0U`#O29qs8N'!me6\\!<<'&PlOe`!!*#u"8n'2$N:#*
+#6+Z&!"8T%s8Duuq#CBn!!3*!rrE&urr<E$s8W&u!<<'(!:Tpe!q$$gnc&S%q#:=,JcC<$i;WfX
+s8Drt!;ZWp!6G3>!;-9m5ldYRrrNH+li$hkl2V.jrr<'!rs/VjrVm)e!"&]*!!)]lrrE*!"oKnO
+]`8'3rr@'8!<3#u!<)rt!<)rt!<3#u!<3#u!<)rt!<<'##6=5lrrVTg!:g'h&qU(6s472N!<<#t
+pAi55!!)Zk".9-4lM1A\/c_UDrsPCu0`V.Q!<<'O!29Ak#+bfKs8N'!p&G$lrr3,6!%IsKrr339
+!28fXm/R.cs8N)ts8N)ts8N)us8N)us8N)ts8N*!rrOPJZi9t+ZN(!ss8*F[s+14'rrE-"r;ZQm
+`W#o<o`$E:0`W5^i;30!RQCKKL]A$\lg(/S!/ggV!!*'!L]A$\lg(/S!/ggV!!)]lrrE#t!)NRo
+rr338!3c1R;ZHgss8N)ts8N)ts8N)us8N)us8N)ts8N*!rs3ZG+i<lg+TMN/rr<[_s+14)rrE-"
+qu?Nn`;]f;oD\jP1\h%NrrMmXqZ$pfq>^Hp!<<)o4o53_5l(H[!!)]lrrE#t"5="[!<2uu>5\F&
+:]LLps8N)ts8N)ts8N)us8N)us8N)ts8N*!rrM@$r;Zmp!!Mroq@\AZJcFF'!<E/0rr<&irs8Im
+7MZ+7/8<0(rs/=T/dMb9M>@/NrrE&u#Pa*-#RN,?q>UEo!;6Bl!;uiuFT;F@rs.pq&eJLC!!*#u
+rrE#trrE#trrE&urrE&urrE#trrE&u#MMfX&n]\p(%hP&&qU(6s4RDQ!<;]k!!(%=!!%TMs8N.a
+!'p2Vq@\AZJcFF'!<E-"!<3#m!6G3>!/1@W:VuYaRLT=]o`+b#JcC<$g&D'Qs8N*!s7ZN5rr<%P
+s8)cs1\p\Cq@\AZJcFF'!<E0"!<<)n!65$=!/1@V[7;)=,B`PJs8!@Zs+14'rrE-"!!*#u!!)ip
+!!(%=!!%TMJcC<$_#FE8s7H<k!65$=!.k0$s+13crrE-"]Dqg0JcC<$JcEOc!<E/urr<&qrr<&<
+rr<%Ms+13$s1nX8!<<#t!!)ip!!(%=!!%TMJcC<$_#FE8s7661rr<%Ms+13$s1nX8!<3'!oDlo2
+!!%TMJcC<$_#FE8s8W,l!6G3>!.k0$s+13crrE-"rr;uu^&J'4JcC<$JcEOc!<E/urr<&4rr<%M
+s+13$s1nX8!<<#trW)lr!!("<!!%TMJcC<$_#FE8s8Dus!;lcr!65$=!.k0$s+13crrE-"rVult
+qYpNq`r?#=JcC<$JcEOc!<E0!rr<&ps8N)?s8E"Ls+13$s1nX8!<<#t!!)orrW't<!!%TMJcC<$
+_#FE8s8Dul!65$=!.k0$s+13crrE-"r;ZQm`W#o<JcC<$JcEOc!<E/ss8)fZs8;rrs8;rps8;ri
+rr<%Ms+13$s1nX8!<:jS!!)lq!!)ut!!)ut!!)ut!!)for;_EKJcC<$_#FE8s5*eU!;c`q!<)rt
+!<<*!!<)rt!;?Em!.k0$s+13crrE-"p&>!lli6tbqZ$QqrVults8W*!rVultpAY*mJcC<$JcEOc
+!<E/ss7lZ^s8N)prr<&ss8N*!rr<&ss8N)mrr<%Ms+13$s1nX8!<<#tpAjU\q>gNp!!)rsrrE*!
+!!)rsrrDcm!!%TMJcC<$_#FE8s8Dul!:Bgd!<)rt!!<0#!;uls!!<0#!;uls!<)rn!.k0$s+13c
+rrE-"rVults8N'!rr2rum/I%cr;Zcss8N'!r;Zcss8N'!r;ZcspAY*mJcC<$JcEOc!<E0!rr<&t
+rr<&trr<&ds8N)ts8N*!rr<&ss8N*!rr<&ss8N)mrr<%Ms+13$s1nX8!<<&u!!)utrrE&u!!)Ed
+rrE#trrE*!rrE#trrE*!rrE#trrDcm!!%TMJcC<$_#FE8s8Dus!<<)s!:Bgd!<)rt!<<*!!<)rt
+!<<*!!<)rt!;?Em!.k0$s+13crrE-"rVufr!<;rsm/I%crVlitrVlitrVlitrVlitrVlitp&>!l
+JcC<$JcEOc!<E/ts8N)us8;r`rrW9$rrDrr!s&B$!;lcu!<<'!pAb*lJcC<$JcEOc!<E/Ts8N)p
+s8N)ps8N)jrr<%Ms+13$s1nX8!<;usr;cis!!("<!!%TMJcC<$_#FE8s8Duq!<3#u!65$=!.k0$
+s+13crrE-"rVults8N'!rVlit`r?#=JcC<$JcEOc!<E0!rr<&trr<&trr<&@s8;qKs+13$s1nX8
+!<<&u!!)ut!!*#urrC(=!!%TMJcC<$_#FE8s8Dul!65$=!.k0$s+13crrE-"rVuWm`W#o<JcC<$
+JcEOc!<E/ts7u`6rr<%Ms+13$s1nX8!<9Y1rW%NLJcC<$_#FE8s7H<k!65$=!.k0$s+13crrE-"
+p&G$l`r?#=JcC<$JcEOc!<E-"s8;rps8E#<rr<%Ms+13$s1nX8!<;orrr;lr`r?#=JcC<$JcEOc
+!<E/s!<<)r!6G3>!.k0$s+13crrE-"oDll1!!%TMJcC<$_#FE8s8;oo!5ng:!.k0$s+13crrE-"
+qu?Tp_Z'T9JcC<$JcEOc!<E/ss8N)srr<&=rr<%Ms+13$s1nX8!<;rr!!)or!!(%=!!%TMJcC<$
+_#FE8s7663s8E"Ls+13$s1nX8!<;Wj`r?#=JcG0<r&0-+JcFC&!<E/k!65$=!.k1:rr=s.s+14$
+rrE-"!!)`mrrC(=!!%TMm/I&DJcC<$f)GaNs7H<k!65$=!.k1:rr=s.s+14$rrE-"]Dqg0JcG*:
+!&fE.JcF=$!<E/0rr<%Ms6Tac2M(mZs472N!<9S/!!%TMm/I&DJcC<$f)GaNs1&(/!.k1:rr=s.
+s+14$rrE-"\GlO/aoDA@dJs4Hrr;uuh>[I5JcC<$f)GaNs1870!;6?n+99aerrBt9!!(dQrrULH
++m/h)!;QTm!!3NeVW%RT!<3#u!8[YT2M(mZs472N!<9S/!!)]l!b).jrr3+S!!N@krr3%\!+Y0k
+rrDioq>^MiirB#Yf`1e+JcC<$h#@BTs1&(/!;6?nU]=0hrrb^iAH5m4rrPsrVWRpY!;QTo!<<'$
+k$7s?irB#Yf`(q0pAb"Jr;ZdTJcC<$mf*:fs1&(/!;6@1jo?"ls8!'(huakss8<N0kl:\YLbB&@
+08fW*s8N'.p1tKHs8UqO$PR4H!!)forrE&u!pTajr;Qtr57[rCFn#D1"hI>;#s#Zsrs.CV$PR4H
+!!*#urrE&urr<5q@La&qrr2p&geA.iBCu6)p&FnIm/R#Br;Z^RPlLS<JcG3=!<E/0rr<&krt6^[
+c2Yc`0`O!1f)O%r/-#YE55P<a62LW]!!#ss!!<2e*;oj=;?-^ls8N)urrVHc'E8"4r`]1!""WpA
+s82j#"jI#Hll>s(!`B!urr;uurr;uu!*&ms"I&lclP]X$!`B!uoD\eKh#@@4r;ZXPT`=jHJcG3=
+!<E/0rr<&ks"%mbN;nV4EW:.]Q2cmFD?'Wl!"baelCACbMZ<\V!#r?;s8R6B+2IK_*WQ38s8N*!
+rr_Fi!*]C%*Ld$KWpBAu2#qk#s&@8<h,+/Ss8R6B+2IK_*WQ3>s8N)us8N'11=P`)!&X`UF9!H!
+o=uFJ!;$3j2Tl's2QZrT2M(nsrrE-"])Va0o`#T,!)3D_!4)X4!*&to!3lM'/c_OBrs,%o0`V.Q
+!3Z;#![n&Srr3&'!!)foqZ$XWl2L\a2ZUborrV!V-2[]Il2Vk)s!RlQrr3&'!!*#urrE&urr<DI
+s8V0\$ig5S!42\)!jVe+oD\eK^]40h_uB]prVumUrVu[OJcG3=!<E/0rr<&krtFc$&,6P8nGi%^
+'`8OFn,NCn!:0U`#O29qs8N'!mf!.e#6=5lrrVTg!;QTl!!*M9rVlj)q#CR%s87d/$N:#/#64].
+!:Tpe!q$$grr;uurr;uu$MaZ$rVururs&Pmrr3&f!!)Wj!&h4aq_nBP!&jEJs#0iUs#0iUs#0iU
+s#0iU!&j?HqDNp)n,ECgs1&(/!;$3n0`[C;2#dLX2?9EN2?*UW#QX2hrs%`g$31#*!;uiu#6=5l
+rrVTg!;QTo!!WDtV?[=Mrr2s)p](?pEV]\8rrNE*n,E=gmJm7ds8N)us8N)ts8N*!rrNE*n,E=g
+mJm7[s8+^bs8P"Us8P"Us8"YOs8Fq,s8"X)s6osg!<9S/!!)Wj"EOP^!-S;@"Ejbj!-eGB!\OJH
+rVm(n!&4HQ!!)rs![n&Srr3&'!!)forrE&u#`8U@rr<!T!6Y-;$k`Q6mJQ>O!<<'I!4)V(!j;S(
+rr;uurr;uurVults8N-J!42\)!j_k,pAatIf)Pb.rVumUrr;sUrr<!VrVumUirB!9r;Z[QirAj5
+JcG3=!<E/Us82lps8;rps8;rirr<&jrrBJ+!!'J,rrBM,!!'V0rsaba&Y\OVT+D![s8N'!r;R%G
+!$B#J^E*@Tq#C?orr45>.0,b8s.03-S)<r7fpXr$&HK$0h,=:Rs8R6B+2IK_*WQ3>s8N)us8N)t
+s8N*!rs3ZG+i<lg+TMN9s8"YFs8P"Us8P"Vs8FqUs8P"Us8P!err=tTs8+_?rr=s.s6Tad!<:mT
+quH]q!!)ut!!)ut!!)ut!!)for;cHh"S2`r"S;Wm"S)Zq#58&r!VehT!!PX`s8N'!r;Qfa*;oj=
+;?-^ls8N)trs$(8&*EolD>=/4s'#@$##G:"s8VF*r;Zms!!*#urrE&urrE#trrE*!!U1I"!!5pr
+"SVlb2N%P32YR.N2M(nprrE-"hZ!QUq>^HprVults8W*!rVultpAY*mo)AbP!&siU!]L*Cr;R#s
+Lb8r>/rBE's8N)rrs.CU$PI%D!!)forrDus!`K(rrr3PB<#YuI.rs#:m9:27@IjI!rr35[:(%\G
+o`,!ks8N)us8N)ts8N)urs.7N$5-t%!#>5-qDS*Jf/BW.pbm^'mf*:fs5*eU!;c`q!<)rt!<<*!
+!<)rt!;?Em!.k1KrrSAa5kb6S2U29Q2U;=&2M(nprrE-"huETSr;Q`sr;Zcss8N'!r;ZcspAY*m
+K)Z'O_XZcW%KM^cs8+^Ks491(rr=s.s6Tad!<:jSrW)os!!)rsrrE*!!!)rsrrDcm!!%WNqZ$XQ
+q=FUd2M(o$s7J:$s6fmf!<:dQrrE*!rrDusrr<-#!!)rsrrDusq>c-I#.6r="s\9\o)A\JJcG*:
+!&fE.m/I(ds4RDP!<2uu!;uls!<<'!!;uls!;?Em!.k1:rr=s.s6Tac2M(nprrE-"g&D$Prr2ru
+r;Zcss8N'!r;ZcspAY*mJcG*:!&fE.mf3/BJcG3=!<E/Qrr<&us8N)ts8N*!s8N)ts8N)mrr<%M
+s6fpa2M(mZs4RDQ!<:aP!!*#urrE#trrE*!rrE#trrDcm!!%TMJcC<$_#FE8s53hV!<)ot!;uis
+!<)ot!<)ot!<)ot!;6?l!.k0$s+13crrE-"huEZU!WN/rrrW9$rrDrr!s&B$!;?Hl!.k0$s+13c
+rrE-"h#@?Sq#C?oq>^HpoD\djJcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/!!%TMJcC<$_#FE8
+s1&(/!.k0$s+13crrE-"]Dqg0JcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/!!%TMJcC<$_#FE8
+s1&(/!.k0$s+13crrE-"\GlO/JcC<$JcEOc!<E/2s8E"Ls+13$s1nX8!<9S/!!%TMJcC<$_#FE8
+s1&(/!.k0$s+13crrE-"\GlO/JcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/!!%TMJcC<$_#FE8
+s1870!.k0$s+13crrE-"\GlO/JcC<$JcEOc!<E/0rr<%Ms+13$s1nX8!<9S/!!%TMJcC<$_#FE8
+s1&(/!.k0$s+13crrE-"]DmE^JH16$])Vj2JcC<$JcC<$o`'LBJcC<$JcGBBJcC<$JcC<$o`'LB
+JcC<$JcGBBJcC<$JcC<$o`'LBJcC<$JcGBBJcC<$JcC<$o`'LBJcC<$JcGBBJcC<$JcC<$o`'LB
+N;rhVKE(cJrVultJcGNFJcCW-rr@`PrrE*!!s&?$!<)ot!.k1Es+13Arr<&es8N(Ps8N)ts8N)f
+rr<%Qs+13Arr<&es8N(Ps8N)ts8N)frr<%Qs+13]rrE-"rW)lrrW)rtrW)uurW)uuquHcs!s&?$
+!<3#s!<)rt!2';i!;ulq!<)ou!<<#urr;iqs8W*!rVultrVufrs8VusL];r*]Dqj1s8W*!s8W*!
+rr2rurr;uurr;uurr;uurr;rt"oeT&rr<&urr<&us8N(lrr<&us8N)urr<&us8N*!s8E#us8N)t
+s8N)ts8N)us8E#trr<&us8N*!s8N(Qs+13]rr<&trrW9$rrE#trrE*!rrE&urrE&urrE&urrDus
+rrE&u!!*#urrAbm!!)utrrE*!!!)rsrrE*!!!)ut!!)utrrE#trrE#trrE*!!!)utrrE*!rr@cQ
+JcE=]!!)ut!W`9#q>gQqrrE&urrE&urrE&urrDiorrE&urrAbm!!)ip!!)rsrrE*!!!)ut!!)ut
+rrE#trrE#trrE*!!!)iprr@cQJcE=]!!)ut!s&?$!;ZZp!<3#u!<3#u!<3#u!;c`q!!3*"rr;uu
+UAt5nq>UEpr;Zcss8N'!rVlitrVultrVultrVult!ri6#q>^HpL&Z`(])Ma1rVls"s8N)ps8N)u
+s8N)us8N)us8N)ss8N)urr<&us8N(mrr<&ps8N)ts8N*!rr<&trr<&ts8N)ts8N)ts8N*!rr<&p
+s8N(Qs+13]rr<&trr`?%rr<&trr`?%rr<&us8N)us8N)us8N)srr<&trr<&us8N(ms8N)trr`?%
+rr<&ts8N*!rr<&trr<&ts8N)ts8N)ts8N*!s8N)trr`?%rr<%Qs+13]rr<&trrN3#s8E#urr<&u
+s8N)us8N)us8N)us8N)ss8N*!s8N)us8N(ms8E#urr<&us8N)trr<&urr<&trr<&ts8N)ts8N)t
+s8N*!s8E#urr<&us8N(Qs+13^s8E#us8E#us8;rqs8;p!rr<&us8Duus8E#ss8;p"rr<'!rW&Vk
+r;c`p!s&B$!<3#t!<<)u!<3#u!<3#t!<3#t!<3#s!;ulr!/LT*s+13?s8N(Ms4dR)s+13$s+14B
+s+13$s+13$s7H>Bs+13$s+14Bs+13$s+13$s7H>Bs+13$s+14Bs+13$s+13$s7H>Bs+13$s+14B
+s+13$s+13$s7H>Bs+13$s+14Bs+13$s7lWqrrD'YquH`rrW)ZlrW%NL[f:pYK)bfMr;Z`riW&iV
+s8W#tr;Q`srVufrJcE1YJcCB&rW)fprrD$Xr;cisrrDusrrDusrr@WM[JtgXK`CuNq>UEpiW&iV
+q#C<nJcDnQJcCE'rW)`n!!)or!!)]l!!)fo!W`9#r;cZnr;cHh!!)]l!!%TMb5[%mL&_)OoDegj
+!<<#urr;`nr;ZNls8W#t!<;lqs8W#trVult!<<#urr;`nJcEsoJcCH(r;cKirrE&urW)rtrW)rt
+rW)rtrW)rtr;cisrW)rtrW)lrrW)rtrrE&urW)rtrW)rtrW%NLc2W@pL&_)Op&G!krr;rtrr;rt
+rr;rtrr;rtrr;osrr;rtrr;rtr;Z`rs8W&urr;rtrr;rtrr;rtJcF!pJcCH(r;cNjrW)rtrW)rt
+rW)rtrW)rtrW)rtr;cisrW)rtrW)lrrW)uurW)rtrW)rtrW)rtrW%NLc2W@pL&_)Op&G!krr;os
+s8W&urr;rtrr;rtrr;osrr;rtrr;rtr;Z`rs8W&urr;oss8W&urr;rtJcF!pJcCE'rW)WkrW)rt
+r;cltrW)rtrW)rtrW)rtr;cisrW)rtrW)lrrW)uurW)rtr;cltrW)rtrW%NLc2W@pK`CuNpAb*l
+rr;rtrr;rtrr;rtrr;rtrr;osrr;rtrr;rtr;Z`rs8W&urr;rtrr;rtrr;rtJcF!pJcCB&rW)co
+!W`9#rW)rtrW)rtrW)rtrW)rtrW)rtr;cisrW)rtrW)lrrW)uurW)rtrW)rtrW)rtrW%NLc2W@p
+K)bfMr;ZcsrVultrr;uurVuisrr;rtrr;oss8W#trr;rtrr;rt!WN0!s8E#ts8N)us8N)ts8E#t
+s8E"Ls3:Rps+14G!;lfr!!<0#!<3#q!!*&s!<3#r!!*&n!<<)t!<<)r!<3#u!!<0#!<3#q!!*&s
+!.k0qs+13$s7-*h!6Y<A!.k0`s*t~>
+%%EndData
+showpage
+%%Trailer
+end
+%%EOF
