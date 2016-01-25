@@ -2,7 +2,7 @@
 % Executive Dysfunction
 %
 
-\section{Executive Task Performance}
+\subsection{Executive Task Performance}
 
 People with autism are impaired at a variety of tasks involving planning~\cite{BennettoL:1996:AutismPlanningWCST}, flexibly adaptation of behavior~\cite{BennettoL:1996:AutismPlanningWCST,Ozonoff:1999:AutismStroopWCST}, and spontaneous generation of novel behaviors~\cite{TurnerW:1999:AutismGenerativity}. Tasks of this kind have been associated with executive control processes. This has led some researchers to view executive dysfunction as a central feature of autism~\cite{HughesC:1994:AutismExecutiveDysfunction}.
 % Indeed, the Executive Dysfunction (ED) theory of autism seeks to explain many of the behavioral patterns exhibited by these individuals in terms of a failure of executive control over behavior
@@ -20,7 +20,7 @@ People with autism are impaired at a variety of tasks involving planning~\cite{B
 A more detailed examination of autistic behavior reveals that not all forms of executive processing are impaired, however. A perplexing aspect of the ASD executive profile is that cognitive flexibility is impaired while fundamental cognitive control remains relatively unaffected. Cognitive control describes the ability to enact a behavior in the presence of a distracting or more automatic competing response. In contrast, cognitive flexibility is the ability to fluently adjust cognitive control as contingencies change. A classic measure of cognitive control is the Stroop task~\cite{StroopJR:1935:Interference}, and a common measure of cognitive flexibility is performance on the Wisconsin Card Sort Test (WCST)~\cite{BergEA:1948:WCST}. Persons with autism have been shown to exhibit poor WCST performance, but they exhibit no more interference on the Stroop task than healthy controls~\cite{Ozonoff:1999:AutismStroopWCST}. This dichotomy challenges the notion that autistic behavior is the result of a global impairment of executive processes.
 %, perhaps mediated by frontal abnormalities.
 
-A second challenge appears in the developmental trajectory of executive deficits in autism. In young children with autism, executive abilities are intact when compared with controls matched for age and verbal ability~\cite{GriffithEM:1999:AutismYoungED}. Differences in cognitive flexibility arise over the course of development.
+A second challenge appears in the developmental trajectory of executive deficits in autism. In young children with autism, executive abilities are intact when compared with controls~\cite{GriffithEM:1999:AutismYoungED}. Differences in cognitive flexibility arise over the course of development.
 %, calling into question the role of ED in the etiology of autism.  
 %Any theory intending to explain executive dysfunction in autism must account for
 %the relative ``strengths'' and ``weaknesses'' that have been observed,
@@ -75,15 +75,16 @@ The architecture of the XT model is shown in Figure~\ref{xt-layout-figure}. This
          portraying stimulus dimension (color, shape, size, etc.) and
          columns indexing feature values across dimensions (small,
          medium, large, etc.). The AG unit implements ``adaptive gating'' 
-	 by modeling the effects of DA on PFC.}
+	 by modeling the effects of DA on PFC. Adapted from Rougier,
+         et al. (2005).}
 \label{xt-layout-figure}
 \end{figure} 
 
-A collection of Hidden layers map from stimuli to responses. Activity in these layers can be modulated through top-down biasing signals from an actively maintained representation in the PFC layer. Unlike previous models, the actively maintained representations in PFC are learned through a developmental process that involves training the model to perform a variety of simple tasks. These tasks share a need to selectively attend to individual dimensions of the stimuli. The standard synaptic plasticity mechanisms of the Leabra framework, applied over the course of developmental training, gives rise PFC representations that support focusing attention on a single stimulus dimension at any one time~\cite{RougierNP:2005:XT}.
+A collection of Hidden layers map from stimuli to responses. Activity in these layers can be modulated through top-down biasing signals from an actively maintained representation in the PFC layer. Unlike previous models, the actively maintained representations in PFC are learned through a developmental process that involves training the model to perform a variety of simple tasks. These tasks share a need to selectively attend to individual dimensions of the stimuli. The standard synaptic plasticity mechanisms of the Leabra framework, applied over the course of developmental training, produces PFC representations that support focusing attention on a single stimulus dimension at any one time~\cite{RougierNP:2005:XT}.
 
-The Task input indicates which task is to be performed, with one input unit coding for each task. The Dimension Cue layer is used to indicate the currently relevant stimulus dimension, with each unit in the layer corresponding to a specific stimulus dimension. All of the input units are turned off for tasks in which the model must discover the relevant stimulus dimension on its own.
+The Task input indicates which task is to be performed, with one input unit coding for each task. The Dimension Cue layer is used to indicate the currently relevant stimulus dimension, with each unit in the layer corresponding to a specific dimension. All of the Dimension Cue units are turned off for tasks in which the model must discover the relevant dimension on its own.
 
-The flexible adjustment of cognitive control is implemented using a DA-based adaptive gating (AG) mechanism. The model receives a positive scalar reward signal whenever it produces a correct response, and the AG calculates the change in expected future reward: the TD Error. Importantly, the AG, modeling phasic DA responses, not only modulates the learning of reward expectation but also manipulates the ``gate'' on PFC. When the model performs better than expected the current PFC representation is strengthened. When the model performs worse than expected the current PFC representation is destabilized, allowing a new, possibly more appropriate PFC representation to be entertained~\cite{RougierNP:2005:XT}.
+The flexible adjustment of cognitive control is implemented using a DA-based adaptive gating (AG) mechanism. The model receives a positive scalar reward signal whenever it produces a correct response, and the AG calculates the change in expected future reward: the TD Error. Importantly, the AG, modeling phasic DA responses, not only modulates the learning of reward expectation but also manipulates the ``gate'' on PFC. When the model performs better than expected, the current PFC representation is strengthened. When the model performs worse than expected the current PFC representation is destabilized, allowing a new, possibly more appropriate PFC representation to be entertained~\cite{RougierNP:2005:XT}.
 
 %In the model, the \begin{math}\delta(t)\end{math} value directly modulates excitatory ionic maintenance currents (\begin{math}g_m\end{math} below).  Large maintenance currents drive the membrane potential of simulated neurons in the PFC up, pushing them towards their maximal firing rate.  These currents are not allowed to become negative, being clipped at zero instead.  The maintenance currents, $g_m$, of simulated neurons in PFC are computed by:
 
@@ -118,7 +119,7 @@ Our theory suggests that a deficit in DA functioning can account for the impaire
   \begin{center}
   \resizebox{8cm}{!}{\includegraphics{figures/xt_wcst_stim}}
   \end{center}
-  \caption{XT WCST example stimulus input}
+  \caption{XT WCST Stimulus Input}
   \label{xt_wcst_stim}
 \end{figure}
 
@@ -161,7 +162,7 @@ WCST results matched data reported in the literature. The differences between si
 
 	\includegraphics[width=110mm]{graphs/stroop.ps}
 \end{center}
-\caption{Top: Comparing performance on WCST perseveratitive errors for normally functioning and individuals with autism to data from Minshew et al., 2002. People with autism committing significantly more perseverative errors. Error bars are standard errors of the mean. Bottom: Stroop reaction time plot comparing the simulated autistic and normally functioning network's performance to human data. Healthy human data from~Dunbar et al.~(1984). Autistic subjects perform no differently than controls~(Ozonoff et al., 1999).} 
+\caption{Top: Comparing performance on WCST perseveratitive errors for typically developing and autistic individuals (human data from Minshew, et al., 2002). Error bars are standard errors of the mean. Bottom: Stroop reaction time, comparing simulated performance to human data (healthy human data from~Dunbar, et al.~(1984), and autistic subjects perform no differently than controls~(Ozonoff et al., 1999)).} 
 \label{ed-results-figure}
 \end{figure} 
 
