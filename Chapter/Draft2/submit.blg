@@ -11,107 +11,46 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ed.bib
-Database file #2: thesis_ref.bib
-Repeated entry---line 2436 of file thesis_ref.bib
- : @article{BergEA:1948:WCST
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2474 of file thesis_ref.bib
- : @incollection{BraverTS:2000:Control
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2509 of file thesis_ref.bib
- : @article{CohenIL:1994:AutismLearning
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2531 of file thesis_ref.bib
- : @article{CohenJD:1990:Stroop
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2542 of file thesis_ref.bib
- : @article{CohenJD:1992:Schizophrenia
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2628 of file thesis_ref.bib
- : @article{FernellE:1997:AutismPET
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2714 of file thesis_ref.bib
- : @article{GustafssonL:1997:AutismMaps
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2882 of file thesis_ref.bib
- : @article{McClellandJL:2000:Autism
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2915 of file thesis_ref.bib
- : @article{MinshewNJ:2002:AutismWCST
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2927 of file thesis_ref.bib
- : @article{MontaguePR:1996:Dopamine
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3017 of file thesis_ref.bib
- : @article{OLoughlinC:2000:Coherence
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3036 of file thesis_ref.bib
- : @book{OReillyRC:2000:Computational
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3161 of file thesis_ref.bib
- : @article{RougierNP:2005:XT
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3363 of file thesis_ref.bib
- : @article{GriffithEM:1999:AutismYoungED
- :                                       ,
-I'm skipping whatever remains of this entry
+Database file #1: asd.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No address in JordanMI:1986:SRN
-Warning--No institution in RefWorks:132
-Warning--No address in RefWorks:132
-You've used 97 entries,
+You've used 71 entries,
             6951 wiz_defined-function locations,
-            1927 strings with 29962 characters,
-and the built_in function-call counts, 203721 in all, are:
-= -- 25079
-> -- 1638
-< -- 10483
-+ -- 11057
-- -- 197
-* -- 13575
-:= -- 38417
-add.period$ -- 401
-call.type$ -- 97
-change.case$ -- 1693
+            1765 strings with 25737 characters,
+and the built_in function-call counts, 150611 in all, are:
+= -- 18638
+> -- 1220
+< -- 7628
++ -- 8274
+- -- 142
+* -- 9997
+:= -- 28149
+add.period$ -- 293
+call.type$ -- 71
+change.case$ -- 1213
 chr.to.int$ -- 0
-cite$ -- 197
-duplicate$ -- 5494
-empty$ -- 7436
-format.name$ -- 2822
-if$ -- 37740
+cite$ -- 142
+duplicate$ -- 4179
+empty$ -- 5461
+format.name$ -- 2113
+if$ -- 27947
 int.to.chr$ -- 0
-int.to.str$ -- 295
+int.to.str$ -- 213
 missing$ -- 0
-newline$ -- 2476
-num.names$ -- 788
-pop$ -- 2772
+newline$ -- 1816
+num.names$ -- 580
+pop$ -- 1955
 preamble$ -- 1
-purify$ -- 410
+purify$ -- 284
 quote$ -- 0
-skip$ -- 12798
+skip$ -- 9525
 stack$ -- 0
-substring$ -- 12015
-swap$ -- 3206
-text.length$ -- 251
+substring$ -- 9057
+swap$ -- 2441
+text.length$ -- 172
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 8272
-warning$ -- 3
-while$ -- 987
+type$ -- 6064
+warning$ -- 0
+while$ -- 734
 width$ -- 0
-write$ -- 3120
-(There were 14 error messages)
+write$ -- 2301
