@@ -4,7 +4,7 @@
 
 \subsection{Executive Task Performance}
 
-People with autism are impaired at a variety of tasks involving planning~\cite{BennettoL:1996:AutismPlanningWCST}, flexibly adaptation of behavior~\cite{BennettoL:1996:AutismPlanningWCST,Ozonoff:1999:AutismStroopWCST}, and spontaneous generation of novel behaviors~\cite{TurnerW:1999:AutismGenerativity}. Tasks of this kind have been associated with executive control processes. This has led some researchers to view executive dysfunction as a central feature of autism~\cite{HughesC:1994:AutismExecutiveDysfunction}.
+People with autism are impaired at a variety of tasks involving planning~\cite{BennettoL:1996:AutismPlanningWCST}, flexible adaptation of behavior~\cite{BennettoL:1996:AutismPlanningWCST,Ozonoff:1999:AutismStroopWCST}, and spontaneous generation of novel behaviors~\cite{TurnerW:1999:AutismGenerativity}. Tasks of this kind have been associated with executive control processes. This has led some researchers to view executive dysfunction as a central feature of autism~\cite{HughesC:1994:AutismExecutiveDysfunction}.
 % Indeed, the Executive Dysfunction (ED) theory of autism seeks to explain many of the behavioral patterns exhibited by these individuals in terms of a failure of executive control over behavior
 
 %There is extensive evidence that the prefrontal cortex plays an
@@ -70,13 +70,9 @@ The architecture of the XT model is shown in Figure~\ref{xt-layout-figure}. This
 \begin{center}
 	\includegraphics[width=125mm]{figures/xt_arch_2.ps}
 \end{center}
-\caption{XT Model Architecture. The upper left corner shows a
-         caricature of the input to the XT network, with rows
-         portraying stimulus dimension (color, shape, size, etc.) and
-         columns indexing feature values across dimensions (small,
-         medium, large, etc.). The AG unit implements ``adaptive gating'' 
-	 by modeling the effects of DA on PFC. Adapted from Rougier,
-         et al. (2005).}
+\caption{XT Model Architecture. The AG unit implements ``adaptive gating'' 
+	 by modeling the effects of DA on PFC. Adapted from Rougier et
+         al. (2005).}
 \label{xt-layout-figure}
 \end{figure} 
 
@@ -123,7 +119,7 @@ Our theory suggests that a deficit in DA functioning can account for the impaire
   \label{xt_wcst_stim}
 \end{figure}
 
-As in the original XT work, each trial of the WCST was modeled by presenting a single stimulus object ``card'' at the model's inputs, with one unit activated for each feature of the stimulus across three stimulus dimensions. (See Figure~\ref{xt_wcst_stim}.) The model ``sorted'' the ``card'' by outputing the feature of the current stimulus relevant for sorting. For example, when cards were to be sorted by color, the model was expected to output the color of the stimulus (e.g., ``red''). Importantly, the model was not instructed concerning the sorting rule (i.e., the Dimension Cue inputs were all off). Thus, the model needed to search for the relevant stimulus dimension. The model received a positive scalar ``reward'' signal when its output was correct. The use of TD learning to produce AG activity, along with the top-down modulation from PFC, allowed XT to successful learn to focus on the relevant stimulus dimension. The AG mechanism strengthened the maintenance currents of modeled PFC pyramidal cells during good performance, causing the active maintenance of the sorting rule in PFC. When the sorting rule was switched, the actively maintained PFC representation became invalid. Continued active maintenance of PFC firing rates would result in perseverative errors. In the standard XT model, the AG alleviated this problem by providing a gating signal to PFC when reward was expected but not delivered, allowing PFC contents to change~\cite{RougierNP:2005:XT}.
+As in the original XT work, each trial of the WCST was modeled by presenting a single stimulus object ``card'' at the model's inputs, with one unit activated for each feature of the stimulus across three stimulus dimensions. (See Figure~\ref{xt_wcst_stim}.) The model ``sorted'' the ``card'' by outputing the feature of the current stimulus relevant for sorting. For example, when cards were to be sorted by color, the model was expected to output the color of the stimulus (e.g., ``red''). Importantly, the model was not instructed concerning the sorting rule (i.e., the Dimension Cue inputs were all off). Thus, the model needed to search for the relevant stimulus dimension. The model received a positive scalar ``reward'' signal when its output was correct. The use of TD learning to produce AG activity, along with the top-down modulation from PFC, allowed XT to successfully learn to focus on the relevant stimulus dimension. The AG mechanism strengthened the maintenance currents of modeled PFC pyramidal cells during good performance, causing the active maintenance of the sorting rule in PFC. When the sorting rule was switched, the actively maintained PFC representation became invalid. Continued active maintenance of PFC firing rates would result in perseverative errors. In the standard XT model, the AG alleviated this problem by providing a gating signal to PFC when reward was expected but not delivered, allowing PFC contents to change~\cite{RougierNP:2005:XT}.
 
 %Four main measures were used in evaluating the performance on the WCST task:
 
@@ -162,7 +158,7 @@ WCST results matched data reported in the literature. The differences between si
 
 	\includegraphics[width=110mm]{graphs/stroop.ps}
 \end{center}
-\caption{Top: Comparing performance on WCST perseveratitive errors for typically developing and autistic individuals (human data from Minshew, et al., 2002). Error bars are standard errors of the mean. Bottom: Stroop reaction time, comparing simulated performance to human data (healthy human data from~Dunbar, et al.~(1984), and autistic subjects perform no differently than controls~(Ozonoff et al., 1999)).} 
+\caption{Top: Comparing performance on WCST perseveratitive errors for typically developing and autistic individuals (human data from Minshew et al., 2002). Error bars are standard errors of the mean. Bottom: Stroop reaction time, comparing simulated performance to human data (healthy human data from~Dunbar et al.~(1984), and autistic subjects perform no differently than controls~(Ozonoff et al., 1999)).} 
 \label{ed-results-figure}
 \end{figure} 
 
