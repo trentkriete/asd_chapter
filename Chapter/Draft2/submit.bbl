@@ -53,8 +53,8 @@ Baron-Cohen, S.%
 \newblock
 \APACrefYearMonthDay{1985}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Does the Autistic Child Have a Theory of Mind} {Does the
-  autistic child have a theory of mind}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Does the Autistic Child Have a ``Theory of Mind''?}
+  {Does the autistic child have a ``theory of mind''?}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cognition}{21}{1}{37--46}.
 \PrintBackRefs{\CurrentBib}
@@ -242,9 +242,9 @@ Carlsson, M\BPBI L.%
 \APACrefYearMonthDay{1998}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Hypothesis: Is Infantile Autism a Hypoglutamatergic
-  Disorder? Relevance of Glutamate - Serotonin Interactions for
+  Disorder? {Relevance} of Glutamate - Serotonin Interactions for
   Pharmacotherapy} {Hypothesis: Is infantile autism a hypoglutamatergic
-  disorder? relevance of glutamate - serotonin interactions for
+  disorder? {Relevance} of glutamate - serotonin interactions for
   pharmacotherapy}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Neural Transmission}{105}{4--5}{525--535}.
@@ -349,8 +349,8 @@ Cohen, J\BPBI D.%
 \APACrefYearMonthDay{1990}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {On the Control of Automatic Processes: A Parallel
-  Distributed Processing Model of the Stroop Effect} {On the control of
-  automatic processes: A parallel distributed processing model of the stroop
+  Distributed Processing Model of the {Stroop} Effect} {On the control of
+  automatic processes: A parallel distributed processing model of the {Stroop}
   effect}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Psychological Review}{97}{3}{332--361}.
@@ -540,8 +540,8 @@ Goldman-Rakic, P\BPBI S.%
   Behavior by Representational Memory} {Circuitry of primate prefrontal cortex
   and regulation of behavior by representational memory}.{\BBCQ}
 \newblock
-\BIn{} F.~Plum\ (\BED), \APACrefbtitle {Handbook of Pysiology -- The Nervous
-  System} {Handbook of pysiology -- the nervous system}\ (\BPGS\ 373--417).
+\BIn{} F.~Plum\ (\BED), \APACrefbtitle {Handbook of Physiology -- The Nervous
+  System} {Handbook of physiology -- the nervous system}\ (\BPGS\ 373--417).
 \newblock
 \APACaddressPublisher{Bethesda, MD}{American Physiological Society}.
 \PrintBackRefs{\CurrentBib}
@@ -895,6 +895,37 @@ Kurschke, J\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Levitt%
+, Lewis%
+, Yoshioka%
+\BCBL {}\ \BBA {} Lund%
+}{%
+Levitt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+LevittJB:1993:Stripes}
+\APACinsertmetastar {%
+LevittJB:1993:Stripes}%
+\begin{APACrefauthors}%
+Levitt, J\BPBI B.%
+, Lewis, D\BPBI A.%
+, Yoshioka, T.%
+\BCBL {}\ \BBA {} Lund, J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Topography of Pyramidal Neuron Intrinsic Connections in
+  Macaque Monkey Prefrontal Cortex (Areas 9 46)} {Topography of pyramidal
+  neuron intrinsic connections in macaque monkey prefrontal cortex (areas 9
+  46)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Comparative Neurology}{338}{}{360--376}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lovaas%
 , Schreibman%
 , Koegel%
@@ -1119,8 +1150,8 @@ Montague, P\BPBI R.%
 \APACrefYearMonthDay{1996}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {A Framework for Mesencephalic Dopamine Systems Based On
-  Predictive Hebbian Learning} {A framework for mesencephalic dopamine systems
-  based on predictive hebbian learning}.{\BBCQ}
+  Predictive {Hebbian} Learning} {A framework for mesencephalic dopamine
+  systems based on predictive {Hebbian} learning}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Neuroscience}{16}{5}{1936--1947}.
 \PrintBackRefs{\CurrentBib}
@@ -1178,9 +1209,9 @@ Nelson, E\BPBI C.%
 \APACrefYearMonthDay{1993}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {A Calendar Savant with Autism and {Tourette} Syndrome.
-  Response to Treatment and Thoughts on the Interrelationships of these
-  Conditions} {A calendar savant with autism and {Tourette} syndrome. response
-  to treatment and thoughts on the interrelationships of these
+  {Response} to Treatment and Thoughts on the Interrelationships of these
+  Conditions} {A calendar savant with autism and {Tourette} syndrome.
+  {Response} to treatment and thoughts on the interrelationships of these
   conditions}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Annals of Clinical Psychiatry}{5}{2}{135--140}.
@@ -1783,10 +1814,10 @@ Staal, W.%
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The Dopamine-3-Receptor Gene (DRD3) is Associated with
-  Specific Repetitive Behavior in Autism Spectrum Disorder (ASD)} {The
-  dopamine-3-receptor gene (drd3) is associated with specific repetitive
-  behavior in autism spectrum disorder (asd)}.{\BBCQ}
+{\BBOQ}\APACrefatitle {The Dopamine-3-Receptor Gene ({DRD3}) is Associated with
+  Specific Repetitive Behavior in Autism Spectrum Disorder ({ASD})} {The
+  dopamine-3-receptor gene ({DRD3}) is associated with specific repetitive
+  behavior in autism spectrum disorder ({ASD})}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Autism and Developmental
   Disorders}{42}{5}{885--888}.
@@ -1981,6 +2012,34 @@ Turner, M.%
 \newblock
 \APACjournalVolNumPages{Journal of Child Psychology and
   Psychiatry}{40}{2}{189--201}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Vijayraghavan%
+\BCBL {}\ \BBA {} Goldman-Rakic%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+WangM:2004:D2}
+\APACinsertmetastar {%
+WangM:2004:D2}%
+\begin{APACrefauthors}%
+Wang, M.%
+, Vijayraghavan, S.%
+\BCBL {}\ \BBA {} Goldman-Rakic, P\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Selective {D2} Receptor Actions on the Functional
+  Circuitry of Working Memory} {Selective {D2} receptor actions on the
+  functional circuitry of working memory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{303}{}{853--856}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

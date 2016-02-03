@@ -6,13 +6,9 @@
 \begin{center}
 \includegraphics[width=125mm]{figures/xt_arch_2.ps}
 \end{center}
-\caption{XT Model Architecture. The upper left corner shows a
-         caricature of the input to the XT network, with rows
-         portraying stimulus dimension (color, shape, size, etc.) and
-         columns indexing feature values across dimensions (small,
-         medium, large, etc.). The AG unit implements ``adaptive gating''
- by modeling the effects of DA on PFC. Adapted from Rougier,
-         et al. (2005).}
+\caption{XT Model Architecture. The AG unit implements ``adaptive gating''
+ by modeling the effects of DA on PFC. Adapted from Rougier et
+         al. (2005).}
 \label{xt-layout-figure}
 \end{figure*}
 \efloatseparator
@@ -38,7 +34,7 @@
 
 \includegraphics[width=110mm]{graphs/stroop.ps}
 \end{center}
-\caption{Top: Comparing performance on WCST perseveratitive errors for typically developing and autistic individuals (human data from Minshew, et al., 2002). Error bars are standard errors of the mean. Bottom: Stroop reaction time, comparing simulated performance to human data (healthy human data from~Dunbar, et al.~(1984), and autistic subjects perform no differently than controls~(Ozonoff et al., 1999)).}
+\caption{Top: Comparing performance on WCST perseveratitive errors for typically developing and autistic individuals (human data from Minshew et al., 2002). Error bars are standard errors of the mean. Bottom: Stroop reaction time, comparing simulated performance to human data (healthy human data from~Dunbar et al.~(1984), and autistic subjects perform no differently than controls~(Ozonoff et al., 1999)).}
 \label{ed-results-figure}
 \end{figure*}
 \efloatseparator
@@ -83,7 +79,7 @@
 %% \includegraphics[width=125mm]{graphs/OS_initial_results.eps}
 \includegraphics[width=115mm]{graphs/srtt_chart.ps}
 \end{center}
-\caption{Scaled Model Results \& Human Behavioral Data from Mostofsky
+\caption{Model Results \& Human Behavioral Data from Mostofsky
          et al. (2000)}
 \label{Model-Results}
 \end{figure*}
@@ -95,7 +91,7 @@
 \begin{center}
 \includegraphics[width=115mm]{figures/asd_lexamb_study_results.eps}
 \end{center}
-\caption{Lexical Disambiguation in ASD. Common refers to the high frequency interpretation of the homograph being appropriate, while Rare refers to cases in which the low frequency interpretation is correct. Before/After refers to the order of sentence fragments, with the ambiguous word occurring Before/After the contextual information, respectively. Table reproduced from Jolliffe and Cohen (1999).}
+\caption{Lexical Disambiguation in ASD. ``Common'' refers to the high frequency interpretation of the ambiguous word being appropriate, while ``Rare'' refers to cases in which the low frequency interpretation is correct. ``Before/After'' refers to the order of sentence fragments, with the ambiguous word occurring before/after the contextual information, respectively. Table reproduced from Jolliffe and Cohen (1999).}
 \label{asd-lexamb-study}
 \end{figure*}
 \efloatseparator
@@ -106,7 +102,7 @@
 \begin{center}
 \includegraphics[width=100mm]{figures/schiz_lexamb_study_results.eps}
 \end{center}
-\caption{Lexical Disambiguation in Schizophrenia. Vertical axis shows percentage of errors using the most common interpretation of the homograph, when the rare interpretation was correct. Figure adapted from Cohen and Servan-Schreiber (1992).}
+\caption{Lexical Disambiguation in Schizophrenia. Vertical axis shows percentage of errors using the most common interpretation of the ambiguous word, when the rare interpretation was correct. Figure adapted from Cohen and Servan-Schreiber (1992).}
 \label{schiz-lexamb-study}
 \end{figure*}
 \efloatseparator
@@ -139,7 +135,7 @@
 \begin{center}
 \includegraphics[width=140mm]{graphs/schiz_lexamb_results.eps}
 \end{center}
-\caption{Schizophrenia Model Results. As the modeled PFC is destabilized, the model performs selectively worse on condition (2).  In this condition, the contextual information is presented first and the model must use this information to override the more common interpretation of the homograph.}
+\caption{Schizophrenia Model Results. As the modeled PFC is destabilized, the model performs selectively worse on condition (2).  In this condition, the contextual information is presented first and the model must use this information to override the more common interpretation of the ambiguous word.}
 \label{Schiz-Amb-Results}
 \end{figure*}
 \efloatseparator
@@ -150,7 +146,7 @@
 \begin{center}
 \includegraphics[width=140mm]{graphs/asd_lexamb_results.eps}
 \end{center}
-\caption{ASD Model Results. Systematically reducing the probability of PFC updating success resulted in worse performance on conditions (2) and (4). These are the conditions that require the use of contextual information in order to override the more common interpretation of the homograph.}
+\caption{ASD Model Results. Systematically reducing the probability of PFC updating success resulted in worse performance on conditions (2) and (4). These are the conditions that require the use of contextual information in order to override the more common interpretation of the ambiguous word.}
 \label{ASD-Amb-Results}
 \end{figure*}
 \efloatseparator
