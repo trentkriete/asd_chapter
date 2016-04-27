@@ -1,0 +1,39 @@
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.0.2.1}{Dopamine \046 Temporal Difference Learning}{section.0.2}% 3
+\BOOKMARK [2][-]{subsection.0.2.2}{Computational Models of Prefrontal Cortex}{section.0.2}% 4
+\BOOKMARK [1][-]{section.0.3}{General Modeling Approach}{}% 5
+\BOOKMARK [1][-]{section.0.4}{Executive Dysfunction}{}% 6
+\BOOKMARK [2][-]{subsection.0.4.1}{Executive Task Performance}{section.0.4}% 7
+\BOOKMARK [2][-]{subsection.0.4.2}{The XT Model}{section.0.4}% 8
+\BOOKMARK [2][-]{subsection.0.4.3}{Modeling Autism Using XT}{section.0.4}% 9
+\BOOKMARK [2][-]{subsection.0.4.4}{Modeling WCST}{section.0.4}% 10
+\BOOKMARK [2][-]{subsection.0.4.5}{Modeling Stroop}{section.0.4}% 11
+\BOOKMARK [2][-]{subsection.0.4.6}{Simulation Results}{section.0.4}% 12
+\BOOKMARK [2][-]{subsection.0.4.7}{Summary}{section.0.4}% 13
+\BOOKMARK [1][-]{section.0.5}{Implicit Learning}{}% 14
+\BOOKMARK [2][-]{subsection.0.5.1}{Implicit Learning Deficits in Autism}{section.0.5}% 15
+\BOOKMARK [2][-]{subsection.0.5.2}{The Serial Response Time Task \(SRTT\)}{section.0.5}% 16
+\BOOKMARK [2][-]{subsection.0.5.3}{Modeling SRTT Performance}{section.0.5}% 17
+\BOOKMARK [2][-]{subsection.0.5.4}{Implicit Learning Simulation Results}{section.0.5}% 18
+\BOOKMARK [2][-]{subsection.0.5.5}{Summary}{section.0.5}% 19
+\BOOKMARK [1][-]{section.0.6}{Lexical Disambiguation}{}% 20
+\BOOKMARK [2][-]{subsection.0.6.1}{Sentential Context}{section.0.6}% 21
+\BOOKMARK [2][-]{subsection.0.6.2}{Lexical Ambiguity in Schizophrenia}{section.0.6}% 22
+\BOOKMARK [2][-]{subsection.0.6.3}{Testing Context Sensitivity}{section.0.6}% 23
+\BOOKMARK [2][-]{subsection.0.6.4}{Modeling Lexical Disambiguation}{section.0.6}% 24
+\BOOKMARK [2][-]{subsection.0.6.5}{Modeling Schizophrenia}{section.0.6}% 25
+\BOOKMARK [2][-]{subsection.0.6.6}{Modeling Autism}{section.0.6}% 26
+\BOOKMARK [2][-]{subsection.0.6.7}{Simulation Results}{section.0.6}% 27
+\BOOKMARK [2][-]{subsection.0.6.8}{Summary}{section.0.6}% 28
+\BOOKMARK [1][-]{section.0.7}{Prototype Formation}{}% 29
+\BOOKMARK [2][-]{subsection.0.7.1}{Category Learning in Autism}{section.0.7}% 30
+\BOOKMARK [2][-]{subsection.0.7.2}{Modeling Category Learning with ALCOVE}{section.0.7}% 31
+\BOOKMARK [2][-]{subsection.0.7.3}{Prototype Learning in ALCOVE}{section.0.7}% 32
+\BOOKMARK [2][-]{subsection.0.7.4}{Modeling Autism in ALCOVE}{section.0.7}% 33
+\BOOKMARK [2][-]{subsection.0.7.5}{Simulation Results}{section.0.7}% 34
+\BOOKMARK [2][-]{subsection.0.7.6}{Summary}{section.0.7}% 35
+\BOOKMARK [1][-]{section.0.8}{The Utility of Computational Models for Understanding Autism}{}% 36
+\BOOKMARK [2][-]{subsection.0.8.1}{Computational Cognitive Neuroscience}{section.0.8}% 37
+\BOOKMARK [2][-]{subsection.0.8.2}{Previous Computational Models of Autism}{section.0.8}% 38
+\BOOKMARK [1][-]{section.0.9}{Conclusion}{}% 39

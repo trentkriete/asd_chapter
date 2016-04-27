@@ -8,68 +8,56 @@
 % Trenton Kriete & David C. Noelle
 % 
 
+\documentclass[man]{apa}
+% \helvetica
+% The APA Manual requests a serif font!
+\usepackage{times}
 
-\documentclass[]{book}
-
-\usepackage[utf8]{inputenc}
-%\usepackage{times} 
-%\usepackage{graphics}
+\usepackage{graphics}
 \usepackage{graphicx}
-%\usepackage{color}
-%\graphicspath{{./figures/}}
-\usepackage[]{natbib}
-%\usepackage{fix2col}
-%\usepackage{chapterbib}
-%\usepackage{apacite}
-\bibliographystyle%
-%  {wileynum}%for numerical citation and numerically listed entries in the bibliography
-  {wileyauy}%for author--year citation and alphabetical order in the bibliography
-\usepackage{wileySTM}
-\usepackage[\ifnum\pdfoutput=1breaklinks\fi]{hyperref}
-\author{Trent~Kriete \& David~C.~Noelle}\title{A Computational Account of the Role of Dopamine in Autism Spectrum Disorders}
-
-
+\usepackage{color}
+\usepackage{fix2col}
+\usepackage{apacite}
 % \usepackage{amssymb}
 
+\title{Autism Chapter}
 
-%\twoauthors{Trenton Kriete}{David~C.~Noelle}
-%\twoaffiliations{RxRevu Inc. \\
-%                 Denver, Coloardo}{
-%                 Cognitive \& Information Sciences \\
-%                 University of California, Merced}
-%\title{}
+\twoauthors{Trenton Kriete}{David~C.~Noelle}
+\twoaffiliations{Department of Psychology \& Neuroscience \\
+                 University of Colorado, Boulder}{
+                 Cognitive \& Information Sciences \\
+                 University of California, Merced}
 
 % John Vokey uses something like this
-%\ifapamodeman{%
-%\note{\begin{flushleft}
-%      Please  address correspondence to: \\[6mm]
-%      \hspace{2cm}\begin{minipage}{10cm}
-%      David~C.~Noelle, Ph.D. \\[-4mm]
+\ifapamodeman{%
+\note{\begin{flushleft}
+      Please  address correspondence to: \\[6mm]
+      \hspace{2cm}\begin{minipage}{10cm}
+      David~C.~Noelle, Ph.D. \\[-4mm]
 %      Department of Psychology \& Neuroscience \\[-4mm]
 %      University of Colorado Boulder \\[-4mm]
 %      Muenzing D244 \\[-4mm]
 %      345 UCB345 UCB345 UCB \\[-4mm]
 %      Boulder, CO \ \ 80309-0345 \\[-4mm]
 %      (303) 492-8662 \\[-4mm]
-%      \texttt{dnoelle@ucmerced.edu}
-%      \end{minipage}
-%      \end{flushleft}}}
-%{% else, i.e., in jou and doc mode 
-%\note{Draft: \today \\Please do not cite or quote without permission.}}
+      \texttt{dnoelle@ucmerced.edu}
+      \end{minipage}
+      \end{flushleft}}}
+{% else, i.e., in jou and doc mode 
+\note{Draft: \today \\Please do not cite or quote without permission.}}
 
-% \abstract{
-% Do we need abstract for book chapter?
-% }
+\abstract{
+Do we need abstract for book chapter?
+}
 
-% \acknowledgements{Place acknowledgements here.}
+\acknowledgements{Place acknowledgements here.}
 
-%\rightheader{DOPAMINE AND AUTISM }
-%\shorttitle{dopamine and autism} 
-%\leftheader{Kriete \& Noelle}   
+\rightheader{DOPAMINE AND AUTISM }
+\shorttitle{dopamine and autism} 
+\leftheader{Kriete \& Noelle}   
 
 \begin{document}
-%\maketitle 
-\frontmatter
+\maketitle 
 
 %
 % Here is the outline that was sent to the editor, Ahmed Moustafa, 
@@ -93,7 +81,6 @@
 % 
 
 
-\mainmatter
 \section{Introduction}
 \label{section:introduction}
 
@@ -106,10 +93,10 @@
 \input{background.tex}
 
 
-% \section{Dopamine \& Autism Spectrum Disorders}
-% \label{section:hypothesis}
-% 
-% \input{hypothesis.tex}
+\section{Dopamine \& Autism Spectrum Disorders}
+\label{section:hypothesis}
+
+\input{hypothesis.tex}
 
 
 \section{General Modeling Approach}
@@ -124,10 +111,10 @@
 \input{ed.tex}
 
 
-% \section{Stimulus Overselectivity}
-% \label{section:overselectivity}
-% 
-% \input{overselectivity.tex}
+%\section{Stimulus Overselectivity}
+%\label{section:overselectivity}
+%
+%\input{overselectivity.tex}
 
 
 \section{Implicit Learning}
@@ -148,10 +135,10 @@
 \input{prototype.tex}
 
 
-% \section{Future Directions}
-% \label{section:future}
-% 
-% \input{future.tex}
+\section{Future Directions}
+\label{section:future}
+
+\input{future.tex}
 
 
 \section{The Utility of Computational Models for Understanding Autism}
@@ -166,10 +153,7 @@
 \input{conclusion.tex}
 
 
-% \bibliography{ed,thesis_ref}
-\bibliography{asd}
+\bibliography{ed,thesis_ref}
 
-
-\backmatter
 \end{document}
 

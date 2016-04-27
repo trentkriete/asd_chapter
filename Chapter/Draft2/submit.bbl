@@ -1,2045 +1,423 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\input{babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand\eprint[2][]{{\if!#1!#2\else\href{http://www.#1.org/#2}{#2}\fi}}
 
-\bibitem [\protect \citeauthoryear {%
-Aylward%
-, Minshew%
-, Field%
-, Sparks%
-\BCBL {}\ \BBA {} Singh%
-}{%
-Aylward%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2002}}%
-}]{%
-AylwardEH:2002:BrainVolume}
-\APACinsertmetastar {%
-AylwardEH:2002:BrainVolume}%
-\begin{APACrefauthors}%
-Aylward, E\BPBI H.%
-, Minshew, N\BPBI J.%
-, Field, K.%
-, Sparks, B\BPBI F.%
-\BCBL {}\ \BBA {} Singh, N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Effects of Age on Brain Volume and Head Circumference in
-  Autism} {Effects of age on brain volume and head circumference in
-  autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neurology}{59}{2}{175--183}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Aylward \emph{\bbletal{}}(2002)Aylward, Minshew, Field, Sparks,
+  \bbland{} Singh}]{AylwardEH:2002:BrainVolume}
+Aylward, E.H., Minshew, N.J., Field, K., Sparks, B.F., \bbland{} Singh, N.
+  (2002) Effects of age on brain volume and head circumference in autism.
+  \emph{Neurology}, \textbf{59}~(2), 175--183.
 
-\bibitem [\protect \citeauthoryear {%
-Baron-Cohen%
-, Leslie%
-\BCBL {}\ \BBA {} Frith%
-}{%
-Baron-Cohen%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1985}}%
-}]{%
-Baron-Cohen:1985:AutismTOM}
-\APACinsertmetastar {%
-Baron-Cohen:1985:AutismTOM}%
-\begin{APACrefauthors}%
-Baron-Cohen, S.%
-, Leslie, A\BPBI M.%
-\BCBL {}\ \BBA {} Frith, U.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1985}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Does the Autistic Child Have a ``Theory of Mind''?}
-  {Does the autistic child have a ``theory of mind''?}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cognition}{21}{1}{37--46}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Baron-Cohen \emph{\bbletal{}}(1985)Baron-Cohen, Leslie, \bbland{}
+  Frith}]{Baron-Cohen:1985:AutismTOM}
+Baron-Cohen, S., Leslie, A.M., \bbland{} Frith, U. (1985) Does the autistic
+  child have a ``theory of mind''? \emph{Cognition}, \textbf{21}~(1), 37--46.
 
-\bibitem [\protect \citeauthoryear {%
-Barto%
-}{%
-Barto%
-}{%
-{\protect \APACyear {1994}}%
-}]{%
-BartoAG:1994:TDLearning}
-\APACinsertmetastar {%
-BartoAG:1994:TDLearning}%
-\begin{APACrefauthors}%
-Barto, A\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1994}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Adaptive Critics and the Basal Ganglia} {Adaptive
-  critics and the basal ganglia}.{\BBCQ}
-\newblock
-\BIn{} J\BPBI C.~Houk, J\BPBI L.~Davis\BCBL {}\ \BBA {} D\BPBI G.~Beiser\
-  (\BEDS), \APACrefbtitle {Models of Information Processing in the Basal
-  Ganglia} {Models of information processing in the basal ganglia}\ (\BPGS\
-  215--232).
-\newblock
-\APACaddressPublisher{Cambridge, Massachusetts}{MIT Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Barto(1994)}]{BartoAG:1994:TDLearning}
+Barto, A.G. (1994) Adaptive critics and the basal ganglia, \bblin{}
+  \emph{Models of Information Processing in the Basal Ganglia} (\bbleds{} J.C.
+  Houk, J.L. Davis, \bbland{} D.G. Beiser), MIT Press, Cambridge,
+  Massachusetts, \bblpp{} 215--232.
 
-\bibitem [\protect \citeauthoryear {%
-Bennetto%
-, Pennington%
-\BCBL {}\ \BBA {} Rogers%
-}{%
-Bennetto%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-BennettoL:1996:AutismPlanningWCST}
-\APACinsertmetastar {%
-BennettoL:1996:AutismPlanningWCST}%
-\begin{APACrefauthors}%
-Bennetto, L.%
-, Pennington, B\BPBI F.%
-\BCBL {}\ \BBA {} Rogers, S\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Intact and Impaired Memory Functions in Autism} {Intact
-  and impaired memory functions in autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Child Development}{67}{4}{1816--1835}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Bennetto \emph{\bbletal{}}(1996)Bennetto, Pennington, \bbland{}
+  Rogers}]{BennettoL:1996:AutismPlanningWCST}
+Bennetto, L., Pennington, B.F., \bbland{} Rogers, S.J. (1996) Intact and
+  impaired memory functions in autism. \emph{Child Development},
+  \textbf{67}~(4), 1816--1835.
 
-\bibitem [\protect \citeauthoryear {%
-Berg%
-}{%
-Berg%
-}{%
-{\protect \APACyear {1948}}%
-}]{%
-BergEA:1948:WCST}
-\APACinsertmetastar {%
-BergEA:1948:WCST}%
-\begin{APACrefauthors}%
-Berg, E\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1948}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Simple Objective Test for Measuring Flexibility in
-  Thinking} {A simple objective test for measuring flexibility in
-  thinking}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of General Psychology}{39}{}{15--22}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Berg(1948)}]{BergEA:1948:WCST}
+Berg, E.A. (1948) A simple objective test for measuring flexibility in
+  thinking. \emph{Journal of General Psychology}, \textbf{39}, 15--22.
 
-\bibitem [\protect \citeauthoryear {%
-Braver%
-\ \BBA {} Cohen%
-}{%
-Braver%
-\ \BBA {} Cohen%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-BraverTS:1999:Schizophrenia}
-\APACinsertmetastar {%
-BraverTS:1999:Schizophrenia}%
-\begin{APACrefauthors}%
-Braver, T\BPBI S.%
-\BCBT {}\ \BBA {} Cohen, J\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Dopamine, Cognitive Control, and Schizophrenia: The
-  Gating Model} {Dopamine, cognitive control, and schizophrenia: The gating
-  model}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Progress in Brain Research}{121}{}{327--349}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Braver \bbland{} Cohen(1999)}]{BraverTS:1999:Schizophrenia}
+Braver, T.S. \bbland{} Cohen, J.D. (1999) Dopamine, cognitive control, and
+  schizophrenia: The gating model. \emph{Progress in Brain Research},
+  \textbf{121}, 327--349.
 
-\bibitem [\protect \citeauthoryear {%
-Braver%
-\ \BBA {} Cohen%
-}{%
-Braver%
-\ \BBA {} Cohen%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-BraverTS:2000:Control}
-\APACinsertmetastar {%
-BraverTS:2000:Control}%
-\begin{APACrefauthors}%
-Braver, T\BPBI S.%
-\BCBT {}\ \BBA {} Cohen, J\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {On the Control of Control: The Role of Dopamine in
-  Regulating Prefrontal Function and Working Memory} {On the control of
-  control: The role of dopamine in regulating prefrontal function and working
-  memory}.{\BBCQ}
-\newblock
-\BIn{} S.~Monsell\ \BBA {} J.~Driver\ (\BEDS), \APACrefbtitle {Control of
-  Cognitive Processes: Attention and Performance {XVIII}} {Control of cognitive
-  processes: Attention and performance {XVIII}}\ (\BPGS\ 713--737).
-\newblock
-\APACaddressPublisher{Cambridge, Massachusetts}{MIT Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Braver \bbland{} Cohen(2000)}]{BraverTS:2000:Control}
+Braver, T.S. \bbland{} Cohen, J.D. (2000) On the control of control: The role
+  of dopamine in regulating prefrontal function and working memory, \bblin{}
+  \emph{Control of Cognitive Processes: Attention and Performance {XVIII}}
+  (\bbleds{} S.~Monsell \bbland{} J.~Driver), MIT Press, Cambridge,
+  Massachusetts, \bblchap{}~31, \bblpp{} 713--737.
 
-\bibitem [\protect \citeauthoryear {%
-Canales%
-\ \BBA {} Graybiel%
-}{%
-Canales%
-\ \BBA {} Graybiel%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-CanalesJJ:2000:Stereotypy}
-\APACinsertmetastar {%
-CanalesJJ:2000:Stereotypy}%
-\begin{APACrefauthors}%
-Canales, J\BPBI J.%
-\BCBT {}\ \BBA {} Graybiel, A\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Measure of Striatal Function Predicts Motor
-  Stereotypy} {A measure of striatal function predicts motor
-  stereotypy}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Nature Neuroscience}{3}{4}{377--383}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Canales \bbland{} Graybiel(2000)}]{CanalesJJ:2000:Stereotypy}
+Canales, J.J. \bbland{} Graybiel, A.M. (2000) A measure of striatal function
+  predicts motor stereotypy. \emph{Nature Neuroscience}, \textbf{3}~(4),
+  377--383.
 
-\bibitem [\protect \citeauthoryear {%
-Carlsson%
-}{%
-Carlsson%
-}{%
-{\protect \APACyear {1998}}%
-}]{%
-CarlssonML:1998:Glutamate}
-\APACinsertmetastar {%
-CarlssonML:1998:Glutamate}%
-\begin{APACrefauthors}%
-Carlsson, M\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1998}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Hypothesis: Is Infantile Autism a Hypoglutamatergic
-  Disorder? {Relevance} of Glutamate - Serotonin Interactions for
-  Pharmacotherapy} {Hypothesis: Is infantile autism a hypoglutamatergic
+\bibitem[{Carlsson(1998)}]{CarlssonML:1998:Glutamate}
+Carlsson, M.L. (1998) Hypothesis: Is infantile autism a hypoglutamatergic
   disorder? {Relevance} of glutamate - serotonin interactions for
-  pharmacotherapy}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Neural Transmission}{105}{4--5}{525--535}.
-\PrintBackRefs{\CurrentBib}
+  pharmacotherapy. \emph{Journal of Neural Transmission}, \textbf{105}~(4--5),
+  525--535.
 
-\bibitem [\protect \citeauthoryear {%
-Casanova%
-, Buuxhoeveden%
-\BCBL {}\ \BBA {} Gomez%
-}{%
-Casanova%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
-}]{%
-CasanovaMF:2003:AutismMiniColumns}
-\APACinsertmetastar {%
-CasanovaMF:2003:AutismMiniColumns}%
-\begin{APACrefauthors}%
-Casanova, M\BPBI F.%
-, Buuxhoeveden, D.%
-\BCBL {}\ \BBA {} Gomez, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Disruption in the Inhibitory Architecture of the Cell
-  Minicolumn: Implications for Autism} {Disruption in the inhibitory
-  architecture of the cell minicolumn: Implications for autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{The Neuroscientist}{9}{6}{496--507}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Casanova \emph{\bbletal{}}(2003)Casanova, Buuxhoeveden, \bbland{}
+  Gomez}]{CasanovaMF:2003:AutismMiniColumns}
+Casanova, M.F., Buuxhoeveden, D., \bbland{} Gomez, J. (2003) Disruption in the
+  inhibitory architecture of the cell minicolumn: Implications for autism.
+  \emph{The Neuroscientist}, \textbf{9}~(6), 496--507.
 
-\bibitem [\protect \citeauthoryear {%
-Cleeremans%
-\ \BBA {} McClelland%
-}{%
-Cleeremans%
-\ \BBA {} McClelland%
-}{%
-{\protect \APACyear {1991}}%
-}]{%
-CleeremansA:1991:SSRT}
-\APACinsertmetastar {%
-CleeremansA:1991:SSRT}%
-\begin{APACrefauthors}%
-Cleeremans, A.%
-\BCBT {}\ \BBA {} McClelland, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1991}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Learning the Structure of Event Sequences} {Learning the
-  structure of event sequences}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Experimental Psychology}{120}{3}{235--253}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Cleeremans \bbland{} McClelland(1991)}]{CleeremansA:1991:SSRT}
+Cleeremans, A. \bbland{} McClelland, J.L. (1991) Learning the structure of
+  event sequences. \emph{Journal of Experimental Psychology}, \textbf{120}~(3),
+  235--253.
 
-\bibitem [\protect \citeauthoryear {%
-I\BPBI L.~Cohen%
-}{%
-I\BPBI L.~Cohen%
-}{%
-{\protect \APACyear {1994}}%
-}]{%
-CohenIL:1994:AutismLearning}
-\APACinsertmetastar {%
-CohenIL:1994:AutismLearning}%
-\begin{APACrefauthors}%
-Cohen, I\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1994}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {An Artificial Neural Network Analogue of Learning in
-  Autism} {An artificial neural network analogue of learning in autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Biological Psychiatry}{36}{1}{5--20}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Cohen(1994)}]{CohenIL:1994:AutismLearning}
+Cohen, I.L. (1994) An artificial neural network analogue of learning in autism.
+  \emph{Biological Psychiatry}, \textbf{36}~(1), 5--20.
 
-\bibitem [\protect \citeauthoryear {%
-J\BPBI D.~Cohen%
-, Dunbar%
-\BCBL {}\ \BBA {} McClelland%
-}{%
-J\BPBI D.~Cohen%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1990}}%
-}]{%
-CohenJD:1990:Stroop}
-\APACinsertmetastar {%
-CohenJD:1990:Stroop}%
-\begin{APACrefauthors}%
-Cohen, J\BPBI D.%
-, Dunbar, K.%
-\BCBL {}\ \BBA {} McClelland, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1990}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {On the Control of Automatic Processes: A Parallel
-  Distributed Processing Model of the {Stroop} Effect} {On the control of
+\bibitem[{Cohen \emph{\bbletal{}}(1990)Cohen, Dunbar, \bbland{}
+  McClelland}]{CohenJD:1990:Stroop}
+Cohen, J.D., Dunbar, K., \bbland{} McClelland, J.L. (1990) On the control of
   automatic processes: A parallel distributed processing model of the {Stroop}
-  effect}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychological Review}{97}{3}{332--361}.
-\PrintBackRefs{\CurrentBib}
+  effect. \emph{Psychological Review}, \textbf{97}~(3), 332--361.
 
-\bibitem [\protect \citeauthoryear {%
-J\BPBI D.~Cohen%
-\ \BBA {} {Servan-Schrieber}%
-}{%
-J\BPBI D.~Cohen%
-\ \BBA {} {Servan-Schrieber}%
-}{%
-{\protect \APACyear {1992}}%
-}]{%
-CohenJD:1992:Schizophrenia}
-\APACinsertmetastar {%
-CohenJD:1992:Schizophrenia}%
-\begin{APACrefauthors}%
-Cohen, J\BPBI D.%
-\BCBT {}\ \BBA {} {Servan-Schrieber}, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1992}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Context, Cortex, and Dopamine: A Connectionist Approach
-  to Behavior and Biology in Schizophrenia} {Context, cortex, and dopamine: A
-  connectionist approach to behavior and biology in schizophrenia}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychological Review}{99}{1}{45--77}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Cohen \bbland{}
+  {Servan-Schrieber}(1992)}]{CohenJD:1992:Schizophrenia}
+Cohen, J.D. \bbland{} {Servan-Schrieber}, D. (1992) Context, cortex, and
+  dopamine: A connectionist approach to behavior and biology in schizophrenia.
+  \emph{Psychological Review}, \textbf{99}~(1), 45--77.
 
-\bibitem [\protect \citeauthoryear {%
-Dayan%
-\ \BBA {} Niv%
-}{%
-Dayan%
-\ \BBA {} Niv%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-DayanP:2008:Ugly}
-\APACinsertmetastar {%
-DayanP:2008:Ugly}%
-\begin{APACrefauthors}%
-Dayan, P.%
-\BCBT {}\ \BBA {} Niv, Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Reinforcement Learning: The Good, The Bad and The Ugly}
-  {Reinforcement learning: The good, the bad and the ugly}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Current Opinion in Neurobiology}{18}{}{185--196}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Dayan \bbland{} Niv(2008)}]{DayanP:2008:Ugly}
+Dayan, P. \bbland{} Niv, Y. (2008) Reinforcement learning: The good, the bad
+  and the ugly. \emph{Current Opinion in Neurobiology}, \textbf{18}, 185--196.
 
-\bibitem [\protect \citeauthoryear {%
-Elman%
-}{%
-Elman%
-}{%
-{\protect \APACyear {1990}}%
-}]{%
-ElmanJ:1990:SRN}
-\APACinsertmetastar {%
-ElmanJ:1990:SRN}%
-\begin{APACrefauthors}%
-Elman, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1990}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Finding Structure in Time} {Finding structure in
-  time}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cognitive Science}{14}{}{179--211}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Elman(1990)}]{ElmanJ:1990:SRN}
+Elman, J. (1990) Finding structure in time. \emph{Cognitive Science},
+  \textbf{14}, 179--211.
 
-\bibitem [\protect \citeauthoryear {%
-Fernell%
-\ \protect \BOthers {.}}{%
-Fernell%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1997}}%
-}]{%
-FernellE:1997:AutismPET}
-\APACinsertmetastar {%
-FernellE:1997:AutismPET}%
-\begin{APACrefauthors}%
-Fernell, E.%
-, Watanabe, Y.%
-, Adolfsson, I.%
-, Tani, Y.%
-, Bergstrom, M.%
-, Hartvig, P.%
-\BDBL {}Langstrom, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Possible Effects of Tetrahydrobiopterin Treatment in Six
-  Children with Autism -- Clinical and Positron Emission Tomography Data: A
-  Pilot Study} {Possible effects of tetrahydrobiopterin treatment in six
-  children with autism -- clinical and positron emission tomography data: A
-  pilot study}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Developmental Medicine and Child
-  Neurology}{39}{5}{313--318}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Fernell \emph{\bbletal{}}(1997)Fernell, Watanabe, Adolfsson, Tani,
+  Bergstrom, Hartvig, Lilja, von Knorring, Gillberg, \bbland{}
+  Langstrom}]{FernellE:1997:AutismPET}
+Fernell, E., Watanabe, Y., Adolfsson, I., Tani, Y., Bergstrom, M., Hartvig, P.,
+  Lilja, A., von Knorring, A.L., Gillberg, C., \bbland{} Langstrom, B. (1997)
+  Possible effects of tetrahydrobiopterin treatment in six children with autism
+  -- clinical and positron emission tomography data: A pilot study.
+  \emph{Developmental Medicine and Child Neurology}, \textbf{39}~(5), 313--318.
 
-\bibitem [\protect \citeauthoryear {%
-Frith%
-}{%
-Frith%
-}{%
-{\protect \APACyear {1989}}%
-}]{%
-FrithU:1989:AutismWCC}
-\APACinsertmetastar {%
-FrithU:1989:AutismWCC}%
-\begin{APACrefauthors}%
-Frith, U.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1989}.
-\newblock
-\APACrefbtitle {Autism: Explaining the Enigma} {Autism: Explaining the enigma}.
-\newblock
-\APACaddressPublisher{Oxford}{Blackwell}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Frith(1989)}]{FrithU:1989:AutismWCC}
+Frith, U. (1989) \emph{Autism: Explaining the Enigma}, Blackwell, Oxford.
 
-\bibitem [\protect \citeauthoryear {%
-Gastgeb%
-, Rump%
-, Best%
-, Minshew%
-\BCBL {}\ \BBA {} Strauss%
-}{%
-Gastgeb%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2009}}%
-}]{%
-GastgebHZ:2009:Prototype}
-\APACinsertmetastar {%
-GastgebHZ:2009:Prototype}%
-\begin{APACrefauthors}%
-Gastgeb, H\BPBI Z.%
-, Rump, K\BPBI M.%
-, Best, C\BPBI A.%
-, Minshew, N\BPBI J.%
-\BCBL {}\ \BBA {} Strauss, M\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Prototype Formation in Autism: Can Individuals with
-  Autism Abstract Facial Prototypes?} {Prototype formation in autism: Can
-  individuals with autism abstract facial prototypes?}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Autism Research}{2}{5}{279--284}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Gastgeb \emph{\bbletal{}}(2009)Gastgeb, Rump, Best, Minshew,
+  \bbland{} Strauss}]{GastgebHZ:2009:Prototype}
+Gastgeb, H.Z., Rump, K.M., Best, C.A., Minshew, N.J., \bbland{} Strauss, M.S.
+  (2009) Prototype formation in autism: Can individuals with autism abstract
+  facial prototypes? \emph{Autism Research}, \textbf{2}~(5), 279--284.
 
-\bibitem [\protect \citeauthoryear {%
-Goldman-Rakic%
-}{%
-Goldman-Rakic%
-}{%
-{\protect \APACyear {1987}}%
-}]{%
-GoldmanRakicPS:1987:PFCMaintenance}
-\APACinsertmetastar {%
-GoldmanRakicPS:1987:PFCMaintenance}%
-\begin{APACrefauthors}%
-Goldman-Rakic, P\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1987}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Circuitry of Primate Prefrontal Cortex and Regulation of
-  Behavior by Representational Memory} {Circuitry of primate prefrontal cortex
-  and regulation of behavior by representational memory}.{\BBCQ}
-\newblock
-\BIn{} F.~Plum\ (\BED), \APACrefbtitle {Handbook of Physiology -- The Nervous
-  System} {Handbook of physiology -- the nervous system}\ (\BPGS\ 373--417).
-\newblock
-\APACaddressPublisher{Bethesda, MD}{American Physiological Society}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Goldman-Rakic(1987)}]{GoldmanRakicPS:1987:PFCMaintenance}
+Goldman-Rakic, P.S. (1987) Circuitry of primate prefrontal cortex and
+  regulation of behavior by representational memory, \bblin{} \emph{Handbook of
+  Physiology -- The Nervous System} (\bbled{} F.~Plum), American Physiological
+  Society, Bethesda, MD, \bblpp{} 373--417.
 
-\bibitem [\protect \citeauthoryear {%
-Griffith%
-, Pennington%
-, Wehner%
-\BCBL {}\ \BBA {} Rogers%
-}{%
-Griffith%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1999}}%
-}]{%
-GriffithEM:1999:AutismYoungED}
-\APACinsertmetastar {%
-GriffithEM:1999:AutismYoungED}%
-\begin{APACrefauthors}%
-Griffith, E\BPBI M.%
-, Pennington, B\BPBI F.%
-, Wehner, E\BPBI A.%
-\BCBL {}\ \BBA {} Rogers, S\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Executive Functions in Young Children with Autism}
-  {Executive functions in young children with autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Child Development}{70}{4}{817--832}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Griffith \emph{\bbletal{}}(1999)Griffith, Pennington, Wehner,
+  \bbland{} Rogers}]{GriffithEM:1999:AutismYoungED}
+Griffith, E.M., Pennington, B.F., Wehner, E.A., \bbland{} Rogers, S.J. (1999)
+  Executive functions in young children with autism. \emph{Child Development},
+  \textbf{70}~(4), 817--832.
 
-\bibitem [\protect \citeauthoryear {%
-Grossberg%
-\ \BBA {} Seidman%
-}{%
-Grossberg%
-\ \BBA {} Seidman%
-}{%
-{\protect \APACyear {2006}}%
-}]{%
-GrossbergS:2006:Autism}
-\APACinsertmetastar {%
-GrossbergS:2006:Autism}%
-\begin{APACrefauthors}%
-Grossberg, S.%
-\BCBT {}\ \BBA {} Seidman, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Neural Dynamics of Autistic Behaviors: Cognitive,
-  Emotional, and Timing Substrates} {Neural dynamics of autistic behaviors:
-  Cognitive, emotional, and timing substrates}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychological Review}{113}{3}{483--525}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Grossberg \bbland{} Seidman(2006)}]{GrossbergS:2006:Autism}
+Grossberg, S. \bbland{} Seidman, D. (2006) Neural dynamics of autistic
+  behaviors: Cognitive, emotional, and timing substrates. \emph{Psychological
+  Review}, \textbf{113}~(3), 483--525.
 
-\bibitem [\protect \citeauthoryear {%
-Gustafsson%
-}{%
-Gustafsson%
-}{%
-{\protect \APACyear {1997}}%
-}]{%
-GustafssonL:1997:AutismMaps}
-\APACinsertmetastar {%
-GustafssonL:1997:AutismMaps}%
-\begin{APACrefauthors}%
-Gustafsson, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Inadequate Cortical Feature Maps: A Neural Circuit
-  Theory of Autism} {Inadequate cortical feature maps: A neural circuit theory
-  of autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Biological Psychiatry}{42}{12}{1138--1147}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Gustafsson(1997)}]{GustafssonL:1997:AutismMaps}
+Gustafsson, L. (1997) Inadequate cortical feature maps: A neural circuit theory
+  of autism. \emph{Biological Psychiatry}, \textbf{42}~(12), 1138--1147.
 
-\bibitem [\protect \citeauthoryear {%
-F.~Happ\'{e}%
-}{%
-F.~Happ\'{e}%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-HappeF:1999:WCC}
-\APACinsertmetastar {%
-HappeF:1999:WCC}%
-\begin{APACrefauthors}%
-Happ\'{e}, F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Autism: Cognitive Deficit or Cognitive Style?} {Autism:
-  Cognitive deficit or cognitive style?}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Trends in Cognitive Sciences}{3}{6}{216--222}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Happ\'{e}(1999)}]{HappeF:1999:WCC}
+Happ\'{e}, F. (1999) Autism: Cognitive deficit or cognitive style? \emph{Trends
+  in Cognitive Sciences}, \textbf{3}~(6), 216--222.
 
-\bibitem [\protect \citeauthoryear {%
-F\BPBI G\BPBI E.~Happ\'{e}%
-}{%
-F\BPBI G\BPBI E.~Happ\'{e}%
-}{%
-{\protect \APACyear {1997}}%
-}]{%
-HappeF:1997:WCCHomographs}
-\APACinsertmetastar {%
-HappeF:1997:WCCHomographs}%
-\begin{APACrefauthors}%
-Happ\'{e}, F\BPBI G\BPBI E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Central Coherence and Theory of Mind in Autism: Reading
-  Homographs in Context} {Central coherence and theory of mind in autism:
-  Reading homographs in context}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{British Journal of Developmental
-  Psychology}{15}{1}{1--12}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Happ\'{e}(1997)}]{HappeF:1997:WCCHomographs}
+Happ\'{e}, F.G.E. (1997) Central coherence and theory of mind in autism:
+  Reading homographs in context. \emph{British Journal of Developmental
+  Psychology}, \textbf{15}~(1), 1--12.
 
-\bibitem [\protect \citeauthoryear {%
-Hill%
-}{%
-Hill%
-}{%
-{\protect \APACyear {2004}}%
-}]{%
-HillEL:2004:AutismExecutiveDysfunction}
-\APACinsertmetastar {%
-HillEL:2004:AutismExecutiveDysfunction}%
-\begin{APACrefauthors}%
-Hill, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Executive Dysfunction in Autism} {Executive dysfunction
-  in autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Trends in Cognitive Sciences}{8}{1}{26--32}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Hill(2004)}]{HillEL:2004:AutismExecutiveDysfunction}
+Hill, E. (2004) Executive dysfunction in autism. \emph{Trends in Cognitive
+  Sciences}, \textbf{8}~(1), 26--32.
 
-\bibitem [\protect \citeauthoryear {%
-Hughes%
-, Russell%
-\BCBL {}\ \BBA {} Robbins%
-}{%
-Hughes%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1994}}%
-}]{%
-HughesC:1994:AutismExecutiveDysfunction}
-\APACinsertmetastar {%
-HughesC:1994:AutismExecutiveDysfunction}%
-\begin{APACrefauthors}%
-Hughes, C.%
-, Russell, J.%
-\BCBL {}\ \BBA {} Robbins, T\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1994}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Evidence for Executive Dysfunction in Autism} {Evidence
-  for executive dysfunction in autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neuropsychologia}{32}{4}{477--492}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Hughes \emph{\bbletal{}}(1994)Hughes, Russell, \bbland{}
+  Robbins}]{HughesC:1994:AutismExecutiveDysfunction}
+Hughes, C., Russell, J., \bbland{} Robbins, T.W. (1994) Evidence for executive
+  dysfunction in autism. \emph{Neuropsychologia}, \textbf{32}~(4), 477--492.
 
-\bibitem [\protect \citeauthoryear {%
-Kemper%
-\ \BBA {} Bauman%
-}{%
-Kemper%
-\ \BBA {} Bauman%
-}{%
-{\protect \APACyear {1998}}%
-}]{%
-KemperTL:1998:ASDNeuropathology}
-\APACinsertmetastar {%
-KemperTL:1998:ASDNeuropathology}%
-\begin{APACrefauthors}%
-Kemper, T\BPBI L.%
-\BCBT {}\ \BBA {} Bauman, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1998}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Neuropathology of Infantile Autism} {Neuropathology of
-  infantile autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Neuropathology and Experimental
-  Neurology}{57}{7}{645--652}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Kemper \bbland{} Bauman(1998)}]{KemperTL:1998:ASDNeuropathology}
+Kemper, T.L. \bbland{} Bauman, M. (1998) Neuropathology of infantile autism.
+  \emph{Journal of Neuropathology and Experimental Neurology}, \textbf{57}~(7),
+  645--652.
 
-\bibitem [\protect \citeauthoryear {%
-Klinger%
-\ \BBA {} Dawson%
-}{%
-Klinger%
-\ \BBA {} Dawson%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-KlingerLG:2001:Prototype}
-\APACinsertmetastar {%
-KlingerLG:2001:Prototype}%
-\begin{APACrefauthors}%
-Klinger, L\BPBI G.%
-\BCBT {}\ \BBA {} Dawson, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Prototype Formation in Autism} {Prototype formation in
-  autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Development and Psychopathology}{13}{1}{111--124}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Klinger \bbland{} Dawson(2001)}]{KlingerLG:2001:Prototype}
+Klinger, L.G. \bbland{} Dawson, G. (2001) Prototype formation in autism.
+  \emph{Development and Psychopathology}, \textbf{13}~(1), 111--124.
 
-\bibitem [\protect \citeauthoryear {%
-Klinger%
-, Klinger%
-\BCBL {}\ \BBA {} Pohlig%
-}{%
-Klinger%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
-}]{%
-KlingerLG:2006:Implicit}
-\APACinsertmetastar {%
-KlingerLG:2006:Implicit}%
-\begin{APACrefauthors}%
-Klinger, L\BPBI G.%
-, Klinger, M\BPBI R.%
-\BCBL {}\ \BBA {} Pohlig, R\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Implicit Learning Impairments in Autism Spectrum
-  Disorders: Implications for Treatment} {Implicit learning impairments in
-  autism spectrum disorders: Implications for treatment}.{\BBCQ}
-\newblock
-\BIn{} J\BPBI M.~Perez, P\BPBI M.~Gonzalez, M\BPBI L.~Comi\BCBL {}\ \BBA {}
-  C.~Nieto\ (\BEDS), \APACrefbtitle {New Developments in Autism: The Future is
-  Today.} {New developments in autism: The future is today.}
-\newblock
-\APACaddressPublisher{London}{Jessica Kingsley Publishers}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Klinger \emph{\bbletal{}}(2006)Klinger, Klinger, \bbland{}
+  Pohlig}]{KlingerLG:2006:Implicit}
+Klinger, L.G., Klinger, M.R., \bbland{} Pohlig, R.L. (2006) Implicit learning
+  impairments in autism spectrum disorders: Implications for treatment,
+  \bblin{} \emph{New Developments in Autism: The Future is Today} (\bbleds{}
+  J.M. Perez, P.M. Gonzalez, M.L. Comi, \bbland{} C.~Nieto), Jessica Kingsley
+  Publishers, London.
 
-\bibitem [\protect \citeauthoryear {%
-Kriete%
-\ \BBA {} Noelle%
-}{%
-Kriete%
-\ \BBA {} Noelle%
-}{%
-{\protect \APACyear {2009}}%
-}]{%
-KrieteT:2009:SRTT}
-\APACinsertmetastar {%
-KrieteT:2009:SRTT}%
-\begin{APACrefauthors}%
-Kriete, T.%
-\BCBT {}\ \BBA {} Noelle, D\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Implicit Learning Deficits in Autism: A
-  Neurocomputational Account} {Implicit learning deficits in autism: A
-  neurocomputational account}.{\BBCQ}
-\newblock
-\BIn{} N.~Taatgen\ \BBA {} H.~{van Rijn}\ (\BEDS), \APACrefbtitle {Proceedings
-  of the 31st Annual Conference of the Cognitive Science Society} {Proceedings
-  of the 31st annual conference of the cognitive science society}\ (\BPGS\
-  309--314).
-\newblock
-\APACaddressPublisher{Amsterdam, The Netherlands}{Cognitive Science Society}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Kriete \bbland{} Noelle(2009)}]{KrieteT:2009:SRTT}
+Kriete, T. \bbland{} Noelle, D.C. (2009) Implicit learning deficits in autism:
+  A neurocomputational account, \bblin{} \emph{Proceedings of the 31st Annual
+  Conference of the Cognitive Science Society} (\bbleds{} N.~Taatgen \bbland{}
+  H.~{van Rijn}), Cognitive Science Society, Amsterdam, The Netherlands,
+  \bblpp{} 309--314.
 
-\bibitem [\protect \citeauthoryear {%
-Kriete%
-\ \BBA {} Noelle%
-}{%
-Kriete%
-\ \BBA {} Noelle%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-KrieteT:2015:ED}
-\APACinsertmetastar {%
-KrieteT:2015:ED}%
-\begin{APACrefauthors}%
-Kriete, T.%
-\BCBT {}\ \BBA {} Noelle, D\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Dopamine and the Development of Executive Dysfunction in
-  Autism Spectrum Disorders} {Dopamine and the development of executive
-  dysfunction in autism spectrum disorders}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{{PLoS ONE}}{10}{3}{}.
-\newblock
-\APACrefnote{e0121605, doi:10.1371/journal.pone.0121605}
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Kriete \bbland{} Noelle(2015)}]{KrieteT:2015:ED}
+Kriete, T. \bbland{} Noelle, D.C. (2015) Dopamine and the development of
+  executive dysfunction in autism spectrum disorders. \emph{{PLoS ONE}},
+  \textbf{10}~(3). E0121605, doi:10.1371/journal.pone.0121605.
 
-\bibitem [\protect \citeauthoryear {%
-Kurschke%
-}{%
-Kurschke%
-}{%
-{\protect \APACyear {1992}}%
-}]{%
-KruschkeJK:1992:ALCOVE}
-\APACinsertmetastar {%
-KruschkeJK:1992:ALCOVE}%
-\begin{APACrefauthors}%
-Kurschke, J\BPBI K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1992}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{ALCOVE}: An Exemplar-Based Connectionist Model of
-  Category Learning} {{ALCOVE}: An exemplar-based connectionist model of
-  category learning}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychological Review}{99}{1}{22--44}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Kurschke(1992)}]{KruschkeJK:1992:ALCOVE}
+Kurschke, J.K. (1992) {ALCOVE}: An exemplar-based connectionist model of
+  category learning. \emph{Psychological Review}, \textbf{99}~(1), 22--44.
 
-\bibitem [\protect \citeauthoryear {%
-Levitt%
-, Lewis%
-, Yoshioka%
-\BCBL {}\ \BBA {} Lund%
-}{%
-Levitt%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1993}}%
-}]{%
-LevittJB:1993:Stripes}
-\APACinsertmetastar {%
-LevittJB:1993:Stripes}%
-\begin{APACrefauthors}%
-Levitt, J\BPBI B.%
-, Lewis, D\BPBI A.%
-, Yoshioka, T.%
-\BCBL {}\ \BBA {} Lund, J\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1993}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Topography of Pyramidal Neuron Intrinsic Connections in
-  Macaque Monkey Prefrontal Cortex (Areas 9 46)} {Topography of pyramidal
-  neuron intrinsic connections in macaque monkey prefrontal cortex (areas 9
-  46)}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Comparative Neurology}{338}{}{360--376}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Levitt \emph{\bbletal{}}(1993)Levitt, Lewis, Yoshioka, \bbland{}
+  Lund}]{LevittJB:1993:Stripes}
+Levitt, J.B., Lewis, D.A., Yoshioka, T., \bbland{} Lund, J.S. (1993) Topography
+  of pyramidal neuron intrinsic connections in macaque monkey prefrontal cortex
+  (areas 9 46). \emph{Journal of Comparative Neurology}, \textbf{338},
+  360--376.
 
-\bibitem [\protect \citeauthoryear {%
-Lovaas%
-, Schreibman%
-, Koegel%
-\BCBL {}\ \BBA {} Rehm%
-}{%
-Lovaas%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1971}}%
-}]{%
-LovaasO:1971:Selective}
-\APACinsertmetastar {%
-LovaasO:1971:Selective}%
-\begin{APACrefauthors}%
-Lovaas, O.%
-, Schreibman, L.%
-, Koegel, R.%
-\BCBL {}\ \BBA {} Rehm, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1971}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Selective Responding by Autistic Children to Multiple
-  Sensory Input} {Selective responding by autistic children to multiple sensory
-  input}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Abnormal Psychology}{77}{3}{211--222}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Lovaas \emph{\bbletal{}}(1971)Lovaas, Schreibman, Koegel, \bbland{}
+  Rehm}]{LovaasO:1971:Selective}
+Lovaas, O., Schreibman, L., Koegel, R., \bbland{} Rehm, R. (1971) Selective
+  responding by autistic children to multiple sensory input. \emph{Journal of
+  Abnormal Psychology}, \textbf{77}~(3), 211--222.
 
-\bibitem [\protect \citeauthoryear {%
-Luce%
-}{%
-Luce%
-}{%
-{\protect \APACyear {1963}}%
-}]{%
-LuceRD:1963:Ratio}
-\APACinsertmetastar {%
-LuceRD:1963:Ratio}%
-\begin{APACrefauthors}%
-Luce, R\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1963}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Detection and Recognition} {Detection and
-  recognition}.{\BBCQ}
-\newblock
-\BIn{} R\BPBI D.~Luce, R\BPBI R.~Bush\BCBL {}\ \BBA {} E.~Galanter\ (\BEDS),
-  \APACrefbtitle {Handbook of Mathematical Psychology} {Handbook of
-  mathematical psychology}\ (\BPGS\ 103--189).
-\newblock
-\APACaddressPublisher{New York}{Wiley}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Luce(1963)}]{LuceRD:1963:Ratio}
+Luce, R.D. (1963) Detection and recognition, \bblin{} \emph{Handbook of
+  Mathematical Psychology} (\bbleds{} R.D. Luce, R.R. Bush, \bbland{}
+  E.~Galanter), Wiley, New York, \bblpp{} 103--189.
 
-\bibitem [\protect \citeauthoryear {%
-Martineau%
-, Barthelemy%
-, Jouve%
-, Muh%
-\BCBL {}\ \BBA {} Lelord%
-}{%
-Martineau%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1992}}%
-}]{%
-MartineauJ:1992:AutismDopamine}
-\APACinsertmetastar {%
-MartineauJ:1992:AutismDopamine}%
-\begin{APACrefauthors}%
-Martineau, J.%
-, Barthelemy, C.%
-, Jouve, J.%
-, Muh, J\BPBI P.%
-\BCBL {}\ \BBA {} Lelord, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1992}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Monoamines (Serotonin and Catecholamines) and their
-  Derivatives in Infantile Autism: Age-Related Changes and Drug Effects}
-  {Monoamines (serotonin and catecholamines) and their derivatives in infantile
-  autism: Age-related changes and drug effects}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Developmental Medicine and Child
-  Neurology}{34}{7}{593--603}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Martineau \emph{\bbletal{}}(1992)Martineau, Barthelemy, Jouve, Muh,
+  \bbland{} Lelord}]{MartineauJ:1992:AutismDopamine}
+Martineau, J., Barthelemy, C., Jouve, J., Muh, J.P., \bbland{} Lelord, G.
+  (1992) Monoamines (serotonin and catecholamines) and their derivatives in
+  infantile autism: Age-related changes and drug effects. \emph{Developmental
+  Medicine and Child Neurology}, \textbf{34}~(7), 593--603.
 
-\bibitem [\protect \citeauthoryear {%
-Matsumoto%
-, Hanakawa%
-, Maki%
-, Graybiel%
-\BCBL {}\ \BBA {} Kimura%
-}{%
-Matsumoto%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1999}}%
-}]{%
-MatsumotoN:1999:Sequential}
-\APACinsertmetastar {%
-MatsumotoN:1999:Sequential}%
-\begin{APACrefauthors}%
-Matsumoto, N.%
-, Hanakawa, T.%
-, Maki, S.%
-, Graybiel, A\BPBI M.%
-\BCBL {}\ \BBA {} Kimura, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Nigrostriatal Dopamine System in Learning to Perform
-  Sequential Motor Tasks in a Predictive Manner} {Nigrostriatal dopamine system
-  in learning to perform sequential motor tasks in a predictive manner}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Neurophysiology}{82}{2}{978--998}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Matsumoto \emph{\bbletal{}}(1999)Matsumoto, Hanakawa, Maki, Graybiel,
+  \bbland{} Kimura}]{MatsumotoN:1999:Sequential}
+Matsumoto, N., Hanakawa, T., Maki, S., Graybiel, A.M., \bbland{} Kimura, M.
+  (1999) Nigrostriatal dopamine system in learning to perform sequential motor
+  tasks in a predictive manner. \emph{Journal of Neurophysiology},
+  \textbf{82}~(2), 978--998.
 
-\bibitem [\protect \citeauthoryear {%
-McClelland%
-}{%
-McClelland%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-McClellandJL:2000:Autism}
-\APACinsertmetastar {%
-McClellandJL:2000:Autism}%
-\begin{APACrefauthors}%
-McClelland, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Basis of Hyperspecificity in Autism: A Preliminary
-  Suggestion Based on Properties of Neural Nets} {The basis of hyperspecificity
-  in autism: A preliminary suggestion based on properties of neural
-  nets}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{30}{5}{497--502}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{McClelland(2000)}]{McClellandJL:2000:Autism}
+McClelland, J.L. (2000) The basis of hyperspecificity in autism: A preliminary
+  suggestion based on properties of neural nets. \emph{Journal of Autism and
+  Developmental Disorders}, \textbf{30}~(5), 497--502.
 
-\bibitem [\protect \citeauthoryear {%
-Miller%
-\ \BBA {} Cohen%
-}{%
-Miller%
-\ \BBA {} Cohen%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-MillerEK:2001:PFC}
-\APACinsertmetastar {%
-MillerEK:2001:PFC}%
-\begin{APACrefauthors}%
-Miller, E\BPBI K.%
-\BCBT {}\ \BBA {} Cohen, J\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {An Integrative Theory of Prefrontal Cortex Function} {An
-  integrative theory of prefrontal cortex function}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Annual Review of Neuroscience}{24}{1}{167--202}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Miller \bbland{} Cohen(2001)}]{MillerEK:2001:PFC}
+Miller, E.K. \bbland{} Cohen, J.D. (2001) An integrative theory of prefrontal
+  cortex function. \emph{Annual Review of Neuroscience}, \textbf{24}~(1),
+  167--202.
 
-\bibitem [\protect \citeauthoryear {%
-Minshew%
-, Meyer%
-\BCBL {}\ \BBA {} Goldstein%
-}{%
-Minshew%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2002}}%
-}]{%
-MinshewNJ:2002:AutismWCST}
-\APACinsertmetastar {%
-MinshewNJ:2002:AutismWCST}%
-\begin{APACrefauthors}%
-Minshew, N\BPBI J.%
-, Meyer, J.%
-\BCBL {}\ \BBA {} Goldstein, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Abstract Reasoning in Autism: A Dissociation Between
-  Concept Formation and Concept Identification} {Abstract reasoning in autism:
-  A dissociation between concept formation and concept identification}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neuropsychology}{16}{3}{327--334}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Minshew \emph{\bbletal{}}(2002)Minshew, Meyer, \bbland{}
+  Goldstein}]{MinshewNJ:2002:AutismWCST}
+Minshew, N.J., Meyer, J., \bbland{} Goldstein, G. (2002) Abstract reasoning in
+  autism: A dissociation between concept formation and concept identification.
+  \emph{Neuropsychology}, \textbf{16}~(3), 327--334.
 
-\bibitem [\protect \citeauthoryear {%
-Montague%
-, Dayan%
-\BCBL {}\ \BBA {} Sejnowski%
-}{%
-Montague%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-MontaguePR:1996:Dopamine}
-\APACinsertmetastar {%
-MontaguePR:1996:Dopamine}%
-\begin{APACrefauthors}%
-Montague, P\BPBI R.%
-, Dayan, P.%
-\BCBL {}\ \BBA {} Sejnowski, T\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Framework for Mesencephalic Dopamine Systems Based On
-  Predictive {Hebbian} Learning} {A framework for mesencephalic dopamine
-  systems based on predictive {Hebbian} learning}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Neuroscience}{16}{5}{1936--1947}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Montague \emph{\bbletal{}}(1996)Montague, Dayan, \bbland{}
+  Sejnowski}]{MontaguePR:1996:Dopamine}
+Montague, P.R., Dayan, P., \bbland{} Sejnowski, T.J. (1996) A framework for
+  mesencephalic dopamine systems based on predictive {Hebbian} learning.
+  \emph{Journal of Neuroscience}, \textbf{16}~(5), 1936--1947.
 
-\bibitem [\protect \citeauthoryear {%
-Mostofsky%
-, Goldberg%
-, Landa%
-\BCBL {}\ \BBA {} Denckla%
-}{%
-Mostofsky%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
-}]{%
-MostofskySH:2000:Procedural}
-\APACinsertmetastar {%
-MostofskySH:2000:Procedural}%
-\begin{APACrefauthors}%
-Mostofsky, S\BPBI H.%
-, Goldberg, M\BPBI C.%
-, Landa, R\BPBI J.%
-\BCBL {}\ \BBA {} Denckla, M\BPBI B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Evidence for a Deficit in Procedural Learning in
-  Children and Adolescents with Autism: Implications for Cerebellar
-  Contribution} {Evidence for a deficit in procedural learning in children and
-  adolescents with autism: Implications for cerebellar contribution}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of the International Neuropsychological
-  Society}{6}{7}{752--759}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Mostofsky \emph{\bbletal{}}(2000)Mostofsky, Goldberg, Landa,
+  \bbland{} Denckla}]{MostofskySH:2000:Procedural}
+Mostofsky, S.H., Goldberg, M.C., Landa, R.J., \bbland{} Denckla, M.B. (2000)
+  Evidence for a deficit in procedural learning in children and adolescents
+  with autism: Implications for cerebellar contribution. \emph{Journal of the
+  International Neuropsychological Society}, \textbf{6}~(7), 752--759.
 
-\bibitem [\protect \citeauthoryear {%
-Nelson%
-\ \BBA {} Pribor%
-}{%
-Nelson%
-\ \BBA {} Pribor%
-}{%
-{\protect \APACyear {1993}}%
-}]{%
-NelsonEC:1993:Calendar}
-\APACinsertmetastar {%
-NelsonEC:1993:Calendar}%
-\begin{APACrefauthors}%
-Nelson, E\BPBI C.%
-\BCBT {}\ \BBA {} Pribor, E\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1993}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Calendar Savant with Autism and {Tourette} Syndrome.
-  {Response} to Treatment and Thoughts on the Interrelationships of these
-  Conditions} {A calendar savant with autism and {Tourette} syndrome.
-  {Response} to treatment and thoughts on the interrelationships of these
-  conditions}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Annals of Clinical Psychiatry}{5}{2}{135--140}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Nelson \bbland{} Pribor(1993)}]{NelsonEC:1993:Calendar}
+Nelson, E.C. \bbland{} Pribor, E.F. (1993) A calendar savant with autism and
+  {Tourette} syndrome. {Response} to treatment and thoughts on the
+  interrelationships of these conditions. \emph{Annals of Clinical Psychiatry},
+  \textbf{5}~(2), 135--140.
 
-\bibitem [\protect \citeauthoryear {%
-Noelle%
-}{%
-Noelle%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-NoelleDC:2012:Rules}
-\APACinsertmetastar {%
-NoelleDC:2012:Rules}%
-\begin{APACrefauthors}%
-Noelle, D\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {On the Neural Basis of Rule-Guided Behavior} {On the
-  neural basis of rule-guided behavior}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Integrative Neuroscience}{11}{4}{453--475}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Noelle(2012)}]{NoelleDC:2012:Rules}
+Noelle, D.C. (2012) On the neural basis of rule-guided behavior. \emph{Journal
+  of Integrative Neuroscience}, \textbf{11}~(4), 453--475.
 
-\bibitem [\protect \citeauthoryear {%
-O'Loughlin%
-\ \BBA {} Thagard%
-}{%
-O'Loughlin%
-\ \BBA {} Thagard%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-OLoughlinC:2000:Coherence}
-\APACinsertmetastar {%
-OLoughlinC:2000:Coherence}%
-\begin{APACrefauthors}%
-O'Loughlin, C.%
-\BCBT {}\ \BBA {} Thagard, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Autism and Coherence: A Computational Model} {Autism and
-  coherence: A computational model}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Mind and Language}{15}{4}{375--392}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{O'Loughlin \bbland{} Thagard(2000)}]{OLoughlinC:2000:Coherence}
+O'Loughlin, C. \bbland{} Thagard, P. (2000) Autism and coherence: A
+  computational model. \emph{Mind and Language}, \textbf{15}~(4), 375--392.
 
-\bibitem [\protect \citeauthoryear {%
-O'Reilly%
-\ \BBA {} Munakata%
-}{%
-O'Reilly%
-\ \BBA {} Munakata%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-OReillyRC:2000:Computational}
-\APACinsertmetastar {%
-OReillyRC:2000:Computational}%
-\begin{APACrefauthors}%
-O'Reilly, R\BPBI C.%
-\BCBT {}\ \BBA {} Munakata, Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2000}.
-\newblock
-\APACrefbtitle {Computational Explorations in Cognitive Neuroscience:
-  Understanding the Mind by Simulating the Brain} {Computational explorations
-  in cognitive neuroscience: Understanding the mind by simulating the brain}.
-\newblock
-\APACaddressPublisher{Cambridge, Massachusetts}{MIT Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{O'Reilly \bbland{} Munakata(2000)}]{OReillyRC:2000:Computational}
+O'Reilly, R.C. \bbland{} Munakata, Y. (2000) \emph{Computational Explorations
+  in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain},
+  MIT Press, Cambridge, Massachusetts.
 
-\bibitem [\protect \citeauthoryear {%
-O'Reilly%
-, Noelle%
-, Braver%
-\BCBL {}\ \BBA {} Cohen%
-}{%
-O'Reilly%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2002}}%
-}]{%
-OReillyRC:2002:IDED}
-\APACinsertmetastar {%
-OReillyRC:2002:IDED}%
-\begin{APACrefauthors}%
-O'Reilly, R\BPBI C.%
-, Noelle, D\BPBI C.%
-, Braver, T\BPBI S.%
-\BCBL {}\ \BBA {} Cohen, J\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Prefrontal Cortex and Dynamic Categorization Tasks:
-  Representational Organization and Neuromodulatory Control} {Prefrontal cortex
-  and dynamic categorization tasks: Representational organization and
-  neuromodulatory control}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cerebral Cortex}{12}{3}{246--257}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{O'Reilly \emph{\bbletal{}}(2002)O'Reilly, Noelle, Braver, \bbland{}
+  Cohen}]{OReillyRC:2002:IDED}
+O'Reilly, R.C., Noelle, D.C., Braver, T.S., \bbland{} Cohen, J.D. (2002)
+  Prefrontal cortex and dynamic categorization tasks: Representational
+  organization and neuromodulatory control. \emph{Cerebral Cortex},
+  \textbf{12}~(3), 246--257.
 
-\bibitem [\protect \citeauthoryear {%
-Ozonoff%
-\ \BBA {} Jensen%
-}{%
-Ozonoff%
-\ \BBA {} Jensen%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-Ozonoff:1999:AutismStroopWCST}
-\APACinsertmetastar {%
-Ozonoff:1999:AutismStroopWCST}%
-\begin{APACrefauthors}%
-Ozonoff, S.%
-\BCBT {}\ \BBA {} Jensen, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Specific Executive Function Profiles in Three
-  Neurodevelopmental Disorders} {Specific executive function profiles in three
-  neurodevelopmental disorders}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{29}{2}{171--177}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Ozonoff \bbland{} Jensen(1999)}]{Ozonoff:1999:AutismStroopWCST}
+Ozonoff, S. \bbland{} Jensen, J. (1999) Specific executive function profiles in
+  three neurodevelopmental disorders. \emph{Journal of Autism and Developmental
+  Disorders}, \textbf{29}~(2), 171--177.
 
-\bibitem [\protect \citeauthoryear {%
-Pascual-Leone%
-, Wassermann%
-, Grafman%
-\BCBL {}\ \BBA {} Hallett%
-}{%
-Pascual-Leone%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-PascualLeone:2004:PFCImplicit}
-\APACinsertmetastar {%
-PascualLeone:2004:PFCImplicit}%
-\begin{APACrefauthors}%
-Pascual-Leone, A.%
-, Wassermann, E\BPBI M.%
-, Grafman, J.%
-\BCBL {}\ \BBA {} Hallett, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Role of the Dorsolateral Prefrontal Cortex in
-  Implicit Procedural Learning} {The role of the dorsolateral prefrontal cortex
-  in implicit procedural learning}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Experimental Brain Research}{107}{3}{479--485}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Pascual-Leone \emph{\bbletal{}}(2004)Pascual-Leone, Wassermann,
+  Grafman, \bbland{} Hallett}]{PascualLeone:2004:PFCImplicit}
+Pascual-Leone, A., Wassermann, E.M., Grafman, J., \bbland{} Hallett, M. (2004)
+  The role of the dorsolateral prefrontal cortex in implicit procedural
+  learning. \emph{Experimental Brain Research}, \textbf{107}~(3), 479--485.
 
-\bibitem [\protect \citeauthoryear {%
-Perry%
-\ \protect \BOthers {.}}{%
-Perry%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2001}}%
-}]{%
-PerryEK:2001:Cholinergic}
-\APACinsertmetastar {%
-PerryEK:2001:Cholinergic}%
-\begin{APACrefauthors}%
-Perry, E\BPBI K.%
-, Lee, M\BPBI L\BPBI W.%
-, Martin-Ruiz, C\BPBI M.%
-, Court, J\BPBI A.%
-, Volsen, S\BPBI G.%
-, Merrit, J.%
-\BDBL {}Wenk, G\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Cholinergic Activity in Autism: Abnormalities in the
-  Cerebral Cortex and Basal Forebrain} {Cholinergic activity in autism:
-  Abnormalities in the cerebral cortex and basal forebrain}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{American Journal of Psychiatry}{158}{7}{1058--1066}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Perry \emph{\bbletal{}}(2001)Perry, Lee, Martin-Ruiz, Court, Volsen,
+  Merrit, Folly, Iversen, Bauman, Perry, \bbland{}
+  Wenk}]{PerryEK:2001:Cholinergic}
+Perry, E.K., Lee, M.L.W., Martin-Ruiz, C.M., Court, J.A., Volsen, S.G., Merrit,
+  J., Folly, E., Iversen, P.E., Bauman, M.L., Perry, R.H., \bbland{} Wenk, G.L.
+  (2001) Cholinergic activity in autism: Abnormalities in the cerebral cortex
+  and basal forebrain. \emph{American Journal of Psychiatry}, \textbf{158}~(7),
+  1058--1066.
 
-\bibitem [\protect \citeauthoryear {%
-Posey%
-\ \BBA {} McDougle%
-}{%
-Posey%
-\ \BBA {} McDougle%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-PoseyDJ:2000:AutismDopamine}
-\APACinsertmetastar {%
-PoseyDJ:2000:AutismDopamine}%
-\begin{APACrefauthors}%
-Posey, D\BPBI J.%
-\BCBT {}\ \BBA {} McDougle, C\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Pharmacotherapy of Target Symptoms Associated with
-  Autistic Disorder and Other Pervasive Developmental Disorders} {The
-  pharmacotherapy of target symptoms associated with autistic disorder and
-  other pervasive developmental disorders}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Harvard Review of Psychiatry}{8}{2}{45--63}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Posey \bbland{} McDougle(2000)}]{PoseyDJ:2000:AutismDopamine}
+Posey, D.J. \bbland{} McDougle, C.J. (2000) The pharmacotherapy of target
+  symptoms associated with autistic disorder and other pervasive developmental
+  disorders. \emph{Harvard Review of Psychiatry}, \textbf{8}~(2), 45--63.
 
-\bibitem [\protect \citeauthoryear {%
-Pring%
-, Hermelin%
-\BCBL {}\ \BBA {} Heavey%
-}{%
-Pring%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1995}}%
-}]{%
-PringL:1995:Savant}
-\APACinsertmetastar {%
-PringL:1995:Savant}%
-\begin{APACrefauthors}%
-Pring, L.%
-, Hermelin, B.%
-\BCBL {}\ \BBA {} Heavey, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1995}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Savants, Segments, Art and Autism} {Savants, segments,
-  art and autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Child Psychology and
-  Psychiatry}{36}{6}{1065--1076}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Pring \emph{\bbletal{}}(1995)Pring, Hermelin, \bbland{}
+  Heavey}]{PringL:1995:Savant}
+Pring, L., Hermelin, B., \bbland{} Heavey, L. (1995) Savants, segments, art and
+  autism. \emph{Journal of Child Psychology and Psychiatry}, \textbf{36}~(6),
+  1065--1076.
 
-\bibitem [\protect \citeauthoryear {%
-Prior%
-\ \BBA {} Hoffman%
-}{%
-Prior%
-\ \BBA {} Hoffman%
-}{%
-{\protect \APACyear {1990}}%
-}]{%
-PriorMR:1990:AutismWCST}
-\APACinsertmetastar {%
-PriorMR:1990:AutismWCST}%
-\begin{APACrefauthors}%
-Prior, M\BPBI R.%
-\BCBT {}\ \BBA {} Hoffman, W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1990}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Neuropsychological Testing of Autistic Children Through
-  an Exploration with Frontal Lobe Tests} {Neuropsychological testing of
-  autistic children through an exploration with frontal lobe tests}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{20}{4}{581--590}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Prior \bbland{} Hoffman(1990)}]{PriorMR:1990:AutismWCST}
+Prior, M.R. \bbland{} Hoffman, W. (1990) Neuropsychological testing of autistic
+  children through an exploration with frontal lobe tests. \emph{Journal of
+  Autism and Developmental Disorders}, \textbf{20}~(4), 581--590.
 
-\bibitem [\protect \citeauthoryear {%
-Qiu%
-, Adler%
-, Crocetti%
-, Miller%
-\BCBL {}\ \BBA {} Mostofsky%
-}{%
-Qiu%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-QuiA:2010:ASDMotor}
-\APACinsertmetastar {%
-QuiA:2010:ASDMotor}%
-\begin{APACrefauthors}%
-Qiu, A.%
-, Adler, M.%
-, Crocetti, D.%
-, Miller, M\BPBI I.%
-\BCBL {}\ \BBA {} Mostofsky, S\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Basal Ganglia Shapes Predict Social, Communication, and
-  Motor Dysfunctions in Boys With Autism Spectrum Disorder} {Basal ganglia
-  shapes predict social, communication, and motor dysfunctions in boys with
-  autism spectrum disorder}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of the American Academy of Child and Adolescent
-  Psychiatry}{49}{6}{539 - 551}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Qiu \emph{\bbletal{}}(2010)Qiu, Adler, Crocetti, Miller, \bbland{}
+  Mostofsky}]{QuiA:2010:ASDMotor}
+Qiu, A., Adler, M., Crocetti, D., Miller, M.I., \bbland{} Mostofsky, S.H.
+  (2010) Basal ganglia shapes predict social, communication, and motor
+  dysfunctions in boys with autism spectrum disorder. \emph{Journal of the
+  American Academy of Child and Adolescent Psychiatry}, \textbf{49}~(6), 539 --
+  551.
 
-\bibitem [\protect \citeauthoryear {%
-Reber%
-}{%
-Reber%
-}{%
-{\protect \APACyear {1967}}%
-}]{%
-ReberAS:1967:Implicit}
-\APACinsertmetastar {%
-ReberAS:1967:Implicit}%
-\begin{APACrefauthors}%
-Reber, A\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1967}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Implicit Learning of Artificial Grammars} {Implicit
-  learning of artificial grammars}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Verbal Learning and Verbal
-  Behavior}{6}{}{855--863}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Reber(1967)}]{ReberAS:1967:Implicit}
+Reber, A.S. (1967) Implicit learning of artificial grammars. \emph{Journal of
+  Verbal Learning and Verbal Behavior}, \textbf{6}, 855--863.
 
-\bibitem [\protect \citeauthoryear {%
-Reed%
-\ \BBA {} Gibson%
-}{%
-Reed%
-\ \BBA {} Gibson%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-ReedP:2005:TaskLoad}
-\APACinsertmetastar {%
-ReedP:2005:TaskLoad}%
-\begin{APACrefauthors}%
-Reed, P.%
-\BCBT {}\ \BBA {} Gibson, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Effect of Concurrent Task Load on Stimulus
-  Over-Selectivity} {The effect of concurrent task load on stimulus
-  over-selectivity}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{35}{5}{601--614}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Reed \bbland{} Gibson(2005)}]{ReedP:2005:TaskLoad}
+Reed, P. \bbland{} Gibson, E. (2005) The effect of concurrent task load on
+  stimulus over-selectivity. \emph{Journal of Autism and Developmental
+  Disorders}, \textbf{35}~(5), 601--614.
 
-\bibitem [\protect \citeauthoryear {%
-Rinehart%
-, Bradshaw%
-, Brereton%
-\BCBL {}\ \BBA {} Tonge%
-}{%
-Rinehart%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2001}}%
-}]{%
-RinehartNJ:2001:AutismMovement}
-\APACinsertmetastar {%
-RinehartNJ:2001:AutismMovement}%
-\begin{APACrefauthors}%
-Rinehart, N\BPBI J.%
-, Bradshaw, J\BPBI L.%
-, Brereton, A\BPBI V.%
-\BCBL {}\ \BBA {} Tonge, B\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Movement Preparation in High-Functioning Autism and
-  Asperger Disorder: A Serial Choice Reaction Time Task Involving Motor
-  Reprogramming} {Movement preparation in high-functioning autism and asperger
-  disorder: A serial choice reaction time task involving motor
-  reprogramming}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{31}{1}{79--88}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Rinehart \emph{\bbletal{}}(2001)Rinehart, Bradshaw, Brereton,
+  \bbland{} Tonge}]{RinehartNJ:2001:AutismMovement}
+Rinehart, N.J., Bradshaw, J.L., Brereton, A.V., \bbland{} Tonge, B.J. (2001)
+  Movement preparation in high-functioning autism and asperger disorder: A
+  serial choice reaction time task involving motor reprogramming. \emph{Journal
+  of Autism and Developmental Disorders}, \textbf{31}~(1), 79--88.
 
-\bibitem [\protect \citeauthoryear {%
-Rinehart%
-\ \protect \BOthers {.}}{%
-Rinehart%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
-}]{%
-RinehartNJ:2006:AutismGait}
-\APACinsertmetastar {%
-RinehartNJ:2006:AutismGait}%
-\begin{APACrefauthors}%
-Rinehart, N\BPBI J.%
-, Tonge, B\BPBI J.%
-, Iansek, R.%
-, McGinley, J.%
-, Brereton, A\BPBI V.%
-, Enticott, P\BPBI G.%
-\BCBL {}\ \BBA {} Bradshaw, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Gait Function in Newly Diagnosed Children with Autism:
-  Cerebellar and Basal Ganglia Related Motor Disorder} {Gait function in newly
+\bibitem[{Rinehart \emph{\bbletal{}}(2006)Rinehart, Tonge, Iansek, McGinley,
+  Brereton, Enticott, \bbland{} Bradshaw}]{RinehartNJ:2006:AutismGait}
+Rinehart, N.J., Tonge, B.J., Iansek, R., McGinley, J., Brereton, A.V.,
+  Enticott, P.G., \bbland{} Bradshaw, J.L. (2006) Gait function in newly
   diagnosed children with autism: Cerebellar and basal ganglia related motor
-  disorder}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Developmental Medicine \& Child
-  Neurology}{48}{10}{819--824}.
-\PrintBackRefs{\CurrentBib}
+  disorder. \emph{Developmental Medicine \& Child Neurology}, \textbf{48}~(10),
+  819--824.
 
-\bibitem [\protect \citeauthoryear {%
-Rodier%
-, Ingram%
-, Tisdale%
-, Nelson%
-\BCBL {}\ \BBA {} Romana%
-}{%
-Rodier%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-RodierPM:1996:AutismCerebellum}
-\APACinsertmetastar {%
-RodierPM:1996:AutismCerebellum}%
-\begin{APACrefauthors}%
-Rodier, P\BPBI M.%
-, Ingram, J\BPBI L.%
-, Tisdale, B.%
-, Nelson, S.%
-\BCBL {}\ \BBA {} Romana, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Embryological Origin for Autism: Developmental Anomalies
-  of the Cranial Nerve Motor Nuclei} {Embryological origin for autism:
-  Developmental anomalies of the cranial nerve motor nuclei}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Comparative Neurology}{370}{2}{247--261}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Rodier \emph{\bbletal{}}(1996)Rodier, Ingram, Tisdale, Nelson,
+  \bbland{} Romana}]{RodierPM:1996:AutismCerebellum}
+Rodier, P.M., Ingram, J.L., Tisdale, B., Nelson, S., \bbland{} Romana, J.
+  (1996) Embryological origin for autism: Developmental anomalies of the
+  cranial nerve motor nuclei. \emph{Journal of Comparative Neurology},
+  \textbf{370}~(2), 247--261.
 
-\bibitem [\protect \citeauthoryear {%
-Rougier%
-, Noelle%
-, Braver%
-, Cohen%
-\BCBL {}\ \BBA {} O'Reilly%
-}{%
-Rougier%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2005}}%
-}]{%
-RougierNP:2005:XT}
-\APACinsertmetastar {%
-RougierNP:2005:XT}%
-\begin{APACrefauthors}%
-Rougier, N\BPBI P.%
-, Noelle, D\BPBI C.%
-, Braver, T\BPBI S.%
-, Cohen, J\BPBI D.%
-\BCBL {}\ \BBA {} O'Reilly, R\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Prefrontal Cortex and Flexible Cognitive Control: Rules
-  Without Symbols} {Prefrontal cortex and flexible cognitive control: Rules
-  without symbols}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Proceedings of the National Academy of
-  Sciences}{102}{20}{7338--7343}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Rougier \emph{\bbletal{}}(2005)Rougier, Noelle, Braver, Cohen,
+  \bbland{} O'Reilly}]{RougierNP:2005:XT}
+Rougier, N.P., Noelle, D.C., Braver, T.S., Cohen, J.D., \bbland{} O'Reilly,
+  R.C. (2005) Prefrontal cortex and flexible cognitive control: Rules without
+  symbols. \emph{Proceedings of the National Academy of Sciences},
+  \textbf{102}~(20), 7338--7343.
 
-\bibitem [\protect \citeauthoryear {%
-Rubenstein%
-\ \BBA {} Merzenich%
-}{%
-Rubenstein%
-\ \BBA {} Merzenich%
-}{%
-{\protect \APACyear {2003}}%
-}]{%
-RubensteinJLR:2003:EI}
-\APACinsertmetastar {%
-RubensteinJLR:2003:EI}%
-\begin{APACrefauthors}%
-Rubenstein, J\BPBI L\BPBI R.%
-\BCBT {}\ \BBA {} Merzenich, M\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Model of Autism: Increased Ratio of
-  Excitation/Inhibition in Key Neural Systems} {Model of autism: Increased
-  ratio of excitation/inhibition in key neural systems}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Genes, Brain, and Behavior}{2}{5}{255--267}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Rubenstein \bbland{} Merzenich(2003)}]{RubensteinJLR:2003:EI}
+Rubenstein, J.L.R. \bbland{} Merzenich, M.M. (2003) Model of autism: Increased
+  ratio of excitation/inhibition in key neural systems. \emph{Genes, Brain, and
+  Behavior}, \textbf{2}~(5), 255--267.
 
-\bibitem [\protect \citeauthoryear {%
-Schultz%
-, Dayan%
-\BCBL {}\ \BBA {} Montague%
-}{%
-Schultz%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1997}}%
-}]{%
-SchultzW:1997:TD}
-\APACinsertmetastar {%
-SchultzW:1997:TD}%
-\begin{APACrefauthors}%
-Schultz, W.%
-, Dayan, P.%
-\BCBL {}\ \BBA {} Montague, P\BPBI R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Neural Substrate of Prediction and Reward} {A neural
-  substrate of prediction and reward}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Science}{275}{5306}{1593--1599}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Schultz \emph{\bbletal{}}(1997)Schultz, Dayan, \bbland{}
+  Montague}]{SchultzW:1997:TD}
+Schultz, W., Dayan, P., \bbland{} Montague, P.R. (1997) A neural substrate of
+  prediction and reward. \emph{Science}, \textbf{275}~(5306), 1593--1599.
 
-\bibitem [\protect \citeauthoryear {%
-Shah%
-\ \BBA {} Frith%
-}{%
-Shah%
-\ \BBA {} Frith%
-}{%
-{\protect \APACyear {1983}}%
-}]{%
-ShahA:1983:Islet}
-\APACinsertmetastar {%
-ShahA:1983:Islet}%
-\begin{APACrefauthors}%
-Shah, A.%
-\BCBT {}\ \BBA {} Frith, U.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1983}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {An Islet of Ability in Autistic Children: A Research
-  Note} {An islet of ability in autistic children: A research note}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Child Psychology and
-  Psychiatry}{24}{4}{613--620}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Shah \bbland{} Frith(1983)}]{ShahA:1983:Islet}
+Shah, A. \bbland{} Frith, U. (1983) An islet of ability in autistic children: A
+  research note. \emph{Journal of Child Psychology and Psychiatry},
+  \textbf{24}~(4), 613--620.
 
-\bibitem [\protect \citeauthoryear {%
-Staal%
-, {de Krom}%
-\BCBL {}\ \BBA {} {de Jonge}%
-}{%
-Staal%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-StaalW:2012:DopamineASDGenetics}
-\APACinsertmetastar {%
-StaalW:2012:DopamineASDGenetics}%
-\begin{APACrefauthors}%
-Staal, W.%
-, {de Krom}, M.%
-\BCBL {}\ \BBA {} {de Jonge}, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Dopamine-3-Receptor Gene ({DRD3}) is Associated with
-  Specific Repetitive Behavior in Autism Spectrum Disorder ({ASD})} {The
+\bibitem[{Staal \emph{\bbletal{}}(2012)Staal, {de Krom}, \bbland{} {de
+  Jonge}}]{StaalW:2012:DopamineASDGenetics}
+Staal, W., {de Krom}, M., \bbland{} {de Jonge}, M. (2012) The
   dopamine-3-receptor gene ({DRD3}) is associated with specific repetitive
-  behavior in autism spectrum disorder ({ASD})}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Autism and Developmental
-  Disorders}{42}{5}{885--888}.
-\PrintBackRefs{\CurrentBib}
+  behavior in autism spectrum disorder ({ASD}). \emph{Journal of Autism and
+  Developmental Disorders}, \textbf{42}~(5), 885--888.
 
-\bibitem [\protect \citeauthoryear {%
-Stores%
-\ \BBA {} Wivggs%
-}{%
-Stores%
-\ \BBA {} Wivggs%
-}{%
-{\protect \APACyear {1998}}%
-}]{%
-StoresG:1998:Sleep}
-\APACinsertmetastar {%
-StoresG:1998:Sleep}%
-\begin{APACrefauthors}%
-Stores, G.%
-\BCBT {}\ \BBA {} Wivggs, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1998}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Abnormal Sleep Patterns Associated with Autism: A Brief
-  Review of Research Findings, Assessment Methods and Treatment Strategies}
-  {Abnormal sleep patterns associated with autism: A brief review of research
-  findings, assessment methods and treatment strategies}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Autism}{2}{2}{157--169}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Stores \bbland{} Wivggs(1998)}]{StoresG:1998:Sleep}
+Stores, G. \bbland{} Wivggs, L. (1998) Abnormal sleep patterns associated with
+  autism: A brief review of research findings, assessment methods and treatment
+  strategies. \emph{Autism}, \textbf{2}~(2), 157--169.
 
-\bibitem [\protect \citeauthoryear {%
-Stroop%
-}{%
-Stroop%
-}{%
-{\protect \APACyear {1935}}%
-}]{%
-StroopJR:1935:Interference}
-\APACinsertmetastar {%
-StroopJR:1935:Interference}%
-\begin{APACrefauthors}%
-Stroop, J\BPBI R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1935}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Studies of Interference in Serial Verbal Reactions}
-  {Studies of interference in serial verbal reactions}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Experimental Psychology}{28}{}{643--662}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Stroop(1935)}]{StroopJR:1935:Interference}
+Stroop, J.R. (1935) Studies of interference in serial verbal reactions.
+  \emph{Journal of Experimental Psychology}, \textbf{28}, 643--662.
 
-\bibitem [\protect \citeauthoryear {%
-Stuss%
-, Floden%
-, Alexander%
-, Levine%
-\BCBL {}\ \BBA {} Katz%
-}{%
-Stuss%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2001}}%
-}]{%
-StussDT:2001:StroopLesion}
-\APACinsertmetastar {%
-StussDT:2001:StroopLesion}%
-\begin{APACrefauthors}%
-Stuss, D\BPBI T.%
-, Floden, D.%
-, Alexander, M\BPBI P.%
-, Levine, B.%
-\BCBL {}\ \BBA {} Katz, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Stroop Performance in Focal Lesion Patients:
-  Dissociation of Processes and Frontal Lobe Lesion Location} {Stroop
-  performance in focal lesion patients: Dissociation of processes and frontal
-  lobe lesion location}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neuropsychologia}{39}{8}{771--786}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Stuss \emph{\bbletal{}}(2001)Stuss, Floden, Alexander, Levine,
+  \bbland{} Katz}]{StussDT:2001:StroopLesion}
+Stuss, D.T., Floden, D., Alexander, M.P., Levine, B., \bbland{} Katz, D. (2001)
+  Stroop performance in focal lesion patients: Dissociation of processes and
+  frontal lobe lesion location. \emph{Neuropsychologia}, \textbf{39}~(8),
+  771--786.
 
-\bibitem [\protect \citeauthoryear {%
-Stuss%
-\ \protect \BOthers {.}}{%
-Stuss%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
-}]{%
-StussDT:2000:WCSTLesion}
-\APACinsertmetastar {%
-StussDT:2000:WCSTLesion}%
-\begin{APACrefauthors}%
-Stuss, D\BPBI T.%
-, Levine, B.%
-, Alexander, M\BPBI P.%
-, Hong, J.%
-, Palumbo, C.%
-, Hamer, L.%
-\BDBL {}Izukawa, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Wisconsin Card Sorting Test Performance in Patients with
-  Focal Frontal and Posterior Brain Damage: Effects of Lesion Location and Test
-  Structure on Separable Cognitive Processes} {Wisconsin card sorting test
+\bibitem[{Stuss \emph{\bbletal{}}(2000)Stuss, Levine, Alexander, Hong, Palumbo,
+  Hamer, Murphy, \bbland{} Izukawa}]{StussDT:2000:WCSTLesion}
+Stuss, D.T., Levine, B., Alexander, M.P., Hong, J., Palumbo, C., Hamer, L.,
+  Murphy, K.J., \bbland{} Izukawa, D. (2000) Wisconsin card sorting test
   performance in patients with focal frontal and posterior brain damage:
   Effects of lesion location and test structure on separable cognitive
-  processes}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neuropsychologia}{38}{4}{388--402}.
-\PrintBackRefs{\CurrentBib}
+  processes. \emph{Neuropsychologia}, \textbf{38}~(4), 388--402.
 
-\bibitem [\protect \citeauthoryear {%
-Tsai%
-}{%
-Tsai%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-TsaiLY:1999:AutismDopamine}
-\APACinsertmetastar {%
-TsaiLY:1999:AutismDopamine}%
-\begin{APACrefauthors}%
-Tsai, L\BPBI Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Psychopharmacology in Autism} {Psychopharmacology in
-  autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychosomatic Medicine}{61}{}{651--665}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Tsai(1999)}]{TsaiLY:1999:AutismDopamine}
+Tsai, L.Y. (1999) Psychopharmacology in autism. \emph{Psychosomatic Medicine},
+  \textbf{61}, 651--665.
 
-\bibitem [\protect \citeauthoryear {%
-Tuchman%
-\ \BBA {} Rapin%
-}{%
-Tuchman%
-\ \BBA {} Rapin%
-}{%
-{\protect \APACyear {2002}}%
-}]{%
-TuchmanR:2002:EpilepsyAutism}
-\APACinsertmetastar {%
-TuchmanR:2002:EpilepsyAutism}%
-\begin{APACrefauthors}%
-Tuchman, R.%
-\BCBT {}\ \BBA {} Rapin, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Epilepsy in Autism} {Epilepsy in autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Lancet Neurology}{1}{}{352--358}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Tuchman \bbland{} Rapin(2002)}]{TuchmanR:2002:EpilepsyAutism}
+Tuchman, R. \bbland{} Rapin, I. (2002) Epilepsy in autism. \emph{Lancet
+  Neurology}, \textbf{1}, 352--358.
 
-\bibitem [\protect \citeauthoryear {%
-Turner%
-}{%
-Turner%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-TurnerW:1999:AutismGenerativity}
-\APACinsertmetastar {%
-TurnerW:1999:AutismGenerativity}%
-\begin{APACrefauthors}%
-Turner, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Generating Novel Ideas: Fluency Performance in
-  High-Functioning and Learning Disabled Individuals with Autism} {Generating
-  novel ideas: Fluency performance in high-functioning and learning disabled
-  individuals with autism}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Child Psychology and
-  Psychiatry}{40}{2}{189--201}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Turner(1999)}]{TurnerW:1999:AutismGenerativity}
+Turner, M. (1999) Generating novel ideas: Fluency performance in
+  high-functioning and learning disabled individuals with autism. \emph{Journal
+  of Child Psychology and Psychiatry}, \textbf{40}~(2), 189--201.
 
-\bibitem [\protect \citeauthoryear {%
-Wang%
-, Vijayraghavan%
-\BCBL {}\ \BBA {} Goldman-Rakic%
-}{%
-Wang%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-WangM:2004:D2}
-\APACinsertmetastar {%
-WangM:2004:D2}%
-\begin{APACrefauthors}%
-Wang, M.%
-, Vijayraghavan, S.%
-\BCBL {}\ \BBA {} Goldman-Rakic, P\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Selective {D2} Receptor Actions on the Functional
-  Circuitry of Working Memory} {Selective {D2} receptor actions on the
-  functional circuitry of working memory}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Science}{303}{}{853--856}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Wang \emph{\bbletal{}}(2004)Wang, Vijayraghavan, \bbland{}
+  Goldman-Rakic}]{WangM:2004:D2}
+Wang, M., Vijayraghavan, S., \bbland{} Goldman-Rakic, P.S. (2004) Selective
+  {D2} receptor actions on the functional circuitry of working memory.
+  \emph{Science}, \textbf{303}, 853--856.
 
 \end{thebibliography}

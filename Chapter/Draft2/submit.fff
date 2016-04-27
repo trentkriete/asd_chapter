@@ -155,7 +155,7 @@
 \ifnextchar[{\eatarg}{}
 [ht]
 \begin{center}
-\includegraphics[width=100mm]{figures/prototype_categories.eps}
+\includegraphics[width=160mm]{figures/prototype_categories.eps}
 \end{center}
 \caption{Prototypes for Different Stimulus Categories. Note that each participant observed members from only two categories. Image adapted from Klinger \& Dawson (2001).}
 \label{prototype-categories}
@@ -166,7 +166,7 @@
 \ifnextchar[{\eatarg}{}
 [ht]
 \begin{center}
-\includegraphics[width=100mm]{figures/mip_familiarization.eps}
+\includegraphics[width=160mm]{figures/mip_familiarization.eps}
 \end{center}
 \caption{Variation Within a Category. Image adapted from Klinger \& Dawson (2001).}
 \label{mip-familiarization}
