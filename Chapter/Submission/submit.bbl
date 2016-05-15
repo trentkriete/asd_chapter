@@ -1,0 +1,423 @@
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\input{babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand\eprint[2][]{{\if!#1!#2\else\href{http://www.#1.org/#2}{#2}\fi}}
+
+\bibitem[{Aylward \emph{\bbletal{}}(2002)Aylward, Minshew, Field, Sparks,
+  \bbland{} Singh}]{AylwardEH:2002:BrainVolume}
+Aylward, E.H., Minshew, N.J., Field, K., Sparks, B.F., \bbland{} Singh, N.
+  (2002) Effects of age on brain volume and head circumference in autism.
+  \emph{Neurology}, \textbf{59}~(2), 175--183.
+
+\bibitem[{Baron-Cohen \emph{\bbletal{}}(1985)Baron-Cohen, Leslie, \bbland{}
+  Frith}]{Baron-Cohen:1985:AutismTOM}
+Baron-Cohen, S., Leslie, A.M., \bbland{} Frith, U. (1985) Does the autistic
+  child have a ``theory of mind''? \emph{Cognition}, \textbf{21}~(1), 37--46.
+
+\bibitem[{Barto(1994)}]{BartoAG:1994:TDLearning}
+Barto, A.G. (1994) Adaptive critics and the basal ganglia, \bblin{}
+  \emph{Models of Information Processing in the Basal Ganglia} (\bbleds{} J.C.
+  Houk, J.L. Davis, \bbland{} D.G. Beiser), MIT Press, Cambridge,
+  Massachusetts, \bblpp{} 215--232.
+
+\bibitem[{Bennetto \emph{\bbletal{}}(1996)Bennetto, Pennington, \bbland{}
+  Rogers}]{BennettoL:1996:AutismPlanningWCST}
+Bennetto, L., Pennington, B.F., \bbland{} Rogers, S.J. (1996) Intact and
+  impaired memory functions in autism. \emph{Child Development},
+  \textbf{67}~(4), 1816--1835.
+
+\bibitem[{Berg(1948)}]{BergEA:1948:WCST}
+Berg, E.A. (1948) A simple objective test for measuring flexibility in
+  thinking. \emph{Journal of General Psychology}, \textbf{39}, 15--22.
+
+\bibitem[{Braver \bbland{} Cohen(1999)}]{BraverTS:1999:Schizophrenia}
+Braver, T.S. \bbland{} Cohen, J.D. (1999) Dopamine, cognitive control, and
+  schizophrenia: The gating model. \emph{Progress in Brain Research},
+  \textbf{121}, 327--349.
+
+\bibitem[{Braver \bbland{} Cohen(2000)}]{BraverTS:2000:Control}
+Braver, T.S. \bbland{} Cohen, J.D. (2000) On the control of control: The role
+  of dopamine in regulating prefrontal function and working memory, \bblin{}
+  \emph{Control of Cognitive Processes: Attention and Performance {XVIII}}
+  (\bbleds{} S.~Monsell \bbland{} J.~Driver), MIT Press, Cambridge,
+  Massachusetts, \bblchap{}~31, \bblpp{} 713--737.
+
+\bibitem[{Canales \bbland{} Graybiel(2000)}]{CanalesJJ:2000:Stereotypy}
+Canales, J.J. \bbland{} Graybiel, A.M. (2000) A measure of striatal function
+  predicts motor stereotypy. \emph{Nature Neuroscience}, \textbf{3}~(4),
+  377--383.
+
+\bibitem[{Carlsson(1998)}]{CarlssonML:1998:Glutamate}
+Carlsson, M.L. (1998) Hypothesis: Is infantile autism a hypoglutamatergic
+  disorder? {Relevance} of glutamate - serotonin interactions for
+  pharmacotherapy. \emph{Journal of Neural Transmission}, \textbf{105}~(4--5),
+  525--535.
+
+\bibitem[{Casanova \emph{\bbletal{}}(2003)Casanova, Buuxhoeveden, \bbland{}
+  Gomez}]{CasanovaMF:2003:AutismMiniColumns}
+Casanova, M.F., Buuxhoeveden, D., \bbland{} Gomez, J. (2003) Disruption in the
+  inhibitory architecture of the cell minicolumn: Implications for autism.
+  \emph{The Neuroscientist}, \textbf{9}~(6), 496--507.
+
+\bibitem[{Cleeremans \bbland{} McClelland(1991)}]{CleeremansA:1991:SSRT}
+Cleeremans, A. \bbland{} McClelland, J.L. (1991) Learning the structure of
+  event sequences. \emph{Journal of Experimental Psychology}, \textbf{120}~(3),
+  235--253.
+
+\bibitem[{Cohen(1994)}]{CohenIL:1994:AutismLearning}
+Cohen, I.L. (1994) An artificial neural network analogue of learning in autism.
+  \emph{Biological Psychiatry}, \textbf{36}~(1), 5--20.
+
+\bibitem[{Cohen \emph{\bbletal{}}(1990)Cohen, Dunbar, \bbland{}
+  McClelland}]{CohenJD:1990:Stroop}
+Cohen, J.D., Dunbar, K., \bbland{} McClelland, J.L. (1990) On the control of
+  automatic processes: A parallel distributed processing model of the {Stroop}
+  effect. \emph{Psychological Review}, \textbf{97}~(3), 332--361.
+
+\bibitem[{Cohen \bbland{}
+  {Servan-Schrieber}(1992)}]{CohenJD:1992:Schizophrenia}
+Cohen, J.D. \bbland{} {Servan-Schrieber}, D. (1992) Context, cortex, and
+  dopamine: A connectionist approach to behavior and biology in schizophrenia.
+  \emph{Psychological Review}, \textbf{99}~(1), 45--77.
+
+\bibitem[{Dayan \bbland{} Niv(2008)}]{DayanP:2008:Ugly}
+Dayan, P. \bbland{} Niv, Y. (2008) Reinforcement learning: The good, the bad
+  and the ugly. \emph{Current Opinion in Neurobiology}, \textbf{18}, 185--196.
+
+\bibitem[{Elman(1990)}]{ElmanJ:1990:SRN}
+Elman, J. (1990) Finding structure in time. \emph{Cognitive Science},
+  \textbf{14}, 179--211.
+
+\bibitem[{Fernell \emph{\bbletal{}}(1997)Fernell, Watanabe, Adolfsson, Tani,
+  Bergstrom, Hartvig, Lilja, von Knorring, Gillberg, \bbland{}
+  Langstrom}]{FernellE:1997:AutismPET}
+Fernell, E., Watanabe, Y., Adolfsson, I., Tani, Y., Bergstrom, M., Hartvig, P.,
+  Lilja, A., von Knorring, A.L., Gillberg, C., \bbland{} Langstrom, B. (1997)
+  Possible effects of tetrahydrobiopterin treatment in six children with autism
+  -- clinical and positron emission tomography data: A pilot study.
+  \emph{Developmental Medicine and Child Neurology}, \textbf{39}~(5), 313--318.
+
+\bibitem[{Frith(1989)}]{FrithU:1989:AutismWCC}
+Frith, U. (1989) \emph{Autism: Explaining the Enigma}, Blackwell, Oxford.
+
+\bibitem[{Gastgeb \emph{\bbletal{}}(2009)Gastgeb, Rump, Best, Minshew,
+  \bbland{} Strauss}]{GastgebHZ:2009:Prototype}
+Gastgeb, H.Z., Rump, K.M., Best, C.A., Minshew, N.J., \bbland{} Strauss, M.S.
+  (2009) Prototype formation in autism: Can individuals with autism abstract
+  facial prototypes? \emph{Autism Research}, \textbf{2}~(5), 279--284.
+
+\bibitem[{Goldman-Rakic(1987)}]{GoldmanRakicPS:1987:PFCMaintenance}
+Goldman-Rakic, P.S. (1987) Circuitry of primate prefrontal cortex and
+  regulation of behavior by representational memory, \bblin{} \emph{Handbook of
+  Physiology -- The Nervous System} (\bbled{} F.~Plum), American Physiological
+  Society, Bethesda, MD, \bblpp{} 373--417.
+
+\bibitem[{Griffith \emph{\bbletal{}}(1999)Griffith, Pennington, Wehner,
+  \bbland{} Rogers}]{GriffithEM:1999:AutismYoungED}
+Griffith, E.M., Pennington, B.F., Wehner, E.A., \bbland{} Rogers, S.J. (1999)
+  Executive functions in young children with autism. \emph{Child Development},
+  \textbf{70}~(4), 817--832.
+
+\bibitem[{Grossberg \bbland{} Seidman(2006)}]{GrossbergS:2006:Autism}
+Grossberg, S. \bbland{} Seidman, D. (2006) Neural dynamics of autistic
+  behaviors: Cognitive, emotional, and timing substrates. \emph{Psychological
+  Review}, \textbf{113}~(3), 483--525.
+
+\bibitem[{Gustafsson(1997)}]{GustafssonL:1997:AutismMaps}
+Gustafsson, L. (1997) Inadequate cortical feature maps: A neural circuit theory
+  of autism. \emph{Biological Psychiatry}, \textbf{42}~(12), 1138--1147.
+
+\bibitem[{Happ\'{e}(1999)}]{HappeF:1999:WCC}
+Happ\'{e}, F. (1999) Autism: Cognitive deficit or cognitive style? \emph{Trends
+  in Cognitive Sciences}, \textbf{3}~(6), 216--222.
+
+\bibitem[{Happ\'{e}(1997)}]{HappeF:1997:WCCHomographs}
+Happ\'{e}, F.G.E. (1997) Central coherence and theory of mind in autism:
+  Reading homographs in context. \emph{British Journal of Developmental
+  Psychology}, \textbf{15}~(1), 1--12.
+
+\bibitem[{Hill(2004)}]{HillEL:2004:AutismExecutiveDysfunction}
+Hill, E. (2004) Executive dysfunction in autism. \emph{Trends in Cognitive
+  Sciences}, \textbf{8}~(1), 26--32.
+
+\bibitem[{Hughes \emph{\bbletal{}}(1994)Hughes, Russell, \bbland{}
+  Robbins}]{HughesC:1994:AutismExecutiveDysfunction}
+Hughes, C., Russell, J., \bbland{} Robbins, T.W. (1994) Evidence for executive
+  dysfunction in autism. \emph{Neuropsychologia}, \textbf{32}~(4), 477--492.
+
+\bibitem[{Kemper \bbland{} Bauman(1998)}]{KemperTL:1998:ASDNeuropathology}
+Kemper, T.L. \bbland{} Bauman, M. (1998) Neuropathology of infantile autism.
+  \emph{Journal of Neuropathology and Experimental Neurology}, \textbf{57}~(7),
+  645--652.
+
+\bibitem[{Klinger \bbland{} Dawson(2001)}]{KlingerLG:2001:Prototype}
+Klinger, L.G. \bbland{} Dawson, G. (2001) Prototype formation in autism.
+  \emph{Development and Psychopathology}, \textbf{13}~(1), 111--124.
+
+\bibitem[{Klinger \emph{\bbletal{}}(2006)Klinger, Klinger, \bbland{}
+  Pohlig}]{KlingerLG:2006:Implicit}
+Klinger, L.G., Klinger, M.R., \bbland{} Pohlig, R.L. (2006) Implicit learning
+  impairments in autism spectrum disorders: Implications for treatment,
+  \bblin{} \emph{New Developments in Autism: The Future is Today} (\bbleds{}
+  J.M. Perez, P.M. Gonzalez, M.L. Comi, \bbland{} C.~Nieto), Jessica Kingsley
+  Publishers, London.
+
+\bibitem[{Kriete \bbland{} Noelle(2009)}]{KrieteT:2009:SRTT}
+Kriete, T. \bbland{} Noelle, D.C. (2009) Implicit learning deficits in autism:
+  A neurocomputational account, \bblin{} \emph{Proceedings of the 31st Annual
+  Conference of the Cognitive Science Society} (\bbleds{} N.~Taatgen \bbland{}
+  H.~{van Rijn}), Cognitive Science Society, Amsterdam, The Netherlands,
+  \bblpp{} 309--314.
+
+\bibitem[{Kriete \bbland{} Noelle(2015)}]{KrieteT:2015:ED}
+Kriete, T. \bbland{} Noelle, D.C. (2015) Dopamine and the development of
+  executive dysfunction in autism spectrum disorders. \emph{{PLoS ONE}},
+  \textbf{10}~(3). E0121605, doi:10.1371/journal.pone.0121605.
+
+\bibitem[{Kurschke(1992)}]{KruschkeJK:1992:ALCOVE}
+Kurschke, J.K. (1992) {ALCOVE}: An exemplar-based connectionist model of
+  category learning. \emph{Psychological Review}, \textbf{99}~(1), 22--44.
+
+\bibitem[{Levitt \emph{\bbletal{}}(1993)Levitt, Lewis, Yoshioka, \bbland{}
+  Lund}]{LevittJB:1993:Stripes}
+Levitt, J.B., Lewis, D.A., Yoshioka, T., \bbland{} Lund, J.S. (1993) Topography
+  of pyramidal neuron intrinsic connections in macaque monkey prefrontal cortex
+  (areas 9 46). \emph{Journal of Comparative Neurology}, \textbf{338},
+  360--376.
+
+\bibitem[{Lovaas \emph{\bbletal{}}(1971)Lovaas, Schreibman, Koegel, \bbland{}
+  Rehm}]{LovaasO:1971:Selective}
+Lovaas, O., Schreibman, L., Koegel, R., \bbland{} Rehm, R. (1971) Selective
+  responding by autistic children to multiple sensory input. \emph{Journal of
+  Abnormal Psychology}, \textbf{77}~(3), 211--222.
+
+\bibitem[{Luce(1963)}]{LuceRD:1963:Ratio}
+Luce, R.D. (1963) Detection and recognition, \bblin{} \emph{Handbook of
+  Mathematical Psychology} (\bbleds{} R.D. Luce, R.R. Bush, \bbland{}
+  E.~Galanter), Wiley, New York, \bblpp{} 103--189.
+
+\bibitem[{Martineau \emph{\bbletal{}}(1992)Martineau, Barthelemy, Jouve, Muh,
+  \bbland{} Lelord}]{MartineauJ:1992:AutismDopamine}
+Martineau, J., Barthelemy, C., Jouve, J., Muh, J.P., \bbland{} Lelord, G.
+  (1992) Monoamines (serotonin and catecholamines) and their derivatives in
+  infantile autism: Age-related changes and drug effects. \emph{Developmental
+  Medicine and Child Neurology}, \textbf{34}~(7), 593--603.
+
+\bibitem[{Matsumoto \emph{\bbletal{}}(1999)Matsumoto, Hanakawa, Maki, Graybiel,
+  \bbland{} Kimura}]{MatsumotoN:1999:Sequential}
+Matsumoto, N., Hanakawa, T., Maki, S., Graybiel, A.M., \bbland{} Kimura, M.
+  (1999) Nigrostriatal dopamine system in learning to perform sequential motor
+  tasks in a predictive manner. \emph{Journal of Neurophysiology},
+  \textbf{82}~(2), 978--998.
+
+\bibitem[{McClelland(2000)}]{McClellandJL:2000:Autism}
+McClelland, J.L. (2000) The basis of hyperspecificity in autism: A preliminary
+  suggestion based on properties of neural nets. \emph{Journal of Autism and
+  Developmental Disorders}, \textbf{30}~(5), 497--502.
+
+\bibitem[{Miller \bbland{} Cohen(2001)}]{MillerEK:2001:PFC}
+Miller, E.K. \bbland{} Cohen, J.D. (2001) An integrative theory of prefrontal
+  cortex function. \emph{Annual Review of Neuroscience}, \textbf{24}~(1),
+  167--202.
+
+\bibitem[{Minshew \emph{\bbletal{}}(2002)Minshew, Meyer, \bbland{}
+  Goldstein}]{MinshewNJ:2002:AutismWCST}
+Minshew, N.J., Meyer, J., \bbland{} Goldstein, G. (2002) Abstract reasoning in
+  autism: A dissociation between concept formation and concept identification.
+  \emph{Neuropsychology}, \textbf{16}~(3), 327--334.
+
+\bibitem[{Montague \emph{\bbletal{}}(1996)Montague, Dayan, \bbland{}
+  Sejnowski}]{MontaguePR:1996:Dopamine}
+Montague, P.R., Dayan, P., \bbland{} Sejnowski, T.J. (1996) A framework for
+  mesencephalic dopamine systems based on predictive {Hebbian} learning.
+  \emph{Journal of Neuroscience}, \textbf{16}~(5), 1936--1947.
+
+\bibitem[{Mostofsky \emph{\bbletal{}}(2000)Mostofsky, Goldberg, Landa,
+  \bbland{} Denckla}]{MostofskySH:2000:Procedural}
+Mostofsky, S.H., Goldberg, M.C., Landa, R.J., \bbland{} Denckla, M.B. (2000)
+  Evidence for a deficit in procedural learning in children and adolescents
+  with autism: Implications for cerebellar contribution. \emph{Journal of the
+  International Neuropsychological Society}, \textbf{6}~(7), 752--759.
+
+\bibitem[{Nelson \bbland{} Pribor(1993)}]{NelsonEC:1993:Calendar}
+Nelson, E.C. \bbland{} Pribor, E.F. (1993) A calendar savant with autism and
+  {Tourette} syndrome. {Response} to treatment and thoughts on the
+  interrelationships of these conditions. \emph{Annals of Clinical Psychiatry},
+  \textbf{5}~(2), 135--140.
+
+\bibitem[{Noelle(2012)}]{NoelleDC:2012:Rules}
+Noelle, D.C. (2012) On the neural basis of rule-guided behavior. \emph{Journal
+  of Integrative Neuroscience}, \textbf{11}~(4), 453--475.
+
+\bibitem[{O'Loughlin \bbland{} Thagard(2000)}]{OLoughlinC:2000:Coherence}
+O'Loughlin, C. \bbland{} Thagard, P. (2000) Autism and coherence: A
+  computational model. \emph{Mind and Language}, \textbf{15}~(4), 375--392.
+
+\bibitem[{O'Reilly \bbland{} Munakata(2000)}]{OReillyRC:2000:Computational}
+O'Reilly, R.C. \bbland{} Munakata, Y. (2000) \emph{Computational Explorations
+  in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain},
+  MIT Press, Cambridge, Massachusetts.
+
+\bibitem[{O'Reilly \emph{\bbletal{}}(2002)O'Reilly, Noelle, Braver, \bbland{}
+  Cohen}]{OReillyRC:2002:IDED}
+O'Reilly, R.C., Noelle, D.C., Braver, T.S., \bbland{} Cohen, J.D. (2002)
+  Prefrontal cortex and dynamic categorization tasks: Representational
+  organization and neuromodulatory control. \emph{Cerebral Cortex},
+  \textbf{12}~(3), 246--257.
+
+\bibitem[{Ozonoff \bbland{} Jensen(1999)}]{Ozonoff:1999:AutismStroopWCST}
+Ozonoff, S. \bbland{} Jensen, J. (1999) Specific executive function profiles in
+  three neurodevelopmental disorders. \emph{Journal of Autism and Developmental
+  Disorders}, \textbf{29}~(2), 171--177.
+
+\bibitem[{Pascual-Leone \emph{\bbletal{}}(2004)Pascual-Leone, Wassermann,
+  Grafman, \bbland{} Hallett}]{PascualLeone:2004:PFCImplicit}
+Pascual-Leone, A., Wassermann, E.M., Grafman, J., \bbland{} Hallett, M. (2004)
+  The role of the dorsolateral prefrontal cortex in implicit procedural
+  learning. \emph{Experimental Brain Research}, \textbf{107}~(3), 479--485.
+
+\bibitem[{Perry \emph{\bbletal{}}(2001)Perry, Lee, Martin-Ruiz, Court, Volsen,
+  Merrit, Folly, Iversen, Bauman, Perry, \bbland{}
+  Wenk}]{PerryEK:2001:Cholinergic}
+Perry, E.K., Lee, M.L.W., Martin-Ruiz, C.M., Court, J.A., Volsen, S.G., Merrit,
+  J., Folly, E., Iversen, P.E., Bauman, M.L., Perry, R.H., \bbland{} Wenk, G.L.
+  (2001) Cholinergic activity in autism: Abnormalities in the cerebral cortex
+  and basal forebrain. \emph{American Journal of Psychiatry}, \textbf{158}~(7),
+  1058--1066.
+
+\bibitem[{Posey \bbland{} McDougle(2000)}]{PoseyDJ:2000:AutismDopamine}
+Posey, D.J. \bbland{} McDougle, C.J. (2000) The pharmacotherapy of target
+  symptoms associated with autistic disorder and other pervasive developmental
+  disorders. \emph{Harvard Review of Psychiatry}, \textbf{8}~(2), 45--63.
+
+\bibitem[{Pring \emph{\bbletal{}}(1995)Pring, Hermelin, \bbland{}
+  Heavey}]{PringL:1995:Savant}
+Pring, L., Hermelin, B., \bbland{} Heavey, L. (1995) Savants, segments, art and
+  autism. \emph{Journal of Child Psychology and Psychiatry}, \textbf{36}~(6),
+  1065--1076.
+
+\bibitem[{Prior \bbland{} Hoffman(1990)}]{PriorMR:1990:AutismWCST}
+Prior, M.R. \bbland{} Hoffman, W. (1990) Neuropsychological testing of autistic
+  children through an exploration with frontal lobe tests. \emph{Journal of
+  Autism and Developmental Disorders}, \textbf{20}~(4), 581--590.
+
+\bibitem[{Qiu \emph{\bbletal{}}(2010)Qiu, Adler, Crocetti, Miller, \bbland{}
+  Mostofsky}]{QuiA:2010:ASDMotor}
+Qiu, A., Adler, M., Crocetti, D., Miller, M.I., \bbland{} Mostofsky, S.H.
+  (2010) Basal ganglia shapes predict social, communication, and motor
+  dysfunctions in boys with autism spectrum disorder. \emph{Journal of the
+  American Academy of Child and Adolescent Psychiatry}, \textbf{49}~(6), 539 --
+  551.
+
+\bibitem[{Reber(1967)}]{ReberAS:1967:Implicit}
+Reber, A.S. (1967) Implicit learning of artificial grammars. \emph{Journal of
+  Verbal Learning and Verbal Behavior}, \textbf{6}, 855--863.
+
+\bibitem[{Reed \bbland{} Gibson(2005)}]{ReedP:2005:TaskLoad}
+Reed, P. \bbland{} Gibson, E. (2005) The effect of concurrent task load on
+  stimulus over-selectivity. \emph{Journal of Autism and Developmental
+  Disorders}, \textbf{35}~(5), 601--614.
+
+\bibitem[{Rinehart \emph{\bbletal{}}(2001)Rinehart, Bradshaw, Brereton,
+  \bbland{} Tonge}]{RinehartNJ:2001:AutismMovement}
+Rinehart, N.J., Bradshaw, J.L., Brereton, A.V., \bbland{} Tonge, B.J. (2001)
+  Movement preparation in high-functioning autism and asperger disorder: A
+  serial choice reaction time task involving motor reprogramming. \emph{Journal
+  of Autism and Developmental Disorders}, \textbf{31}~(1), 79--88.
+
+\bibitem[{Rinehart \emph{\bbletal{}}(2006)Rinehart, Tonge, Iansek, McGinley,
+  Brereton, Enticott, \bbland{} Bradshaw}]{RinehartNJ:2006:AutismGait}
+Rinehart, N.J., Tonge, B.J., Iansek, R., McGinley, J., Brereton, A.V.,
+  Enticott, P.G., \bbland{} Bradshaw, J.L. (2006) Gait function in newly
+  diagnosed children with autism: Cerebellar and basal ganglia related motor
+  disorder. \emph{Developmental Medicine \& Child Neurology}, \textbf{48}~(10),
+  819--824.
+
+\bibitem[{Rodier \emph{\bbletal{}}(1996)Rodier, Ingram, Tisdale, Nelson,
+  \bbland{} Romana}]{RodierPM:1996:AutismCerebellum}
+Rodier, P.M., Ingram, J.L., Tisdale, B., Nelson, S., \bbland{} Romana, J.
+  (1996) Embryological origin for autism: Developmental anomalies of the
+  cranial nerve motor nuclei. \emph{Journal of Comparative Neurology},
+  \textbf{370}~(2), 247--261.
+
+\bibitem[{Rougier \emph{\bbletal{}}(2005)Rougier, Noelle, Braver, Cohen,
+  \bbland{} O'Reilly}]{RougierNP:2005:XT}
+Rougier, N.P., Noelle, D.C., Braver, T.S., Cohen, J.D., \bbland{} O'Reilly,
+  R.C. (2005) Prefrontal cortex and flexible cognitive control: Rules without
+  symbols. \emph{Proceedings of the National Academy of Sciences},
+  \textbf{102}~(20), 7338--7343.
+
+\bibitem[{Rubenstein \bbland{} Merzenich(2003)}]{RubensteinJLR:2003:EI}
+Rubenstein, J.L.R. \bbland{} Merzenich, M.M. (2003) Model of autism: Increased
+  ratio of excitation/inhibition in key neural systems. \emph{Genes, Brain, and
+  Behavior}, \textbf{2}~(5), 255--267.
+
+\bibitem[{Schultz \emph{\bbletal{}}(1997)Schultz, Dayan, \bbland{}
+  Montague}]{SchultzW:1997:TD}
+Schultz, W., Dayan, P., \bbland{} Montague, P.R. (1997) A neural substrate of
+  prediction and reward. \emph{Science}, \textbf{275}~(5306), 1593--1599.
+
+\bibitem[{Shah \bbland{} Frith(1983)}]{ShahA:1983:Islet}
+Shah, A. \bbland{} Frith, U. (1983) An islet of ability in autistic children: A
+  research note. \emph{Journal of Child Psychology and Psychiatry},
+  \textbf{24}~(4), 613--620.
+
+\bibitem[{Staal \emph{\bbletal{}}(2012)Staal, {de Krom}, \bbland{} {de
+  Jonge}}]{StaalW:2012:DopamineASDGenetics}
+Staal, W., {de Krom}, M., \bbland{} {de Jonge}, M. (2012) The
+  dopamine-3-receptor gene ({DRD3}) is associated with specific repetitive
+  behavior in autism spectrum disorder ({ASD}). \emph{Journal of Autism and
+  Developmental Disorders}, \textbf{42}~(5), 885--888.
+
+\bibitem[{Stores \bbland{} Wivggs(1998)}]{StoresG:1998:Sleep}
+Stores, G. \bbland{} Wivggs, L. (1998) Abnormal sleep patterns associated with
+  autism: A brief review of research findings, assessment methods and treatment
+  strategies. \emph{Autism}, \textbf{2}~(2), 157--169.
+
+\bibitem[{Stroop(1935)}]{StroopJR:1935:Interference}
+Stroop, J.R. (1935) Studies of interference in serial verbal reactions.
+  \emph{Journal of Experimental Psychology}, \textbf{28}, 643--662.
+
+\bibitem[{Stuss \emph{\bbletal{}}(2001)Stuss, Floden, Alexander, Levine,
+  \bbland{} Katz}]{StussDT:2001:StroopLesion}
+Stuss, D.T., Floden, D., Alexander, M.P., Levine, B., \bbland{} Katz, D. (2001)
+  Stroop performance in focal lesion patients: Dissociation of processes and
+  frontal lobe lesion location. \emph{Neuropsychologia}, \textbf{39}~(8),
+  771--786.
+
+\bibitem[{Stuss \emph{\bbletal{}}(2000)Stuss, Levine, Alexander, Hong, Palumbo,
+  Hamer, Murphy, \bbland{} Izukawa}]{StussDT:2000:WCSTLesion}
+Stuss, D.T., Levine, B., Alexander, M.P., Hong, J., Palumbo, C., Hamer, L.,
+  Murphy, K.J., \bbland{} Izukawa, D. (2000) Wisconsin card sorting test
+  performance in patients with focal frontal and posterior brain damage:
+  Effects of lesion location and test structure on separable cognitive
+  processes. \emph{Neuropsychologia}, \textbf{38}~(4), 388--402.
+
+\bibitem[{Tsai(1999)}]{TsaiLY:1999:AutismDopamine}
+Tsai, L.Y. (1999) Psychopharmacology in autism. \emph{Psychosomatic Medicine},
+  \textbf{61}, 651--665.
+
+\bibitem[{Tuchman \bbland{} Rapin(2002)}]{TuchmanR:2002:EpilepsyAutism}
+Tuchman, R. \bbland{} Rapin, I. (2002) Epilepsy in autism. \emph{Lancet
+  Neurology}, \textbf{1}, 352--358.
+
+\bibitem[{Turner(1999)}]{TurnerW:1999:AutismGenerativity}
+Turner, M. (1999) Generating novel ideas: Fluency performance in
+  high-functioning and learning disabled individuals with autism. \emph{Journal
+  of Child Psychology and Psychiatry}, \textbf{40}~(2), 189--201.
+
+\bibitem[{Wang \emph{\bbletal{}}(2004)Wang, Vijayraghavan, \bbland{}
+  Goldman-Rakic}]{WangM:2004:D2}
+Wang, M., Vijayraghavan, S., \bbland{} Goldman-Rakic, P.S. (2004) Selective
+  {D2} receptor actions on the functional circuitry of working memory.
+  \emph{Science}, \textbf{303}, 853--856.
+
+\end{thebibliography}
