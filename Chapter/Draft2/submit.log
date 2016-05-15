@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.11.3)  27 APR 2016 10:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.11.3)  15 MAY 2016 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,102 +952,59 @@ Overfull \hbox (3.42287pt too wide) in paragraph at lines 7--9
 
 [6]
 File: figures/xt_arch_2.ps Graphic file (type eps)
- <figures/xt_arch_2.ps>
-Overfull \hbox (36.98859pt too wide) in paragraph at lines 71--72
- [] 
- []
-
-[7] [8]
+ <figures/xt_arch_2.ps> [7] [8]
 File: figures/xt_wcst_stim.eps Graphic file (type eps)
  <figures/xt_wcst_stim.eps> [9] [10]
 File: graphs/wcst.ps Graphic file (type eps)
- <graphs/wcst.ps>
+
+<graphs/wcst.ps>
 File: graphs/stroop.ps Graphic file (type eps)
-
-<graphs/stroop.ps>
-
-LaTeX Warning: Float too large for page by 10.42195pt on input line 163.
-
-[11] [12]
+ <graphs/stroop.ps> [11] [12]
 File: graphs/stroop_devel.eps Graphic file (type eps)
  <graphs/stroop_devel.eps>
-Overfull \hbox (93.8941pt too wide) in paragraph at lines 211--212
- [] 
- []
-
 File: graphs/wcst_devel_persev.eps Graphic file (type eps)
-<graphs/wcst_devel_persev.eps>
-Overfull \hbox (93.8941pt too wide) in paragraph at lines 219--220
- [] 
- []
 
-) (./implicit.tex [13] [14] [15]
+<graphs/wcst_devel_persev.eps>) (./implicit.tex [13] [14]
 File: figures/srtt_network.eps Graphic file (type eps)
- <figures/srtt_network.eps> [16]
+
+<figures/srtt_network.eps> [15] [16]
 File: graphs/srtt_chart.ps Graphic file (type eps)
-
-<graphs/srtt_chart.ps>
-Overfull \hbox (8.53583pt too wide) in paragraph at lines 66--67
- [] 
- []
-
-) (./lexical.tex [17] [18]
+ <graphs/srtt_chart.ps>) (./lexical.tex
+[17]
 Overfull \hbox (54.13246pt too wide) in paragraph at lines 14--15
 \T1/qtm/m/n/9.53561 and ASD on their abil-i-ty to uti-lize con-text when dis-am
 -biguat-ing words []
  []
 
+[18]
 File: figures/asd_lexamb_study_results.eps Graphic file (type eps)
-<figures/asd_lexamb_study_results.eps>
-Overfull \hbox (8.53583pt too wide) in paragraph at lines 21--22
- [] 
- []
-
+ <figures/asd_lexamb_study_results.eps>
 File: figures/schiz_lexamb_study_results.eps Graphic file (type eps)
+
 <figures/schiz_lexamb_study_results.eps>
 File: figures/Cohen_ServanSchreiber_Model.eps Graphic file (type eps)
 
 <figures/Cohen_ServanSchreiber_Model.eps> [19]
 File: figures/lexAmb_network_cartoon.eps Graphic file (type eps)
 
-<figures/lexAmb_network_cartoon.eps>
-Overfull \hbox (8.53583pt too wide) in paragraph at lines 58--59
- [] 
- []
-
-[20] [21] [22] [23]
+<figures/lexAmb_network_cartoon.eps> [20] [21] [22]
 File: graphs/schiz_lexamb_results.eps Graphic file (type eps)
- <graphs/schiz_lexamb_results.eps>
-Overfull \hbox (79.66772pt too wide) in paragraph at lines 100--101
- [] 
- []
 
+<graphs/schiz_lexamb_results.eps>
 File: graphs/asd_lexamb_results.eps Graphic file (type eps)
-<graphs/asd_lexamb_results.eps>
-Overfull \hbox (79.66772pt too wide) in paragraph at lines 108--109
- [] 
- []
-
-) (./prototype.tex [24] [25] [26]
+ <graphs/asd_lexamb_results.eps>)
+(./prototype.tex [23] [24]
 File: figures/prototype_categories.eps Graphic file (type eps)
  <figures/prototype_categories.eps>
-Overfull \hbox (136.57323pt too wide) in paragraph at lines 20--21
- [] 
- []
-
 File: figures/mip_familiarization.eps Graphic file (type eps)
-<figures/mip_familiarization.eps>
-Overfull \hbox (136.57323pt too wide) in paragraph at lines 28--29
- [] 
- []
 
-[27] [28]
+<figures/mip_familiarization.eps> [25]
 File: figures/alcove.eps Graphic file (type eps)
- <figures/alcove.eps> [29]) (./modeling.tex [30]) [31]
-(./conclusion.tex [32]) (./submit.bbl [33] [34
+ <figures/alcove.eps> [26] [27])
+(./modeling.tex [28]) (./conclusion.tex [29]) (./submit.bbl [30]
+(./babelbst.tex) [31
 
-] (./babelbst.tex) [35] [36]
-[37]) [38]
+] [32] [33]) [34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./submit.aux)
@@ -1065,10 +1022,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
 Here is how much of TeX's memory you used:
  9547 strings out of 493305
  141280 string characters out of 6139897
- 239219 words of memory out of 5000000
+ 239426 words of memory out of 5000000
  12777 multiletter control sequences out of 15000+600000
  46824 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,10n,40p,2740b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on submit.dvi (38 pages, 236368 bytes).
+Output written on submit.dvi (34 pages, 233020 bytes).
